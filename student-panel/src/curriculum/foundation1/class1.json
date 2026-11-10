@@ -1,0 +1,1041 @@
+{
+  "schema_version": 1,
+  "source": {
+    "file": "Foundation 1.pdf",
+    "title": "The Super Machine: Computer",
+    "pages": 55,
+    "note": "Lesson summaries and topic structure were prepared from the supplied scanned textbook. Page images are included as visual references. Exercise pages are not reproduced as full question banks."
+  },
+  "foundation": "Foundation 1",
+  "class_name": "Class 1",
+  "textbook_title": "The Super Machine: Computer",
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "title": "The Super Machine: Computer",
+      "description": "Discover what machines are, how they help us, why a computer is called a smart machine, and common types of computers.",
+      "estimated_minutes": 25,
+      "source_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "learning_objectives": [
+        "Explain what a machine is in simple words.",
+        "Identify how machines make work easier and faster.",
+        "Recognise examples of machines used at home.",
+        "Explain why a computer is called a smart machine.",
+        "Identify desktop computers, laptops, smart phones, smart watches and tablets."
+      ],
+      "topics": [
+        {
+          "title": "What is a Machine?",
+          "content": "A machine is a man-made thing. It makes our life easier and faster and helps save time and energy. Machines are built to do specific tasks. A washing machine washes clothes, an iron presses clothes, and a refrigerator keeps fruits and vegetables fresh.",
+          "learning_points": [
+            "A machine is made by people.",
+            "Machines make work easier and faster.",
+            "Machines help save time and energy.",
+            "Different machines are built for specific tasks."
+          ],
+          "examples": [
+            "A washing machine washes clothes.",
+            "An iron presses clothes.",
+            "A refrigerator keeps fruits and vegetables fresh."
+          ],
+          "activity_text": "Look around your home or classroom. Name three machines and tell what task each one does.",
+          "source_pages": [
+            1
+          ],
+          "id": "f1c1t1",
+          "sort_order": 1
+        },
+        {
+          "title": "Is Computer a Machine?",
+          "content": "A computer is a machine, but the textbook describes it as a smart machine. Many machines help us do one or two things. A computer can help us do many different things, such as solve sums, draw pictures, listen to music and play games.",
+          "learning_points": [
+            "A computer is a machine.",
+            "A computer is called a smart machine.",
+            "A computer can help with many different tasks."
+          ],
+          "examples": [
+            "Solving sums",
+            "Drawing pictures",
+            "Listening to music",
+            "Playing games"
+          ],
+          "activity_text": "Tell a partner two things you can do with a computer. Explain why it is called a smart machine.",
+          "source_pages": [
+            3
+          ],
+          "id": "f1c1t2",
+          "sort_order": 2
+        },
+        {
+          "title": "Types of Machines",
+          "content": "Machines work in different ways. Some work with our efforts, some run on batteries, some use electricity, and some run on petrol or diesel. The textbook shows a bicycle, wall clock, microwave and car as examples.",
+          "learning_points": [
+            "Some machines work with our efforts.",
+            "Some machines run on batteries.",
+            "Some machines use electricity.",
+            "Some machines run on petrol or diesel."
+          ],
+          "examples": [
+            "Bicycle — works with our efforts.",
+            "Wall clock — can run on batteries.",
+            "Microwave — uses electricity.",
+            "Car — can run on petrol or diesel."
+          ],
+          "activity_text": "Sort a bicycle, wall clock, microwave and car by how they work.",
+          "source_pages": [
+            3
+          ],
+          "id": "f1c1t3",
+          "sort_order": 3
+        },
+        {
+          "title": "Types of Computers",
+          "content": "Computers can be classified by size and form. A desktop computer is kept on a desk or table and needs electricity. A laptop is smaller, easy to carry and works on a battery. The textbook also introduces smart phones, smart watches and tablets.",
+          "learning_points": [
+            "A desktop computer is kept on a desk or table.",
+            "A desktop computer needs to be plugged into electricity.",
+            "A laptop is smaller and easy to carry.",
+            "A laptop works on a battery.",
+            "The textbook also identifies smart phones, smart watches and tablets."
+          ],
+          "examples": [
+            "Desktop computer",
+            "Laptop computer",
+            "Smart phone",
+            "Smart watch",
+            "Tablet"
+          ],
+          "activity_text": "Compare a desktop and a laptop. Tell one difference between them.",
+          "source_pages": [
+            4
+          ],
+          "id": "f1c1t4",
+          "sort_order": 4
+        }
+      ],
+      "textbook_title": "The Super Machine: Computer",
+      "foundation": "Foundation 1",
+      "class_name": "Class 1",
+      "topics_count": 4
+    },
+    {
+      "chapter_number": 2,
+      "title": "Parts of a Computer",
+      "description": "Learn about the main parts of a computer and what each part helps us do.",
+      "estimated_minutes": 25,
+      "source_pages": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "learning_objectives": [
+        "Name the main parts of a computer.",
+        "Describe the uses of the monitor, CPU, keyboard and mouse.",
+        "Identify devices used for printing and listening."
+      ],
+      "topics": [
+        {
+          "title": "Parts of a Computer",
+          "content": "A computer is made up of different parts, just as our body is made up of different parts. The textbook introduces the monitor, CPU, keyboard, mouse, printer, speaker and headphone.",
+          "learning_points": [
+            "A computer has different parts.",
+            "Each part has a role in using the computer."
+          ],
+          "examples": [
+            "Monitor",
+            "CPU",
+            "Keyboard",
+            "Mouse",
+            "Printer",
+            "Speaker",
+            "Headphone"
+          ],
+          "activity_text": "Point to the computer parts you can see in your computer lab.",
+          "source_pages": [
+            7
+          ],
+          "id": "f1c2t1",
+          "sort_order": 1
+        },
+        {
+          "title": "Monitor",
+          "content": "The monitor is the display screen of the computer. It looks like a television and shows the work we do on the computer, including text, pictures, cartoons and movies.",
+          "learning_points": [
+            "The monitor is the display screen.",
+            "It shows text and pictures."
+          ],
+          "examples": [
+            "Reading words on the screen",
+            "Watching a cartoon on the screen"
+          ],
+          "activity_text": "Look at a monitor and describe two things you can see on it.",
+          "source_pages": [
+            8
+          ],
+          "id": "f1c2t2",
+          "sort_order": 2
+        },
+        {
+          "title": "CPU",
+          "content": "CPU stands for Central Processing Unit. The textbook calls it the brain of the computer because it controls the other parts. Other parts are connected to the CPU through wires.",
+          "learning_points": [
+            "CPU means Central Processing Unit.",
+            "The CPU controls other computer parts.",
+            "Other parts connect to it through wires."
+          ],
+          "examples": [
+            "CPU — Central Processing Unit"
+          ],
+          "activity_text": "Find the CPU in a desktop computer setup.",
+          "source_pages": [
+            8
+          ],
+          "id": "f1c2t3",
+          "sort_order": 3
+        },
+        {
+          "title": "Keyboard",
+          "content": "A keyboard has many buttons called keys. We use the keys to type letters, numbers and special symbols on the computer.",
+          "learning_points": [
+            "The buttons on a keyboard are called keys.",
+            "Keys help us type letters, numbers and symbols."
+          ],
+          "examples": [
+            "Typing your name",
+            "Typing numbers"
+          ],
+          "activity_text": "Use a keyboard to type your name and a number.",
+          "source_pages": [
+            8
+          ],
+          "id": "f1c2t4",
+          "sort_order": 4
+        },
+        {
+          "title": "Mouse",
+          "content": "A mouse is a small device connected to a computer. It is used to point at and select things on the screen. We can also use it to draw pictures.",
+          "learning_points": [
+            "A mouse is used to point and select.",
+            "It helps us work with items on the screen."
+          ],
+          "examples": [
+            "Selecting an icon",
+            "Pointing to a picture"
+          ],
+          "activity_text": "Move the mouse and observe how the pointer moves on the monitor.",
+          "source_pages": [
+            8
+          ],
+          "id": "f1c2t5",
+          "sort_order": 5
+        },
+        {
+          "title": "Printer",
+          "content": "A printer puts the work shown on the monitor onto paper. This process is called printing. The paper that comes out is called a printout.",
+          "learning_points": [
+            "A printer prints words and pictures on paper.",
+            "The printed paper is called a printout."
+          ],
+          "examples": [
+            "Printing a picture",
+            "Printing a worksheet"
+          ],
+          "activity_text": "If you print a drawing, what will come out of the printer?",
+          "source_pages": [
+            8
+          ],
+          "id": "f1c2t6",
+          "sort_order": 6
+        },
+        {
+          "title": "Speaker",
+          "content": "A speaker helps us listen to recorded voices and music from the computer. Speakers are connected using wires.",
+          "learning_points": [
+            "Speakers help us hear sound.",
+            "They can play recorded voices and music."
+          ],
+          "examples": [
+            "Listening to a song",
+            "Listening to recorded speech"
+          ],
+          "activity_text": "Listen to a sound played through a computer speaker.",
+          "source_pages": [
+            9
+          ],
+          "id": "f1c2t7",
+          "sort_order": 7
+        },
+        {
+          "title": "Headphone",
+          "content": "Headphones are used to listen to music or other sound from a computer. They let the listener hear sound directly through the headphones.",
+          "learning_points": [
+            "Headphones are used for listening.",
+            "They connect the listener to computer audio."
+          ],
+          "examples": [
+            "Listening to a lesson",
+            "Listening to music"
+          ],
+          "activity_text": "Identify a pair of headphones and explain what they are used for.",
+          "source_pages": [
+            9
+          ],
+          "id": "f1c2t8",
+          "sort_order": 8
+        }
+      ],
+      "textbook_title": "The Super Machine: Computer",
+      "foundation": "Foundation 1",
+      "class_name": "Class 1",
+      "topics_count": 8
+    },
+    {
+      "chapter_number": 3,
+      "title": "Need for a Computer",
+      "description": "Explore what we can do with computers and the places where people use them.",
+      "estimated_minutes": 20,
+      "source_pages": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "learning_objectives": [
+        "List common uses of a computer.",
+        "Identify places where computers are used.",
+        "Connect computer uses with everyday activities."
+      ],
+      "topics": [
+        {
+          "title": "Uses of Computers",
+          "content": "A computer is a smart electronic machine used for many purposes. We can use it to chat and send or receive emails, find information, play games, draw and colour pictures, listen to music, watch movies, shop online, type documents and solve sums.",
+          "learning_points": [
+            "Computers help us communicate.",
+            "Computers help us find information.",
+            "Computers can be used for learning and entertainment.",
+            "Computers can help us create documents and solve sums."
+          ],
+          "examples": [
+            "Sending an email",
+            "Searching for information",
+            "Drawing a picture",
+            "Solving a sum",
+            "Watching a cartoon"
+          ],
+          "activity_text": "Name four things you can do on a computer.",
+          "source_pages": [
+            12
+          ],
+          "id": "f1c3t1",
+          "sort_order": 1
+        },
+        {
+          "title": "Places Where Computers Are Used",
+          "content": "Computers are used in many places. The textbook gives examples such as hospitals, railway stations, offices, shopping malls, restaurants, banks and police stations. People use them for different tasks in each place.",
+          "learning_points": [
+            "Computers are used in many workplaces.",
+            "The task depends on the place."
+          ],
+          "examples": [
+            "Hospital — monitor a patient’s health.",
+            "Railway station — book tickets.",
+            "Shopping mall — make bills and keep records.",
+            "Bank — deposit, withdraw and maintain records.",
+            "Restaurant — record customer orders.",
+            "Police station — monitor through webcams."
+          ],
+          "activity_text": "Choose three places near you where computers may be used. Describe what people might do with them.",
+          "source_pages": [
+            14
+          ],
+          "id": "f1c3t2",
+          "sort_order": 2
+        }
+      ],
+      "textbook_title": "The Super Machine: Computer",
+      "foundation": "Foundation 1",
+      "class_name": "Class 1",
+      "topics_count": 2
+    },
+    {
+      "chapter_number": 4,
+      "title": "Computer Etiquettes",
+      "description": "Learn good habits, safety rules and the steps for starting and shutting down a computer.",
+      "estimated_minutes": 25,
+      "source_pages": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "learning_objectives": [
+        "Explain why computers need care.",
+        "Identify good computer-lab habits and things to avoid.",
+        "Describe the basic steps to turn on and shut down a computer."
+      ],
+      "topics": [
+        {
+          "title": "Computer Etiquettes",
+          "content": "Computers are useful devices and need to be taken care of properly. Rules that help us care for computers and behave safely around them are called computer etiquettes. The textbook separates these rules into Do’s and Don’ts.",
+          "learning_points": [
+            "Take care of computers and equipment.",
+            "Follow the teacher’s directions in the computer lab.",
+            "Use computers gently and safely."
+          ],
+          "examples": [
+            "Listening to the teacher",
+            "Keeping the computer equipment safe"
+          ],
+          "activity_text": "Explain why we should follow rules in a computer lab.",
+          "source_pages": [
+            18
+          ],
+          "id": "f1c4t1",
+          "sort_order": 1
+        },
+        {
+          "title": "Do’s in the Computer Lab",
+          "content": "The textbook recommends entering the lab in an orderly way, listening to the teacher, sharing computers, sitting with a straight back, keeping feet flat and arms level with the keyboard, taking breaks, and switching off the computer before leaving.",
+          "learning_points": [
+            "Follow directions and maintain discipline.",
+            "Share the computer with a friend.",
+            "Sit with a straight back and feet flat.",
+            "Stand and stretch after about 20 minutes.",
+            "Shut down the computer before leaving."
+          ],
+          "examples": [
+            "Make a queue when going to the lab.",
+            "Keep arms level with the keyboard."
+          ],
+          "activity_text": "Practise sitting correctly at a computer and demonstrate a safe way to enter the lab.",
+          "source_pages": [
+            19
+          ],
+          "id": "f1c4t2",
+          "sort_order": 2
+        },
+        {
+          "title": "Don’ts in the Computer Lab",
+          "content": "Do not shout, bring food or drinks near computers, lean close to the monitor, work continuously for a long time, or hit the mouse and keyboard. Handle computer equipment gently.",
+          "learning_points": [
+            "Do not eat or drink near computers.",
+            "Do not hit the keyboard or mouse.",
+            "Keep a suitable distance from the monitor.",
+            "Avoid working continuously for too long."
+          ],
+          "examples": [
+            "Do not spill water near a computer.",
+            "Do not press keys roughly."
+          ],
+          "activity_text": "Look at a computer-lab situation and identify two unsafe actions.",
+          "source_pages": [
+            20
+          ],
+          "id": "f1c4t3",
+          "sort_order": 3
+        },
+        {
+          "title": "How to Start a Computer",
+          "content": "The textbook gives a sequence for starting a desktop computer: switch on the electricity, switch on the UPS, switch on the monitor, then switch on the CPU. The desktop appears on the monitor.",
+          "learning_points": [
+            "Follow the starting steps carefully.",
+            "Switch on the electricity supply.",
+            "Switch on the UPS, monitor and CPU as shown in the textbook."
+          ],
+          "examples": [
+            "Electricity supply → UPS → Monitor → CPU"
+          ],
+          "activity_text": "Arrange the computer-starting steps in the correct order.",
+          "source_pages": [
+            21
+          ],
+          "id": "f1c4t4",
+          "sort_order": 4
+        },
+        {
+          "title": "How to Shut Down a Computer",
+          "content": "When work is complete, use the Start button, choose Power and then Shut Down. After the computer has shut down, switch off the monitor and UPS as shown in the textbook.",
+          "learning_points": [
+            "Save and finish your work before shutting down.",
+            "Choose Start, Power and Shut Down.",
+            "Switch off the monitor and UPS after shutdown."
+          ],
+          "examples": [
+            "Start → Power → Shut Down"
+          ],
+          "activity_text": "Practise identifying the Start button and the Power menu with your teacher.",
+          "source_pages": [
+            21
+          ],
+          "id": "f1c4t5",
+          "sort_order": 5
+        }
+      ],
+      "textbook_title": "The Super Machine: Computer",
+      "foundation": "Foundation 1",
+      "class_name": "Class 1",
+      "topics_count": 5
+    },
+    {
+      "chapter_number": 5,
+      "title": "Getting Familiar with Mouse",
+      "description": "Understand how a mouse points, selects and moves items on the computer screen.",
+      "estimated_minutes": 25,
+      "source_pages": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "learning_objectives": [
+        "Explain the uses and parts of a mouse.",
+        "Describe how to hold a mouse.",
+        "Recognise left-click, right-click, double-click and dragging."
+      ],
+      "topics": [
+        {
+          "title": "Mouse and Its Uses",
+          "content": "A mouse is a pointing and clicking device. When it moves, the pointer on the monitor moves in the same direction. A mouse can be used to point at things, select text and icons, draw pictures and play games.",
+          "learning_points": [
+            "A mouse is a pointing device.",
+            "The mouse pointer moves when the mouse moves.",
+            "A mouse can select items and help with drawing and games."
+          ],
+          "examples": [
+            "Pointing at an icon",
+            "Selecting a file",
+            "Drawing with a mouse"
+          ],
+          "activity_text": "Move the mouse and follow the pointer on the screen.",
+          "source_pages": [
+            25
+          ],
+          "id": "f1c5t1",
+          "sort_order": 1
+        },
+        {
+          "title": "Types of Mouse",
+          "content": "The textbook introduces types of mouse, including a wired mouse. A wired mouse connects to the computer with a wire.",
+          "learning_points": [
+            "A wired mouse connects through a wire."
+          ],
+          "examples": [
+            "Wired mouse"
+          ],
+          "activity_text": "Look at the mouse in your lab. Does it have a wire?",
+          "source_pages": [
+            26
+          ],
+          "id": "f1c5t2",
+          "sort_order": 2
+        },
+        {
+          "title": "Parts of a Mouse",
+          "content": "The textbook describes four parts: left button, right button, scroll wheel and wire. The left button selects items, the right button opens more options, the scroll wheel moves a page up and down, and the wire connects the mouse to the computer through a USB port.",
+          "learning_points": [
+            "A mouse has a left button and a right button.",
+            "The scroll wheel moves pages up and down.",
+            "The wire connects the mouse to the computer."
+          ],
+          "examples": [
+            "Left button — select an item.",
+            "Right button — show more options.",
+            "Scroll wheel — move up and down.",
+            "Wire — connect through a USB port."
+          ],
+          "activity_text": "Point to the four parts of a mouse.",
+          "source_pages": [
+            26
+          ],
+          "id": "f1c5t3",
+          "sort_order": 3
+        },
+        {
+          "title": "Holding a Mouse",
+          "content": "Place the mouse on a mouse pad so it can move easily. Keep the buttons facing the computer. Rest your palm gently on the mouse and place your fingers on the buttons as shown in the textbook. You may use the hand that is comfortable for you.",
+          "learning_points": [
+            "Place the mouse on a mouse pad.",
+            "Hold it gently.",
+            "Keep fingers positioned on the buttons."
+          ],
+          "examples": [
+            "Index finger on the left button",
+            "Middle finger near the right button"
+          ],
+          "activity_text": "Practise holding a mouse gently with your comfortable hand.",
+          "source_pages": [
+            27
+          ],
+          "id": "f1c5t4",
+          "sort_order": 4
+        },
+        {
+          "title": "Working of a Mouse",
+          "content": "Pressing a mouse button makes a click. A left-click selects an item. A right-click shows more options. A double-click means quickly pressing the left button twice and can open an item. Dragging means holding a button while moving the mouse, then releasing it to drop an item in a new place.",
+          "learning_points": [
+            "Left-click selects an item.",
+            "Right-click shows options.",
+            "Double-click opens an item.",
+            "Dragging moves an item while the button is held."
+          ],
+          "examples": [
+            "Single left-click",
+            "Right-click",
+            "Double-click",
+            "Drag and drop"
+          ],
+          "activity_text": "With teacher guidance, practise a single click, right-click, double-click and drag-and-drop.",
+          "source_pages": [
+            28
+          ],
+          "id": "f1c5t5",
+          "sort_order": 5
+        }
+      ],
+      "textbook_title": "The Super Machine: Computer",
+      "foundation": "Foundation 1",
+      "class_name": "Class 1",
+      "topics_count": 5
+    },
+    {
+      "chapter_number": 6,
+      "title": "Getting Familiar with Keyboard",
+      "description": "Learn about alphabet, number and special keys and how they help us type.",
+      "estimated_minutes": 25,
+      "source_pages": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "learning_objectives": [
+        "Explain what a keyboard is.",
+        "Identify alphabet and number keys.",
+        "Describe the uses of common special keys."
+      ],
+      "topics": [
+        {
+          "title": "A Keyboard and Its Keys",
+          "content": "A keyboard is a rectangular board with buttons called keys. It lets us type letters, numbers and symbols into a computer. The textbook says a keyboard has 104 keys divided into alphabet keys, number keys and special keys.",
+          "learning_points": [
+            "The buttons on a keyboard are called keys.",
+            "A keyboard is used to type letters, numbers and symbols.",
+            "The textbook groups keys into three categories."
+          ],
+          "examples": [
+            "Alphabet keys",
+            "Number keys",
+            "Special keys"
+          ],
+          "activity_text": "Look at a keyboard and find the three groups of keys.",
+          "source_pages": [
+            32
+          ],
+          "id": "f1c6t1",
+          "sort_order": 1
+        },
+        {
+          "title": "Alphabet Keys",
+          "content": "Alphabet keys have the letters A to Z. They are used to type words and sentences. The textbook notes that the letters are not arranged in alphabetical order on the keyboard.",
+          "learning_points": [
+            "Alphabet keys contain A to Z.",
+            "They help us type words and sentences."
+          ],
+          "examples": [
+            "Typing your name",
+            "Typing a short sentence"
+          ],
+          "activity_text": "Type your name using alphabet keys.",
+          "source_pages": [
+            32
+          ],
+          "id": "f1c6t2",
+          "sort_order": 2
+        },
+        {
+          "title": "Number Keys",
+          "content": "Number keys contain the numbers 0 to 9. The textbook shows that number keys are present in two places on a keyboard.",
+          "learning_points": [
+            "Number keys contain 0 to 9.",
+            "They are used to type numbers.",
+            "They appear in two places on the keyboard."
+          ],
+          "examples": [
+            "Typing your age",
+            "Typing 123"
+          ],
+          "activity_text": "Find the number keys and type the numbers from 0 to 9.",
+          "source_pages": [
+            32
+          ],
+          "id": "f1c6t3",
+          "sort_order": 3
+        },
+        {
+          "title": "Special Keys",
+          "content": "Special keys perform specific functions. The textbook describes the Spacebar, Enter, Backspace, Delete, Caps Lock and Arrow keys. Spacebar adds a blank space, Enter starts a new line or runs a command, Backspace erases to the left of the cursor, Delete erases to the right, Caps Lock types capital letters, and arrow keys move the cursor or screen in four directions.",
+          "learning_points": [
+            "Spacebar adds a blank space.",
+            "Enter starts a new line or runs a command.",
+            "Backspace erases to the left of the cursor.",
+            "Delete erases to the right of the cursor.",
+            "Caps Lock types capital letters.",
+            "Arrow keys move up, down, left and right."
+          ],
+          "examples": [
+            "Spacebar",
+            "Enter",
+            "Backspace",
+            "Delete",
+            "Caps Lock",
+            "Arrow keys"
+          ],
+          "activity_text": "Use a keyboard to try Spacebar, Enter, Backspace, Delete and Caps Lock with your teacher.",
+          "source_pages": [
+            33
+          ],
+          "id": "f1c6t4",
+          "sort_order": 4
+        }
+      ],
+      "textbook_title": "The Super Machine: Computer",
+      "foundation": "Foundation 1",
+      "class_name": "Class 1",
+      "topics_count": 4
+    },
+    {
+      "chapter_number": 7,
+      "title": "Hands on MS Paint",
+      "description": "Explore MS Paint and learn basic steps for opening Paint, using drawing tools, saving and closing a drawing.",
+      "estimated_minutes": 30,
+      "source_pages": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "learning_objectives": [
+        "Explain what MS Paint is used for.",
+        "Identify parts of the Paint window.",
+        "Use basic drawing tools and shapes.",
+        "Save a drawing and close Paint."
+      ],
+      "topics": [
+        {
+          "title": "MS Paint",
+          "content": "MS Paint is a computer program used to draw and colour pictures. The textbook also describes using it to make drawings, edit photos and create shapes.",
+          "learning_points": [
+            "MS Paint is a drawing program.",
+            "It can be used to draw, colour and create shapes."
+          ],
+          "examples": [
+            "Drawing a fruit",
+            "Colouring a picture"
+          ],
+          "activity_text": "Discuss what picture you would like to create in MS Paint.",
+          "source_pages": [
+            37
+          ],
+          "id": "f1c7t1",
+          "sort_order": 1
+        },
+        {
+          "title": "How to Open MS Paint",
+          "content": "The textbook shows these steps: click the Start button, scroll to Windows Accessories, and click Paint. The Start menu displays a list of programs.",
+          "learning_points": [
+            "Open the Start menu.",
+            "Find Windows Accessories.",
+            "Select Paint."
+          ],
+          "examples": [
+            "Start → Windows Accessories → Paint"
+          ],
+          "activity_text": "With teacher guidance, open MS Paint on the computer.",
+          "source_pages": [
+            38
+          ],
+          "id": "f1c7t2",
+          "sort_order": 2
+        },
+        {
+          "title": "Different Parts of Paint Window",
+          "content": "The Paint window includes tabs such as Home and View. The tabs contain commands and display a ribbon when selected. The window also includes a drawing area where pictures are created, along with other controls such as the title area and quick access toolbar.",
+          "learning_points": [
+            "Tabs contain different commands.",
+            "The ribbon displays tools for the selected tab.",
+            "The drawing area is where you make a picture."
+          ],
+          "examples": [
+            "Home tab",
+            "View tab",
+            "Ribbon",
+            "Drawing area"
+          ],
+          "activity_text": "Open Paint and point to the tabs, ribbon and drawing area.",
+          "source_pages": [
+            38
+          ],
+          "id": "f1c7t3",
+          "sort_order": 3
+        },
+        {
+          "title": "Tools in the Tools Group",
+          "content": "The textbook demonstrates drawing and editing tools in Paint, including the Eraser and Brushes. It also introduces the Shapes group and tools such as the Line and Curve tools. Select a tool and use the drawing area to make or change a picture.",
+          "learning_points": [
+            "The Eraser removes parts of a drawing.",
+            "The Brushes tool lets you draw freehand.",
+            "The Shapes group contains ready-made shapes.",
+            "The Line tool draws straight or slant lines.",
+            "The Curve tool makes curved lines."
+          ],
+          "examples": [
+            "Eraser",
+            "Brushes",
+            "Line tool",
+            "Curve tool",
+            "Rectangle and oval shapes"
+          ],
+          "activity_text": "Try drawing a line, a shape and a freehand mark. Use the Eraser to remove part of your drawing.",
+          "source_pages": [
+            40
+          ],
+          "id": "f1c7t4",
+          "sort_order": 4
+        },
+        {
+          "title": "Saving Your Drawing",
+          "content": "Save your drawing so you can use it later. The textbook shows clicking File, choosing Save, typing a name in the File name box and clicking Save. It also gives Ctrl + S as a shortcut.",
+          "learning_points": [
+            "Save your work for future use.",
+            "Choose File and Save.",
+            "Enter a file name and click Save.",
+            "Ctrl + S is the save shortcut shown in the textbook."
+          ],
+          "examples": [
+            "Save a drawing as MyPicture"
+          ],
+          "activity_text": "Create a simple drawing and save it with a name chosen by your teacher.",
+          "source_pages": [
+            42
+          ],
+          "id": "f1c7t5",
+          "sort_order": 5
+        },
+        {
+          "title": "Closing the MS Paint Window",
+          "content": "The textbook explains that you can close Paint by clicking the File tab and choosing Exit, or by using the close (X) button.",
+          "learning_points": [
+            "Finish your work before closing Paint.",
+            "Use File → Exit or the close button."
+          ],
+          "examples": [
+            "File → Exit",
+            "Close (X) button"
+          ],
+          "activity_text": "Close Paint after saving your drawing.",
+          "source_pages": [
+            43
+          ],
+          "id": "f1c7t6",
+          "sort_order": 6
+        }
+      ],
+      "textbook_title": "The Super Machine: Computer",
+      "foundation": "Foundation 1",
+      "class_name": "Class 1",
+      "topics_count": 6
+    },
+    {
+      "chapter_number": 8,
+      "title": "Sequencing and Patterns",
+      "description": "Understand how steps are arranged in order, how patterns repeat and what a loop means.",
+      "estimated_minutes": 20,
+      "source_pages": [
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "learning_objectives": [
+        "Define a sequence.",
+        "Recognise a repeating pattern.",
+        "Explain a loop using a simple example."
+      ],
+      "topics": [
+        {
+          "title": "What is a Sequence?",
+          "content": "A sequence is a list of things or steps in a specific and correct order. The textbook uses the days of the week and the steps followed by a thirsty crow as examples. If a step is skipped, the sequence may not work as expected.",
+          "learning_points": [
+            "A sequence follows a specific order.",
+            "Steps should be followed in the correct order."
+          ],
+          "examples": [
+            "Days of the week",
+            "Steps in the thirsty crow story"
+          ],
+          "activity_text": "Put the steps of a familiar daily routine in the correct order.",
+          "source_pages": [
+            45
+          ],
+          "id": "f1c8t1",
+          "sort_order": 1
+        },
+        {
+          "title": "What is a Pattern?",
+          "content": "A pattern is something that repeats in a regular way. The textbook shows a repeating arrangement of a star and a circle. Noticing what repeats helps us understand and continue a pattern.",
+          "learning_points": [
+            "A pattern repeats in a regular way.",
+            "Look for the order of shapes or objects."
+          ],
+          "examples": [
+            "Star, circle, star, circle",
+            "A repeating colour arrangement"
+          ],
+          "activity_text": "Create a pattern by alternating two shapes or colours.",
+          "source_pages": [
+            47
+          ],
+          "id": "f1c8t2",
+          "sort_order": 2
+        },
+        {
+          "title": "What is a Loop?",
+          "content": "When a pattern repeats again and again, it is called a loop. The textbook gives skipping rope as an example: the action repeats until you decide to stop. In coding, a loop repeats an action until it is told to finish.",
+          "learning_points": [
+            "A loop repeats an action.",
+            "A loop continues until it is stopped."
+          ],
+          "examples": [
+            "Skipping rope",
+            "Repeating an action in a program"
+          ],
+          "activity_text": "Show a repeated action, such as clapping three times, and explain when it stops.",
+          "source_pages": [
+            47
+          ],
+          "id": "f1c8t3",
+          "sort_order": 3
+        }
+      ],
+      "textbook_title": "The Super Machine: Computer",
+      "foundation": "Foundation 1",
+      "class_name": "Class 1",
+      "topics_count": 3
+    },
+    {
+      "chapter_number": 9,
+      "title": "Introduction to AI and Robotics",
+      "description": "Explore intelligence, artificial intelligence and examples of robots described in the textbook.",
+      "estimated_minutes": 25,
+      "source_pages": [
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "learning_objectives": [
+        "Explain intelligence as thinking and making decisions.",
+        "Describe artificial intelligence using textbook examples.",
+        "Identify robots and examples of robotic machines."
+      ],
+      "topics": [
+        {
+          "title": "What is Intelligence?",
+          "content": "Intelligence is the ability to learn, understand and solve problems. It helps us think, reason and make decisions. The textbook gives a traffic-signal example: a person sees a red light and decides not to cross the road.",
+          "learning_points": [
+            "Intelligence helps us learn and understand.",
+            "It helps us think and reason.",
+            "It helps us make decisions."
+          ],
+          "examples": [
+            "Deciding to wait when the traffic light is red"
+          ],
+          "activity_text": "Look at a simple everyday situation and explain what decision you would make.",
+          "source_pages": [
+            52
+          ],
+          "id": "f1c9t1",
+          "sort_order": 1
+        },
+        {
+          "title": "Artificial Intelligence",
+          "content": "The textbook describes Artificial Intelligence as a situation where machines can learn and make decisions on their own. Examples include voice assistants, smart watches, smart cameras, smart doors, smart speakers and smart cars.",
+          "learning_points": [
+            "Artificial Intelligence is shortened to AI.",
+            "The textbook connects AI with machines learning and making decisions.",
+            "Smart devices can perform tasks using AI."
+          ],
+          "examples": [
+            "Voice assistants such as Siri and Google Assistant",
+            "Smart watches that track steps",
+            "Smart cameras that detect movement",
+            "Smart doors that sense movement",
+            "Smart speakers that respond to commands",
+            "Smart cars that can run without a driver"
+          ],
+          "activity_text": "Name one smart device you have seen and describe what it does.",
+          "source_pages": [
+            52
+          ],
+          "id": "f1c9t2",
+          "sort_order": 2
+        },
+        {
+          "title": "What is a Robot?",
+          "content": "A robot is a machine that can do tasks on its own. It can move, sense and perform actions. The textbook shows examples including a smart robot, a robotic vacuum cleaner, a surgical robot, ASIMO, drones and a robotic dog called AIBO. It also reminds us that intelligent machines are made by people.",
+          "learning_points": [
+            "A robot is a machine.",
+            "A robot can move, sense and perform actions.",
+            "Robots are made by people."
+          ],
+          "examples": [
+            "Smart robot",
+            "Roomba robotic vacuum cleaner",
+            "Da Vinci surgical system robot",
+            "ASIMO",
+            "Drones",
+            "AIBO robotic dog"
+          ],
+          "activity_text": "Choose one robot shown in the textbook and describe the task it can do.",
+          "source_pages": [
+            53
+          ],
+          "id": "f1c9t3",
+          "sort_order": 3
+        }
+      ],
+      "textbook_title": "The Super Machine: Computer",
+      "foundation": "Foundation 1",
+      "class_name": "Class 1",
+      "topics_count": 3
+    }
+  ],
+  "content_status": "textbook_adapted_lesson_summaries",
+  "content_note": "Lesson summaries, key points, examples and activities are adapted from the supplied scanned Foundation 1 textbook. They are summaries, not a verbatim reproduction of every textbook paragraph.",
+  "content_source_type": "textbook_adapted"
+}

@@ -1,0 +1,646 @@
+{
+  "schema_version": 1,
+  "foundation": "Foundation 3",
+  "class_name": "Class 3",
+  "textbook_title": "A Textbook of Computer Science with Lab Activities — Class 3",
+  "source": {
+    "file": "Foundation 3.pdf",
+    "note": "Chapter structure follows the supplied textbook contents. Topic revision prompts are study guides; consult the linked textbook PDF for the full lesson wording, diagrams and exercises."
+  },
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "title": "The Computer System",
+      "description": "Study the computer system using the textbook and lesson topics.",
+      "estimated_minutes": 20,
+      "source_pages": [],
+      "learning_objectives": [
+        "Understand the key ideas in the computer system.",
+        "Practise the skills and activities introduced in this chapter."
+      ],
+      "topics": [
+        {
+          "id": "f3-c1-t1",
+          "title": "The Computer System",
+          "content": "A computer system is a group of hardware and software components that work together. The physical devices let us enter data, process it, display results and store information.",
+          "learning_points": [
+            "Understand the main idea of the computer system.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where the computer system is used."
+          ],
+          "activity_text": "Practice: explain the computer system in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f3-c1-t2",
+          "title": "How Does a Computer Work?",
+          "content": "A computer follows a working cycle: it receives data as input, processes the data according to instructions, and provides information as output. It can also store data for later use.",
+          "learning_points": [
+            "Understand the main idea of how does a computer work?.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where how does a computer work? is used."
+          ],
+          "activity_text": "Practice: explain how does a computer work? in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f3-c1-t3",
+          "title": "Types of Computers",
+          "content": "Computers are available in different forms for different needs. Desktop computers are commonly used at desks, laptops are portable, and smaller devices are designed for mobile use or specialised tasks.",
+          "learning_points": [
+            "Understand the main idea of types of computers.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where types of computers is used."
+          ],
+          "activity_text": "Practice: explain types of computers in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        }
+      ]
+    },
+    {
+      "chapter_number": 2,
+      "title": "Hardware and Software",
+      "description": "Study hardware and software using the textbook and lesson topics.",
+      "estimated_minutes": 20,
+      "source_pages": [],
+      "learning_objectives": [
+        "Understand the key ideas in hardware and software.",
+        "Practise the skills and activities introduced in this chapter."
+      ],
+      "topics": [
+        {
+          "id": "f3-c2-t1",
+          "title": "Hardware",
+          "content": "Hardware means the physical parts of a computer that we can see and touch. Examples include the monitor, keyboard, mouse, CPU cabinet, printer and storage devices.",
+          "learning_points": [
+            "Understand the main idea of hardware.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "A keyboard, monitor and printer are physical hardware devices."
+          ],
+          "activity_text": "Practice: explain hardware in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f3-c2-t2",
+          "title": "Input Devices",
+          "content": "Input devices send data and instructions to a computer. A keyboard enters text, a mouse controls the pointer, and a microphone can capture sound.",
+          "learning_points": [
+            "Understand the main idea of input devices.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "A keyboard enters text; a mouse helps select items."
+          ],
+          "activity_text": "Practice: explain input devices in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f3-c2-t3",
+          "title": "Output Devices",
+          "content": "Output devices present the results of computer processing. A monitor displays information, speakers play sound, and a printer produces a paper copy.",
+          "learning_points": [
+            "Understand the main idea of output devices.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "A monitor displays information; a printer produces a paper copy."
+          ],
+          "activity_text": "Practice: explain output devices in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f3-c2-t4",
+          "title": "Storage Devices",
+          "content": "Storage devices keep files and information so they can be used later. Examples include a hard disk, solid-state drive, USB flash drive and memory card.",
+          "learning_points": [
+            "Understand the main idea of storage devices.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "A USB flash drive and a hard disk can store files."
+          ],
+          "activity_text": "Practice: explain storage devices in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f3-c2-t5",
+          "title": "Software",
+          "content": "Software is a set of programs and instructions that tells a computer what to do. Unlike hardware, software cannot be touched physically.",
+          "learning_points": [
+            "Understand the main idea of software.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "A word processor and a drawing program are examples of software."
+          ],
+          "activity_text": "Practice: explain software in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f3-c2-t6",
+          "title": "System Software",
+          "content": "System software manages the computer and helps its hardware and applications work together. An operating system is an important example.",
+          "learning_points": [
+            "Understand the main idea of system software.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "An operating system manages the computer and helps applications run."
+          ],
+          "activity_text": "Practice: explain system software in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f3-c2-t7",
+          "title": "Application Software",
+          "content": "Application software helps users complete particular tasks. Examples include word processors for documents, drawing programs for pictures and presentation software for slides.",
+          "learning_points": [
+            "Understand the main idea of application software.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "A presentation program helps create slides."
+          ],
+          "activity_text": "Practice: explain application software in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        }
+      ]
+    },
+    {
+      "chapter_number": 3,
+      "title": "File Management",
+      "description": "Study file management using the textbook and lesson topics.",
+      "estimated_minutes": 20,
+      "source_pages": [],
+      "learning_objectives": [
+        "Understand the key ideas in file management.",
+        "Practise the skills and activities introduced in this chapter."
+      ],
+      "topics": [
+        {
+          "id": "f3-c3-t1",
+          "title": "Files and Folders",
+          "content": "A file stores information, while a folder helps organise files. Giving folders and files clear names makes it easier to find schoolwork and other documents.",
+          "learning_points": [
+            "Understand the main idea of files and folders.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "A picture can be saved as a file inside a Pictures folder."
+          ],
+          "activity_text": "Practice: explain files and folders in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f3-c3-t2",
+          "title": "File Management",
+          "content": "File management means creating, naming, saving, finding, organising, copying and deleting files and folders. Clear names and folders make work easier to locate.",
+          "learning_points": [
+            "Understand the main idea of file management.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where file management is used."
+          ],
+          "activity_text": "Practice: explain file management in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f3-c3-t3",
+          "title": "Creating and Organising Folders",
+          "content": "Create a folder by choosing a suitable location and giving it a meaningful name. Related files can be grouped together, and subfolders can be used to organise larger projects.",
+          "learning_points": [
+            "Understand the main idea of creating and organising folders.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where creating and organising folders is used."
+          ],
+          "activity_text": "Practice: explain creating and organising folders in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f3-c3-t4",
+          "title": "Copying and Moving Files",
+          "content": "Copying makes a second version of a file while keeping the original in its place. Moving transfers a file to another location. Check the destination before completing either action.",
+          "learning_points": [
+            "Understand the main idea of copying and moving files.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where copying and moving files is used."
+          ],
+          "activity_text": "Practice: explain copying and moving files in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        }
+      ]
+    },
+    {
+      "chapter_number": 4,
+      "title": "Fun with Paint",
+      "description": "Study fun with paint using the textbook and lesson topics.",
+      "estimated_minutes": 20,
+      "source_pages": [],
+      "learning_objectives": [
+        "Understand the key ideas in fun with paint.",
+        "Practise the skills and activities introduced in this chapter."
+      ],
+      "topics": [
+        {
+          "id": "f3-c4-t1",
+          "title": "Introduction to MS Paint",
+          "content": "MS Paint is a graphics program used to create and edit simple digital pictures. It provides a drawing area and tools for lines, shapes, colours and erasing.",
+          "learning_points": [
+            "Understand the main idea of introduction to ms paint.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where introduction to ms paint is used."
+          ],
+          "activity_text": "Practice: explain introduction to ms paint in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f3-c4-t2",
+          "title": "Paint Tools",
+          "content": "Paint tools help create and change pictures. Pencil and brushes draw marks, shapes create regular forms, the fill tool adds colour to enclosed areas, and the eraser removes unwanted parts.",
+          "learning_points": [
+            "Understand the main idea of paint tools.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where paint tools is used."
+          ],
+          "activity_text": "Practice: explain paint tools in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f3-c4-t3",
+          "title": "Drawing and Editing Pictures",
+          "content": "To make a picture, choose a tool, select a colour and draw on the canvas. Editing may include adding shapes, changing colours, erasing mistakes or adjusting parts of the drawing.",
+          "learning_points": [
+            "Understand the main idea of drawing and editing pictures.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where drawing and editing pictures is used."
+          ],
+          "activity_text": "Practice: explain drawing and editing pictures in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f3-c4-t4",
+          "title": "Saving a Drawing",
+          "content": "Save a drawing so it can be opened again. Choose Save or Save As, select a folder, enter a clear file name and confirm the save. Choose a suitable file type when the program asks.",
+          "learning_points": [
+            "Understand the main idea of saving a drawing.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where saving a drawing is used."
+          ],
+          "activity_text": "Practice: explain saving a drawing in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        }
+      ]
+    },
+    {
+      "chapter_number": 5,
+      "title": "Introduction to MS Word",
+      "description": "Study introduction to ms word using the textbook and lesson topics.",
+      "estimated_minutes": 20,
+      "source_pages": [],
+      "learning_objectives": [
+        "Understand the key ideas in introduction to ms word.",
+        "Practise the skills and activities introduced in this chapter."
+      ],
+      "topics": [
+        {
+          "id": "f3-c5-t1",
+          "title": "Introduction to MS Word",
+          "content": "MS Word is a word-processing application used to create and edit text documents. It can be used for letters, stories, reports and school assignments.",
+          "learning_points": [
+            "Understand the main idea of introduction to ms word.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where introduction to ms word is used."
+          ],
+          "activity_text": "Practice: explain introduction to ms word in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f3-c5-t2",
+          "title": "Components of the Word Window",
+          "content": "The Word window contains controls for working with a document. Common parts include the title bar, ribbon, tabs, document area, insertion point, rulers and status bar.",
+          "learning_points": [
+            "Understand the main idea of components of the word window.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where components of the word window is used."
+          ],
+          "activity_text": "Practice: explain components of the word window in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f3-c5-t3",
+          "title": "Creating and Saving a Document",
+          "content": "Start a new document, type the required text and save it with a meaningful file name. Save regularly so that recent changes are not lost.",
+          "learning_points": [
+            "Understand the main idea of creating and saving a document.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where creating and saving a document is used."
+          ],
+          "activity_text": "Practice: explain creating and saving a document in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        }
+      ]
+    },
+    {
+      "chapter_number": 6,
+      "title": "Formatting in Word",
+      "description": "Study formatting in word using the textbook and lesson topics.",
+      "estimated_minutes": 20,
+      "source_pages": [],
+      "learning_objectives": [
+        "Understand the key ideas in formatting in word.",
+        "Practise the skills and activities introduced in this chapter."
+      ],
+      "topics": [
+        {
+          "id": "f3-c6-t1",
+          "title": "Formatting Text",
+          "content": "Text formatting changes the appearance of words. Common options include font type, font size, bold, italic, underline and font colour. Select the text before applying formatting.",
+          "learning_points": [
+            "Understand the main idea of formatting text.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where formatting text is used."
+          ],
+          "activity_text": "Practice: explain formatting text in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f3-c6-t2",
+          "title": "Paragraph Formatting",
+          "content": "Paragraph formatting changes how a paragraph is arranged. Alignment, indentation and spacing can make a document easier to read.",
+          "learning_points": [
+            "Understand the main idea of paragraph formatting.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where paragraph formatting is used."
+          ],
+          "activity_text": "Practice: explain paragraph formatting in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f3-c6-t3",
+          "title": "Bullets and Numbering",
+          "content": "Bullets are useful for lists where order is not important. Numbering is useful when items follow a sequence, such as steps in a procedure.",
+          "learning_points": [
+            "Understand the main idea of bullets and numbering.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where bullets and numbering is used."
+          ],
+          "activity_text": "Practice: explain bullets and numbering in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f3-c6-t4",
+          "title": "Line Spacing and Paragraph Spacing",
+          "content": "Line spacing controls the distance between lines in a paragraph. Paragraph spacing controls the space before or after paragraphs, helping separate ideas clearly.",
+          "learning_points": [
+            "Understand the main idea of line spacing and paragraph spacing.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where line spacing and paragraph spacing is used."
+          ],
+          "activity_text": "Practice: explain line spacing and paragraph spacing in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        }
+      ]
+    },
+    {
+      "chapter_number": 7,
+      "title": "Introduction to Coding",
+      "description": "Study introduction to coding using the textbook and lesson topics.",
+      "estimated_minutes": 20,
+      "source_pages": [],
+      "learning_objectives": [
+        "Understand the key ideas in introduction to coding.",
+        "Practise the skills and activities introduced in this chapter."
+      ],
+      "topics": [
+        {
+          "id": "f3-c7-t1",
+          "title": "Introduction to Coding",
+          "content": "Coding means writing instructions that a computer can follow. A program is a set of instructions arranged to complete a task or solve a problem.",
+          "learning_points": [
+            "Understand the main idea of introduction to coding.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where introduction to coding is used."
+          ],
+          "activity_text": "Practice: explain introduction to coding in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f3-c7-t2",
+          "title": "ScratchJr / Coding Blocks",
+          "content": "Block-based coding uses visual blocks that fit together to form instructions. Each block has a purpose, such as starting an action, moving a character or repeating steps.",
+          "learning_points": [
+            "Understand the main idea of scratchjr / coding blocks.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where scratchjr / coding blocks is used."
+          ],
+          "activity_text": "Practice: explain scratchjr / coding blocks in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f3-c7-t3",
+          "title": "Creating a Simple Program",
+          "content": "Plan the actions, place the instruction blocks in the correct order and run the program. Test the result, find mistakes and adjust the blocks until the program behaves as intended.",
+          "learning_points": [
+            "Understand the main idea of creating a simple program.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where creating a simple program is used."
+          ],
+          "activity_text": "Practice: explain creating a simple program in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        }
+      ]
+    },
+    {
+      "chapter_number": 8,
+      "title": "Artificially Intelligent Gadgets",
+      "description": "Study artificially intelligent gadgets using the textbook and lesson topics.",
+      "estimated_minutes": 20,
+      "source_pages": [],
+      "learning_objectives": [
+        "Understand the key ideas in artificially intelligent gadgets.",
+        "Practise the skills and activities introduced in this chapter."
+      ],
+      "topics": [
+        {
+          "id": "f3-c8-t1",
+          "title": "Artificially Intelligent Gadgets",
+          "content": "Artificially intelligent gadgets use computer systems to perform tasks that may involve recognising patterns, responding to information or making suggestions. Their abilities depend on the features built into them.",
+          "learning_points": [
+            "Understand the main idea of artificially intelligent gadgets.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where artificially intelligent gadgets is used."
+          ],
+          "activity_text": "Practice: explain artificially intelligent gadgets in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f3-c8-t2",
+          "title": "AI in Everyday Devices",
+          "content": "Some everyday devices use AI features to respond to voice commands, recommend content, recognise images or adjust how they operate. These features assist people but do not think or feel like humans.",
+          "learning_points": [
+            "Understand the main idea of ai in everyday devices.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where ai in everyday devices is used."
+          ],
+          "activity_text": "Practice: explain ai in everyday devices in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f3-c8-t3",
+          "title": "Smart Gadgets",
+          "content": "Smart gadgets are electronic devices that can collect or exchange information and may connect to other devices or the internet. Some include AI features, sensors or automatic controls.",
+          "learning_points": [
+            "Understand the main idea of smart gadgets.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where smart gadgets is used."
+          ],
+          "activity_text": "Practice: explain smart gadgets in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        }
+      ]
+    }
+  ],
+  "content_status": "supplementary_study_guides_textbook_verification_required",
+  "content_note": "Foundation 3 lesson explanations in this version are supplementary study guides based on the chapter/topic structure. They are not verified verbatim extracts from the scanned Foundation 3 textbook.",
+  "content_source_type": "supplementary_not_verified_against_scanned_pages"
+}

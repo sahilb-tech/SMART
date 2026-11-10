@@ -1,0 +1,663 @@
+{
+  "schema_version": 1,
+  "foundation": "Foundation 4",
+  "class_name": "Class 4",
+  "textbook_title": "A Textbook of Computer Science with Lab Activities — Class 4",
+  "source": {
+    "file": "Foundation 4.pdf",
+    "note": "Chapter structure follows the supplied textbook contents. Topic revision prompts are study guides; consult the linked textbook PDF for the full lesson wording, diagrams and exercises."
+  },
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "title": "History of Computers",
+      "description": "Study history of computers using the textbook and lesson topics.",
+      "estimated_minutes": 20,
+      "source_pages": [],
+      "learning_objectives": [
+        "Understand the key ideas in history of computers.",
+        "Practise the skills and activities introduced in this chapter."
+      ],
+      "topics": [
+        {
+          "id": "f4-c1-t1",
+          "title": "The Beginning of Computers",
+          "content": "People developed calculating tools and machines over time to make arithmetic and information-processing tasks easier. The history of computers includes many inventions that led to modern electronic computers.",
+          "learning_points": [
+            "Understand the main idea of the beginning of computers.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where the beginning of computers is used."
+          ],
+          "activity_text": "Practice: explain the beginning of computers in your own words. Then find the matching section and activity in your Foundation 4 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f4-c1-t2",
+          "title": "The Abacus",
+          "content": "The abacus is an early counting tool that uses beads moved along rods or wires. By moving beads according to place value, a user can represent numbers and perform calculations.",
+          "learning_points": [
+            "Understand the main idea of the abacus.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Moving beads can represent numbers for counting."
+          ],
+          "activity_text": "Practice: explain the abacus in your own words. Then find the matching section and activity in your Foundation 4 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f4-c1-t3",
+          "title": "Calculating Rods and Slide Rule",
+          "content": "Calculating rods and the slide rule are historical tools that helped people perform mathematical operations. They show how people used physical aids to make calculations before electronic calculators.",
+          "learning_points": [
+            "Understand the main idea of calculating rods and slide rule.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where calculating rods and slide rule is used."
+          ],
+          "activity_text": "Practice: explain calculating rods and slide rule in your own words. Then find the matching section and activity in your Foundation 4 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f4-c1-t4",
+          "title": "Pascaline and Difference Engine",
+          "content": "The Pascaline was a mechanical calculator designed by Blaise Pascal to help with arithmetic. Charles Babbage later designed the Difference Engine to calculate and produce mathematical tables mechanically.",
+          "learning_points": [
+            "Understand the main idea of pascaline and difference engine.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "The Pascaline and Difference Engine are examples of mechanical calculating machines."
+          ],
+          "activity_text": "Practice: explain pascaline and difference engine in your own words. Then find the matching section and activity in your Foundation 4 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f4-c1-t5",
+          "title": "Analytical Engine",
+          "content": "Charles Babbage designed the Analytical Engine as a general-purpose mechanical computing machine. Its planned parts included a unit for calculation, a store for numbers and instructions for controlling operations.",
+          "learning_points": [
+            "Understand the main idea of analytical engine.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Babbage's design included a calculating unit and a store."
+          ],
+          "activity_text": "Practice: explain analytical engine in your own words. Then find the matching section and activity in your Foundation 4 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        }
+      ]
+    },
+    {
+      "chapter_number": 2,
+      "title": "GUI Operating System – Windows 10",
+      "description": "Study gui operating system – windows 10 using the textbook and lesson topics.",
+      "estimated_minutes": 20,
+      "source_pages": [],
+      "learning_objectives": [
+        "Understand the key ideas in gui operating system – windows 10.",
+        "Practise the skills and activities introduced in this chapter."
+      ],
+      "topics": [
+        {
+          "id": "f4-c2-t1",
+          "title": "What is an Operating System?",
+          "content": "An operating system is system software that manages computer hardware and provides a way for users and applications to work with the computer. Windows is an example of an operating system.",
+          "learning_points": [
+            "Understand the main idea of what is an operating system?.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where what is an operating system? is used."
+          ],
+          "activity_text": "Practice: explain what is an operating system? in your own words. Then find the matching section and activity in your Foundation 4 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f4-c2-t2",
+          "title": "Windows 10 Desktop",
+          "content": "The desktop is the main workspace shown after Windows starts. It can contain icons, shortcuts, the taskbar and the Start button, which help users open programs and manage work.",
+          "learning_points": [
+            "Understand the main idea of windows 10 desktop.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where windows 10 desktop is used."
+          ],
+          "activity_text": "Practice: explain windows 10 desktop in your own words. Then find the matching section and activity in your Foundation 4 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f4-c2-t3",
+          "title": "Start Menu and Taskbar",
+          "content": "The Start menu provides access to apps, settings and power options. The taskbar usually appears along the edge of the desktop and helps users open, switch between and manage running applications.",
+          "learning_points": [
+            "Understand the main idea of start menu and taskbar.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where start menu and taskbar is used."
+          ],
+          "activity_text": "Practice: explain start menu and taskbar in your own words. Then find the matching section and activity in your Foundation 4 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f4-c2-t4",
+          "title": "Files and Folders",
+          "content": "A file stores information, while a folder helps organise files. Giving folders and files clear names makes it easier to find schoolwork and other documents.",
+          "learning_points": [
+            "Understand the main idea of files and folders.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "A picture can be saved as a file inside a Pictures folder."
+          ],
+          "activity_text": "Practice: explain files and folders in your own words. Then find the matching section and activity in your Foundation 4 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f4-c2-t5",
+          "title": "Customising Windows",
+          "content": "Windows settings allow users to adjust parts of the desktop experience, such as the background, colours, display and other preferences. Changes should be made carefully and with permission on shared computers.",
+          "learning_points": [
+            "Understand the main idea of customising windows.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where customising windows is used."
+          ],
+          "activity_text": "Practice: explain customising windows in your own words. Then find the matching section and activity in your Foundation 4 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        }
+      ]
+    },
+    {
+      "chapter_number": 3,
+      "title": "Advanced Features of Word 2016",
+      "description": "Study advanced features of word 2016 using the textbook and lesson topics.",
+      "estimated_minutes": 20,
+      "source_pages": [],
+      "learning_objectives": [
+        "Understand the key ideas in advanced features of word 2016.",
+        "Practise the skills and activities introduced in this chapter."
+      ],
+      "topics": [
+        {
+          "id": "f4-c3-t1",
+          "title": "Advanced Word Tools",
+          "content": "Word includes tools for improving and managing documents. Depending on the version, these can include page layout controls, headers and footers, review tools and options for inserting content.",
+          "learning_points": [
+            "Understand the main idea of advanced word tools.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where advanced word tools is used."
+          ],
+          "activity_text": "Practice: explain advanced word tools in your own words. Then find the matching section and activity in your Foundation 4 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f4-c3-t2",
+          "title": "Inserting and Formatting Objects",
+          "content": "A Word document can include objects such as pictures, shapes and text boxes. After inserting an object, users can resize it, move it, align it and adjust its appearance.",
+          "learning_points": [
+            "Understand the main idea of inserting and formatting objects.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where inserting and formatting objects is used."
+          ],
+          "activity_text": "Practice: explain inserting and formatting objects in your own words. Then find the matching section and activity in your Foundation 4 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f4-c3-t3",
+          "title": "Working with Tables and Text Effects",
+          "content": "Tables organise information in rows and columns. Text effects change the visual appearance of selected text; use them sparingly so the document remains clear and readable.",
+          "learning_points": [
+            "Understand the main idea of working with tables and text effects.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where working with tables and text effects is used."
+          ],
+          "activity_text": "Practice: explain working with tables and text effects in your own words. Then find the matching section and activity in your Foundation 4 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        }
+      ]
+    },
+    {
+      "chapter_number": 4,
+      "title": "PowerPoint 2016",
+      "description": "Study powerpoint 2016 using the textbook and lesson topics.",
+      "estimated_minutes": 20,
+      "source_pages": [],
+      "learning_objectives": [
+        "Understand the key ideas in powerpoint 2016.",
+        "Practise the skills and activities introduced in this chapter."
+      ],
+      "topics": [
+        {
+          "id": "f4-c4-t1",
+          "title": "Introduction to PowerPoint",
+          "content": "PowerPoint is presentation software used to communicate information through a sequence of slides. Slides can contain text, pictures, shapes and other media.",
+          "learning_points": [
+            "Understand the main idea of introduction to powerpoint.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where introduction to powerpoint is used."
+          ],
+          "activity_text": "Practice: explain introduction to powerpoint in your own words. Then find the matching section and activity in your Foundation 4 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f4-c4-t2",
+          "title": "Creating a Presentation",
+          "content": "A presentation is created by adding slides, choosing layouts and placing information on each slide. Give the presentation a clear beginning, organised middle and useful ending.",
+          "learning_points": [
+            "Understand the main idea of creating a presentation.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where creating a presentation is used."
+          ],
+          "activity_text": "Practice: explain creating a presentation in your own words. Then find the matching section and activity in your Foundation 4 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f4-c4-t3",
+          "title": "Slides and Layouts",
+          "content": "A slide is one page of a presentation. A layout provides a suggested arrangement for items such as a title, text and pictures, helping keep slides organised.",
+          "learning_points": [
+            "Understand the main idea of slides and layouts.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where slides and layouts is used."
+          ],
+          "activity_text": "Practice: explain slides and layouts in your own words. Then find the matching section and activity in your Foundation 4 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f4-c4-t4",
+          "title": "Adding Text and Pictures",
+          "content": "Text explains the main ideas on a slide, while pictures can make information easier to understand. Use readable text and relevant images, and avoid overcrowding the slide.",
+          "learning_points": [
+            "Understand the main idea of adding text and pictures.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where adding text and pictures is used."
+          ],
+          "activity_text": "Practice: explain adding text and pictures in your own words. Then find the matching section and activity in your Foundation 4 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        }
+      ]
+    },
+    {
+      "chapter_number": 5,
+      "title": "More on PowerPoint",
+      "description": "Study more on powerpoint using the textbook and lesson topics.",
+      "estimated_minutes": 20,
+      "source_pages": [],
+      "learning_objectives": [
+        "Understand the key ideas in more on powerpoint.",
+        "Practise the skills and activities introduced in this chapter."
+      ],
+      "topics": [
+        {
+          "id": "f4-c5-t1",
+          "title": "Working with Themes",
+          "content": "A theme provides a coordinated set of colours, fonts and effects for a presentation. Applying one theme helps slides look consistent.",
+          "learning_points": [
+            "Understand the main idea of working with themes.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "A theme can apply matching fonts and colours across slides."
+          ],
+          "activity_text": "Practice: explain working with themes in your own words. Then find the matching section and activity in your Foundation 4 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f4-c5-t2",
+          "title": "Slide Transitions",
+          "content": "A transition is the visual effect shown when moving from one slide to the next during a slide show. Choose simple transitions that do not distract from the message.",
+          "learning_points": [
+            "Understand the main idea of slide transitions.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "A fade effect can be used when moving to the next slide."
+          ],
+          "activity_text": "Practice: explain slide transitions in your own words. Then find the matching section and activity in your Foundation 4 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f4-c5-t3",
+          "title": "Animations",
+          "content": "Animations control how objects such as text or pictures appear, move or disappear on a slide. Use them to guide attention rather than decorate every object.",
+          "learning_points": [
+            "Understand the main idea of animations.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "A title can appear when a slide begins."
+          ],
+          "activity_text": "Practice: explain animations in your own words. Then find the matching section and activity in your Foundation 4 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f4-c5-t4",
+          "title": "Presenting a Slide Show",
+          "content": "A slide show displays the presentation to an audience. Practise the sequence, speak clearly, face the audience and use the slides as visual support rather than reading every word.",
+          "learning_points": [
+            "Understand the main idea of presenting a slide show.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where presenting a slide show is used."
+          ],
+          "activity_text": "Practice: explain presenting a slide show in your own words. Then find the matching section and activity in your Foundation 4 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        }
+      ]
+    },
+    {
+      "chapter_number": 6,
+      "title": "Internet",
+      "description": "Study internet using the textbook and lesson topics.",
+      "estimated_minutes": 20,
+      "source_pages": [],
+      "learning_objectives": [
+        "Understand the key ideas in internet.",
+        "Practise the skills and activities introduced in this chapter."
+      ],
+      "topics": [
+        {
+          "id": "f4-c6-t1",
+          "title": "What is the Internet?",
+          "content": "The internet is a worldwide network that connects computers and other devices. It allows people to share information and use services such as websites, email and online learning.",
+          "learning_points": [
+            "Understand the main idea of what is the internet?.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where what is the internet? is used."
+          ],
+          "activity_text": "Practice: explain what is the internet? in your own words. Then find the matching section and activity in your Foundation 4 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f4-c6-t2",
+          "title": "Web Browsers",
+          "content": "A web browser is an application used to visit websites and view web pages. Users enter a web address or search for information using the browser.",
+          "learning_points": [
+            "Understand the main idea of web browsers.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "A browser is used to open and view websites."
+          ],
+          "activity_text": "Practice: explain web browsers in your own words. Then find the matching section and activity in your Foundation 4 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f4-c6-t3",
+          "title": "Searching the Web",
+          "content": "A search engine helps find information on the web. Use clear keywords, compare information from reliable sources and check whether a result is suitable for the task.",
+          "learning_points": [
+            "Understand the main idea of searching the web.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Use a few specific keywords to narrow a search."
+          ],
+          "activity_text": "Practice: explain searching the web in your own words. Then find the matching section and activity in your Foundation 4 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f4-c6-t4",
+          "title": "Internet Safety",
+          "content": "Use the internet carefully. Keep passwords private, avoid sharing personal details, do not open suspicious links and tell a trusted adult about anything uncomfortable or unexpected.",
+          "learning_points": [
+            "Understand the main idea of internet safety.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Do not share your password or home address with strangers online."
+          ],
+          "activity_text": "Practice: explain internet safety in your own words. Then find the matching section and activity in your Foundation 4 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        }
+      ]
+    },
+    {
+      "chapter_number": 7,
+      "title": "Learning Scratch",
+      "description": "Study learning scratch using the textbook and lesson topics.",
+      "estimated_minutes": 20,
+      "source_pages": [],
+      "learning_objectives": [
+        "Understand the key ideas in learning scratch.",
+        "Practise the skills and activities introduced in this chapter."
+      ],
+      "topics": [
+        {
+          "id": "f4-c7-t1",
+          "title": "Introduction to Scratch",
+          "content": "Scratch is a visual programming environment where users create projects by joining code blocks. Projects can include animations, stories and games.",
+          "learning_points": [
+            "Understand the main idea of introduction to scratch.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where introduction to scratch is used."
+          ],
+          "activity_text": "Practice: explain introduction to scratch in your own words. Then find the matching section and activity in your Foundation 4 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f4-c7-t2",
+          "title": "Sprites and Backdrops",
+          "content": "A sprite is a character or object in a Scratch project. A backdrop is the background of the Stage. Sprites can be programmed to move and respond to events.",
+          "learning_points": [
+            "Understand the main idea of sprites and backdrops.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "A cat character can be a sprite; a park picture can be its backdrop."
+          ],
+          "activity_text": "Practice: explain sprites and backdrops in your own words. Then find the matching section and activity in your Foundation 4 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f4-c7-t3",
+          "title": "Using Blocks",
+          "content": "Scratch blocks represent instructions. Motion blocks move sprites, Looks blocks change appearance, Sound blocks play audio, Events start scripts and Control blocks manage repetition or decisions.",
+          "learning_points": [
+            "Understand the main idea of using blocks.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where using blocks is used."
+          ],
+          "activity_text": "Practice: explain using blocks in your own words. Then find the matching section and activity in your Foundation 4 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f4-c7-t4",
+          "title": "Creating a Scratch Project",
+          "content": "Plan a simple idea, choose sprites and a backdrop, then join blocks to create the actions. Run the project, test it and improve the instructions when something does not work.",
+          "learning_points": [
+            "Understand the main idea of creating a scratch project.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where creating a scratch project is used."
+          ],
+          "activity_text": "Practice: explain creating a scratch project in your own words. Then find the matching section and activity in your Foundation 4 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        }
+      ]
+    },
+    {
+      "chapter_number": 8,
+      "title": "Artificially Intelligent Gadgets",
+      "description": "Study artificially intelligent gadgets using the textbook and lesson topics.",
+      "estimated_minutes": 20,
+      "source_pages": [],
+      "learning_objectives": [
+        "Understand the key ideas in artificially intelligent gadgets.",
+        "Practise the skills and activities introduced in this chapter."
+      ],
+      "topics": [
+        {
+          "id": "f4-c8-t1",
+          "title": "Artificial Intelligence",
+          "content": "Artificial Intelligence is a field of computing focused on systems that perform tasks associated with human intelligence, such as recognising patterns, understanding language or making predictions.",
+          "learning_points": [
+            "Understand the main idea of artificial intelligence.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where artificial intelligence is used."
+          ],
+          "activity_text": "Practice: explain artificial intelligence in your own words. Then find the matching section and activity in your Foundation 4 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f4-c8-t2",
+          "title": "AI-Powered Gadgets",
+          "content": "Some gadgets use AI-based features to interpret voice, recognise objects, suggest actions or automate tasks. The exact features depend on the device and the software it uses.",
+          "learning_points": [
+            "Understand the main idea of ai-powered gadgets.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where ai-powered gadgets is used."
+          ],
+          "activity_text": "Practice: explain ai-powered gadgets in your own words. Then find the matching section and activity in your Foundation 4 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        },
+        {
+          "id": "f4-c8-t3",
+          "title": "Smart Devices in Daily Life",
+          "content": "Smart devices can collect information, connect to networks or respond automatically to user settings. Examples include smart speakers, connected watches and home devices. Use them with attention to privacy and safety.",
+          "learning_points": [
+            "Understand the main idea of smart devices in daily life.",
+            "Identify the important terms and tools connected with this topic.",
+            "Explain the concept using an example from everyday computer use."
+          ],
+          "examples": [
+            "Think of a real-life situation where smart devices in daily life is used."
+          ],
+          "activity_text": "Practice: explain smart devices in daily life in your own words. Then find the matching section and activity in your Foundation 4 textbook and compare your explanation with the book.",
+          "source_pages": [],
+          "content_source": "supplementary_explanation",
+          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+        }
+      ]
+    }
+  ],
+  "content_status": "supplementary_study_guides_textbook_verification_required",
+  "content_note": "Foundation 4 lesson explanations in this version are supplementary study guides based on the chapter/topic structure. They are not verified verbatim extracts from the scanned Foundation 4 textbook.",
+  "content_source_type": "supplementary_not_verified_against_scanned_pages"
+}

@@ -1,0 +1,999 @@
+{
+  "schema_version": 1,
+  "source": {
+    "file": "Foundation 2.pdf",
+    "title": "Mastering Coding: AI and Robotics",
+    "note": "Lesson summaries, learning points and activities are adapted from the teacher-panel Foundation 2 lesson content. Consult the supplied textbook PDF for full original context and illustrations."
+  },
+  "foundation": "Foundation 2",
+  "class_name": "Class 2",
+  "textbook_title": "Mastering Coding: AI and Robotics",
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "title": "More About a Computer",
+      "description": "Explore more about a computer through the Foundation 2 textbook lesson and practice activities.",
+      "estimated_minutes": 20,
+      "source_pages": [],
+      "learning_objectives": [
+        "Understand the main ideas in more about a computer.",
+        "Practise the skills described in the textbook."
+      ],
+      "topics": [
+        {
+          "id": "f2-c1-t1",
+          "title": "What is a computer?",
+          "content": "A computer is an electronic machine that helps us perform many tasks. It accepts data, processes it, and gives useful information as output.",
+          "learning_points": [
+            "A computer can perform calculations and help us create documents.",
+            "It can be used to play games, draw pictures, listen to music, and learn.",
+            "A computer is used in homes, schools, hospitals, banks, and offices."
+          ],
+          "examples": [
+            [
+              "🖥️",
+              "Computer",
+              "An electronic machine for many tasks."
+            ],
+            [
+              "🏫",
+              "At school",
+              "Helps us learn and practise."
+            ],
+            [
+              "🏥",
+              "At a hospital",
+              "Helps people manage information."
+            ]
+          ],
+          "activity_text": "Ask students to name three tasks they have seen a computer perform.",
+          "source_pages": []
+        },
+        {
+          "id": "f2-c1-t2",
+          "title": "Types of computers",
+          "content": "The textbook introduces different kinds of computers, including desktop computers, laptops, and wearable computers.",
+          "learning_points": [
+            "A desktop computer is usually kept on a desk and is not designed to be carried around.",
+            "A laptop is portable and can be used in different places.",
+            "Wearable computers include devices such as smart watches."
+          ],
+          "examples": [
+            [
+              "🖥️",
+              "Desktop",
+              "Used at a desk."
+            ],
+            [
+              "💻",
+              "Laptop",
+              "Portable computer."
+            ],
+            [
+              "⌚",
+              "Smart watch",
+              "A wearable computer."
+            ]
+          ],
+          "activity_text": "Show pictures of a desktop, laptop, tablet, and smart watch. Ask which devices are easy to carry.",
+          "source_pages": []
+        },
+        {
+          "id": "f2-c1-t3",
+          "title": "Parts of a computer",
+          "content": "A computer system has several parts that work together. The textbook introduces the monitor, CPU, keyboard, and mouse.",
+          "learning_points": [
+            "The monitor displays information.",
+            "The CPU (Central Processing Unit) processes instructions and is often called the brain of the computer.",
+            "The keyboard is used to enter text and numbers.",
+            "The mouse is used to point, click, and select items."
+          ],
+          "examples": [
+            [
+              "🖥️",
+              "Monitor",
+              "Displays information."
+            ],
+            [
+              "🧠",
+              "CPU",
+              "Processes instructions."
+            ],
+            [
+              "⌨️",
+              "Keyboard",
+              "Enters text and numbers."
+            ],
+            [
+              "🖱️",
+              "Mouse",
+              "Points and selects."
+            ]
+          ],
+          "activity_text": "Ask students to point to the monitor, CPU cabinet, keyboard, and mouse on a computer.",
+          "source_pages": []
+        },
+        {
+          "id": "f2-c1-t4",
+          "title": "Turning on a computer",
+          "content": "The textbook describes the basic steps for starting a computer safely.",
+          "learning_points": [
+            "Make sure the computer and its connections are ready.",
+            "Switch on the main power supply and the UPS, if one is used.",
+            "Press the power button on the CPU and monitor.",
+            "Wait for the operating system and desktop to appear."
+          ],
+          "examples": [
+            [
+              "🔌",
+              "Power",
+              "Switch on the power supply."
+            ],
+            [
+              "⏻",
+              "Power button",
+              "Press the computer power button."
+            ],
+            [
+              "🖥️",
+              "Desktop",
+              "Wait for the desktop screen."
+            ]
+          ],
+          "activity_text": "Demonstrate the start-up sequence in the computer lab and ask students to put the steps in order.",
+          "source_pages": []
+        },
+        {
+          "id": "f2-c1-t5",
+          "title": "Shutting down a computer",
+          "content": "A computer should be shut down using the operating system so that work can close properly.",
+          "learning_points": [
+            "Save your work before shutting down.",
+            "Use the Start menu and choose the Power option.",
+            "Select Shut down and wait until the computer turns off.",
+            "Do not switch off the power suddenly while the computer is working."
+          ],
+          "examples": [
+            [
+              "💾",
+              "Save work",
+              "Keep your work safe."
+            ],
+            [
+              "🪟",
+              "Start menu",
+              "Open the power options."
+            ],
+            [
+              "⏻",
+              "Shut down",
+              "Wait for the computer to turn off."
+            ]
+          ],
+          "activity_text": "Ask students to arrange the shutdown steps in the correct order.",
+          "source_pages": []
+        },
+        {
+          "id": "f2-c1-t6",
+          "title": "Human vs Computer",
+          "content": "Humans and computers can both work with information, but they are different. Humans have feelings and natural intelligence, while computers follow instructions and process data.",
+          "learning_points": [
+            "Humans can think, feel emotions, and make decisions using experience.",
+            "Computers can work quickly and accurately when given instructions.",
+            "Computers do not have human feelings.",
+            "People create instructions and decide how computers should be used."
+          ],
+          "examples": [
+            [
+              "🧑",
+              "Human",
+              "Can feel and think independently."
+            ],
+            [
+              "💻",
+              "Computer",
+              "Processes information using instructions."
+            ]
+          ],
+          "activity_text": "Ask students to compare one task a person does and one task a computer does.",
+          "source_pages": []
+        }
+      ]
+    },
+    {
+      "chapter_number": 2,
+      "title": "Applications of Computers",
+      "description": "Explore applications of computers through the Foundation 2 textbook lesson and practice activities.",
+      "estimated_minutes": 20,
+      "source_pages": [],
+      "learning_objectives": [
+        "Understand the main ideas in applications of computers.",
+        "Practise the skills described in the textbook."
+      ],
+      "topics": [
+        {
+          "id": "f2-c2-t1",
+          "title": "Uses of computers",
+          "content": "Computers are used in many everyday places and activities. They help people work, communicate, learn, and store information.",
+          "learning_points": [
+            "Computers are used at home, in schools, offices, banks, shops, and hospitals.",
+            "They help people prepare documents, calculate, communicate, and find information.",
+            "Computers can support learning and entertainment."
+          ],
+          "examples": [
+            [
+              "🏫",
+              "School",
+              "Learning and teaching."
+            ],
+            [
+              "🏦",
+              "Bank",
+              "Keeping account records."
+            ],
+            [
+              "🏥",
+              "Hospital",
+              "Managing patient information."
+            ],
+            [
+              "🛒",
+              "Shop",
+              "Billing and records."
+            ]
+          ],
+          "activity_text": "Name places shown in the chapter and explain one way a computer is used at each place.",
+          "source_pages": []
+        },
+        {
+          "id": "f2-c2-t2",
+          "title": "Applications of a computer",
+          "content": "The chapter describes practical applications of computers in areas such as education, business, communication, healthcare, transport, and public services.",
+          "learning_points": [
+            "Computers help students learn and teachers prepare learning materials.",
+            "Businesses use computers for records, billing, and communication.",
+            "Hospitals use computers to maintain patient information and support medical work.",
+            "Computers help people communicate and access information."
+          ],
+          "examples": [
+            [
+              "📚",
+              "Education",
+              "Learning resources."
+            ],
+            [
+              "🧾",
+              "Business",
+              "Bills and records."
+            ],
+            [
+              "🩺",
+              "Healthcare",
+              "Patient information."
+            ],
+            [
+              "🌐",
+              "Communication",
+              "Sharing information."
+            ]
+          ],
+          "activity_text": "Give students everyday situations and ask which computer application could help.",
+          "source_pages": []
+        },
+        {
+          "id": "f2-c2-t3",
+          "title": "Advantages",
+          "content": "Computers offer several advantages when they are used appropriately.",
+          "learning_points": [
+            "Speed: computers can process information quickly.",
+            "Accuracy: they can produce accurate results when correct data and instructions are supplied.",
+            "Storage: they can store large amounts of information.",
+            "Diligence: they can repeat tasks without getting tired in the way people do.",
+            "Versatility: they can be used for many different kinds of work."
+          ],
+          "examples": [
+            [
+              "⚡",
+              "Speed",
+              "Work is completed quickly."
+            ],
+            [
+              "🎯",
+              "Accuracy",
+              "Correct instructions give reliable results."
+            ],
+            [
+              "🗄️",
+              "Storage",
+              "Keep lots of information."
+            ],
+            [
+              "🔁",
+              "Diligence",
+              "Repeat tasks consistently."
+            ]
+          ],
+          "activity_text": "Ask students to match speed, accuracy, storage, and versatility with examples from daily life.",
+          "source_pages": []
+        },
+        {
+          "id": "f2-c2-t4",
+          "title": "Disadvantages",
+          "content": "The textbook also explains limitations and risks of computer use.",
+          "learning_points": [
+            "Computers depend on instructions and data supplied by people.",
+            "Long or improper use can affect health and posture.",
+            "Personal information can be at risk if it is not protected.",
+            "Computers cannot replace human feelings, judgement, and responsibility."
+          ],
+          "examples": [
+            [
+              "🪑",
+              "Posture",
+              "Sit correctly and take breaks."
+            ],
+            [
+              "🔒",
+              "Privacy",
+              "Protect personal information."
+            ],
+            [
+              "🧠",
+              "Human judgement",
+              "People remain responsible for decisions."
+            ]
+          ],
+          "activity_text": "Discuss healthy computer habits and why personal information should be protected.",
+          "source_pages": []
+        }
+      ]
+    },
+    {
+      "chapter_number": 3,
+      "title": "Keyboard and Mouse",
+      "description": "Explore keyboard and mouse through the Foundation 2 textbook lesson and practice activities.",
+      "estimated_minutes": 20,
+      "source_pages": [],
+      "learning_objectives": [
+        "Understand the main ideas in keyboard and mouse.",
+        "Practise the skills described in the textbook."
+      ],
+      "topics": [
+        {
+          "id": "f2-c3-t1",
+          "title": "Keyboard",
+          "content": "A keyboard is an input device used to enter letters, numbers, and instructions into a computer.",
+          "learning_points": [
+            "Alphabet keys are used to type letters and words.",
+            "Number keys are used to enter numbers.",
+            "Special keys include Enter, Spacebar, Backspace, Delete, Shift, Caps Lock, and arrow keys.",
+            "The textbook explains how key combinations and punctuation keys are used while typing."
+          ],
+          "examples": [
+            [
+              "⌨️",
+              "Keyboard",
+              "An input device."
+            ],
+            [
+              "🔤",
+              "Alphabet keys",
+              "Type letters."
+            ],
+            [
+              "↵",
+              "Enter key",
+              "Moves to a new line or confirms."
+            ],
+            [
+              "⌫",
+              "Backspace",
+              "Deletes to the left."
+            ]
+          ],
+          "activity_text": "Ask students to locate the alphabet, number, Enter, Spacebar, Backspace, and arrow keys.",
+          "source_pages": []
+        },
+        {
+          "id": "f2-c3-t2",
+          "title": "Mouse",
+          "content": "A mouse is a pointing device used to move the pointer and interact with items on the screen.",
+          "learning_points": [
+            "The left button is commonly used to select items.",
+            "The right button opens a shortcut menu.",
+            "The scroll wheel moves a page up and down.",
+            "Clicking, double-clicking, dragging, and scrolling are common mouse actions."
+          ],
+          "examples": [
+            [
+              "🖱️",
+              "Mouse",
+              "A pointing device."
+            ],
+            [
+              "👆",
+              "Click",
+              "Select an item."
+            ],
+            [
+              "🖱️",
+              "Scroll",
+              "Move through a page."
+            ]
+          ],
+          "activity_text": "Demonstrate click, double-click, right-click, drag, and scroll using a mouse.",
+          "source_pages": []
+        }
+      ]
+    },
+    {
+      "chapter_number": 4,
+      "title": "Parts of a Computer",
+      "description": "Explore parts of a computer through the Foundation 2 textbook lesson and practice activities.",
+      "estimated_minutes": 20,
+      "source_pages": [],
+      "learning_objectives": [
+        "Understand the main ideas in parts of a computer.",
+        "Practise the skills described in the textbook."
+      ],
+      "topics": [
+        {
+          "id": "f2-c4-t1",
+          "title": "Input devices",
+          "content": "Input devices are used to enter data and instructions into a computer.",
+          "learning_points": [
+            "A keyboard is used to type letters, numbers, and commands.",
+            "A mouse is used to point, click, and select.",
+            "A microphone records sound.",
+            "A scanner sends pictures or documents into the computer."
+          ],
+          "examples": [
+            [
+              "⌨️",
+              "Keyboard",
+              "Enters text."
+            ],
+            [
+              "🖱️",
+              "Mouse",
+              "Enters pointing actions."
+            ],
+            [
+              "🎙️",
+              "Microphone",
+              "Enters sound."
+            ],
+            [
+              "📠",
+              "Scanner",
+              "Enters pictures and documents."
+            ]
+          ],
+          "activity_text": "Identify the input devices shown in the textbook and explain what information each one enters.",
+          "source_pages": []
+        },
+        {
+          "id": "f2-c4-t2",
+          "title": "Output devices",
+          "content": "Output devices show or produce the results processed by a computer.",
+          "learning_points": [
+            "A monitor displays text, pictures, and video.",
+            "A printer produces a paper copy called a printout.",
+            "Speakers and headphones provide sound.",
+            "A projector displays computer output on a larger screen."
+          ],
+          "examples": [
+            [
+              "🖥️",
+              "Monitor",
+              "Displays output."
+            ],
+            [
+              "🖨️",
+              "Printer",
+              "Prints output."
+            ],
+            [
+              "🔊",
+              "Speakers",
+              "Play sound."
+            ],
+            [
+              "📽️",
+              "Projector",
+              "Shows a large display."
+            ]
+          ],
+          "activity_text": "Ask students to sort the devices into those that show, print, or play computer output.",
+          "source_pages": []
+        },
+        {
+          "id": "f2-c4-t3",
+          "title": "Storage devices",
+          "content": "Storage devices keep data and information so that it can be used later.",
+          "learning_points": [
+            "A hard disk stores data inside a computer.",
+            "A pen drive is a portable storage device.",
+            "Memory cards can store photos, videos, and other files.",
+            "CDs and DVDs are optical storage media."
+          ],
+          "examples": [
+            [
+              "💽",
+              "Hard disk",
+              "Stores computer data."
+            ],
+            [
+              "🔑",
+              "Pen drive",
+              "Portable storage."
+            ],
+            [
+              "💳",
+              "Memory card",
+              "Stores photos and files."
+            ],
+            [
+              "💿",
+              "CD/DVD",
+              "Optical storage media."
+            ]
+          ],
+          "activity_text": "Show a pen drive or memory card and ask students what kinds of files can be stored on it.",
+          "source_pages": []
+        }
+      ]
+    },
+    {
+      "chapter_number": 5,
+      "title": "IPO Cycle",
+      "description": "Explore ipo cycle through the Foundation 2 textbook lesson and practice activities.",
+      "estimated_minutes": 20,
+      "source_pages": [],
+      "learning_objectives": [
+        "Understand the main ideas in ipo cycle.",
+        "Practise the skills described in the textbook."
+      ],
+      "topics": [
+        {
+          "id": "f2-c5-t1",
+          "title": "Working of machines",
+          "content": "Machines perform work through a sequence of input, process, and output. The chapter illustrates this with familiar examples such as washing clothes and preparing juice.",
+          "learning_points": [
+            "Input is the material or information supplied to a machine.",
+            "Process is the work the machine performs on the input.",
+            "Output is the result produced by the machine.",
+            "A washing machine takes dirty clothes and water as input, washes them, and produces clean clothes."
+          ],
+          "examples": [
+            [
+              "📥",
+              "Input",
+              "What goes into a machine."
+            ],
+            [
+              "⚙️",
+              "Process",
+              "The work performed."
+            ],
+            [
+              "📤",
+              "Output",
+              "The result produced."
+            ]
+          ],
+          "activity_text": "Ask students to identify the input, process, and output in a mixer or washing machine.",
+          "source_pages": []
+        },
+        {
+          "id": "f2-c5-t2",
+          "title": "Working of a computer",
+          "content": "A computer follows the IPO cycle: Input, Process, and Output.",
+          "learning_points": [
+            "Input devices enter data and instructions.",
+            "The CPU processes the data.",
+            "Output devices present the result.",
+            "For example, when we type using a keyboard, the computer processes the input and displays the result on the monitor."
+          ],
+          "examples": [
+            [
+              "⌨️",
+              "Input",
+              "Keyboard enters data."
+            ],
+            [
+              "🧠",
+              "Process",
+              "CPU processes data."
+            ],
+            [
+              "🖥️",
+              "Output",
+              "Monitor shows the result."
+            ]
+          ],
+          "activity_text": "Use a keyboard, CPU, and monitor to demonstrate the IPO cycle in the classroom.",
+          "source_pages": []
+        }
+      ]
+    },
+    {
+      "chapter_number": 6,
+      "title": "Fun with Tux Paint",
+      "description": "Explore fun with tux paint through the Foundation 2 textbook lesson and practice activities.",
+      "estimated_minutes": 20,
+      "source_pages": [],
+      "learning_objectives": [
+        "Understand the main ideas in fun with tux paint.",
+        "Practise the skills described in the textbook."
+      ],
+      "topics": [
+        {
+          "id": "f2-c6-t1",
+          "title": "Introduction to Tux Paint",
+          "content": "Tux Paint is a drawing program that children can use to create pictures using colours, shapes, and drawing tools.",
+          "learning_points": [
+            "Tux Paint provides a drawing canvas.",
+            "It includes tools and colours for creating pictures.",
+            "The program is designed to make drawing activities enjoyable and easy to explore."
+          ],
+          "examples": [
+            [
+              "🐧",
+              "Tux",
+              "The Tux Paint mascot."
+            ],
+            [
+              "🎨",
+              "Drawing",
+              "Create a picture."
+            ],
+            [
+              "🖼️",
+              "Canvas",
+              "The area where we draw."
+            ]
+          ],
+          "activity_text": "Open Tux Paint and let students explore the drawing canvas and colour palette.",
+          "source_pages": []
+        },
+        {
+          "id": "f2-c6-t2",
+          "title": "Tools of Tux Paint",
+          "content": "Tux Paint provides tools for drawing and editing pictures. The chapter introduces tools such as Paint, Stamp, Lines, Shapes, Text, Magic, Eraser, and Undo.",
+          "learning_points": [
+            "Paint and Lines help create freehand drawings and lines.",
+            "Shapes and Stamp add ready-made shapes and pictures.",
+            "Text adds words to a drawing.",
+            "Eraser removes parts of a drawing.",
+            "Undo can reverse the last action."
+          ],
+          "examples": [
+            [
+              "🖌️",
+              "Paint",
+              "Draw freehand."
+            ],
+            [
+              "⭐",
+              "Stamp",
+              "Add ready-made pictures."
+            ],
+            [
+              "🔺",
+              "Shapes",
+              "Add shapes."
+            ],
+            [
+              "🔤",
+              "Text",
+              "Write on the canvas."
+            ],
+            [
+              "🧽",
+              "Eraser",
+              "Remove part of a drawing."
+            ]
+          ],
+          "activity_text": "Ask students to find the Paint, Stamp, Shapes, Text, Eraser, and Undo tools and demonstrate one use for each.",
+          "source_pages": []
+        },
+        {
+          "id": "f2-c6-t3",
+          "title": "Open, save, and quit",
+          "content": "The chapter explains how to open Tux Paint, save a drawing, open a saved drawing, and quit the program.",
+          "learning_points": [
+            "Open Tux Paint from the computer.",
+            "Use the Save tool to save your drawing.",
+            "Use the Open tool to view a previously saved drawing.",
+            "Use Quit when you have finished; save your work before closing."
+          ],
+          "examples": [
+            [
+              "▶️",
+              "Open",
+              "Start Tux Paint."
+            ],
+            [
+              "💾",
+              "Save",
+              "Keep your drawing."
+            ],
+            [
+              "📂",
+              "Open drawing",
+              "Return to saved work."
+            ],
+            [
+              "🚪",
+              "Quit",
+              "Close the program."
+            ]
+          ],
+          "activity_text": "Guide students through creating a small drawing, saving it, opening it again, and quitting Tux Paint.",
+          "source_pages": []
+        }
+      ]
+    },
+    {
+      "chapter_number": 7,
+      "title": "Sequencing and Decoding",
+      "description": "Explore sequencing and decoding through the Foundation 2 textbook lesson and practice activities.",
+      "estimated_minutes": 20,
+      "source_pages": [],
+      "learning_objectives": [
+        "Understand the main ideas in sequencing and decoding.",
+        "Practise the skills described in the textbook."
+      ],
+      "topics": [
+        {
+          "id": "f2-c7-t1",
+          "title": "Sequence",
+          "content": "A sequence is a set of steps or items arranged in a specific order. The chapter uses familiar routines to show why order matters.",
+          "learning_points": [
+            "A sequence tells us what happens first, next, and last.",
+            "Daily routines and instructions can be written as sequences.",
+            "Changing the order of steps may change the result."
+          ],
+          "examples": [
+            [
+              "1️⃣",
+              "First",
+              "The starting step."
+            ],
+            [
+              "2️⃣",
+              "Next",
+              "The following step."
+            ],
+            [
+              "3️⃣",
+              "Last",
+              "The final step."
+            ]
+          ],
+          "activity_text": "Ask students to arrange picture cards for a daily routine in the correct order.",
+          "source_pages": []
+        },
+        {
+          "id": "f2-c7-t2",
+          "title": "Patterns and loops",
+          "content": "A pattern is something that repeats in a regular way. A loop is an action or set of instructions that repeats.",
+          "learning_points": [
+            "Patterns can repeat colours, shapes, sounds, or movements.",
+            "A loop repeats an action or instruction.",
+            "Recognising patterns helps us understand repeated steps in computing."
+          ],
+          "examples": [
+            [
+              "🔴",
+              "Red",
+              "A repeating pattern."
+            ],
+            [
+              "🔵",
+              "Blue",
+              "Continue the pattern."
+            ],
+            [
+              "🔁",
+              "Loop",
+              "Repeat an action."
+            ]
+          ],
+          "activity_text": "Create a repeating colour or shape pattern and ask students to continue it.",
+          "source_pages": []
+        },
+        {
+          "id": "f2-c7-t3",
+          "title": "Decision making",
+          "content": "Decision making means choosing what to do from different options. The chapter introduces choices and conditions using everyday examples.",
+          "learning_points": [
+            "A decision is a choice between options.",
+            "A condition helps decide which action should happen.",
+            "For example, we may choose what to do depending on whether a condition is true or false."
+          ],
+          "examples": [
+            [
+              "🤔",
+              "Think",
+              "Understand the situation."
+            ],
+            [
+              "🔀",
+              "Choose",
+              "Select an option."
+            ],
+            [
+              "✅",
+              "Act",
+              "Follow the chosen action."
+            ]
+          ],
+          "activity_text": "Give students simple situations, such as choosing what to wear depending on the weather, and discuss the decision.",
+          "source_pages": []
+        }
+      ]
+    },
+    {
+      "chapter_number": 8,
+      "title": "Instructions and Direction Sense",
+      "description": "Explore instructions and direction sense through the Foundation 2 textbook lesson and practice activities.",
+      "estimated_minutes": 20,
+      "source_pages": [],
+      "learning_objectives": [
+        "Understand the main ideas in instructions and direction sense.",
+        "Practise the skills described in the textbook."
+      ],
+      "topics": [
+        {
+          "id": "f2-c8-t1",
+          "title": "Instructions",
+          "content": "Instructions are steps that tell a person or computer what to do. A computer program is made of instructions that guide the computer through a task.",
+          "learning_points": [
+            "A program contains instructions for the computer.",
+            "Instructions should be clear and arranged in the correct order.",
+            "A sequence of commands can make a character or robot perform a task."
+          ],
+          "examples": [
+            [
+              "📋",
+              "Instructions",
+              "Steps to follow."
+            ],
+            [
+              "🤖",
+              "Program",
+              "Commands guide a robot."
+            ],
+            [
+              "▶️",
+              "Run",
+              "Carry out the steps."
+            ]
+          ],
+          "activity_text": "Ask students to give clear step-by-step instructions for a simple classroom task.",
+          "source_pages": []
+        },
+        {
+          "id": "f2-c8-t2",
+          "title": "Direction sense",
+          "content": "The chapter introduces four basic directions used to move objects on a screen: up, down, left, and right.",
+          "learning_points": [
+            "Up moves an object higher on the screen.",
+            "Down moves an object lower on the screen.",
+            "Left moves an object to the left.",
+            "Right moves an object to the right.",
+            "Arrow keys can be used to give direction commands."
+          ],
+          "examples": [
+            [
+              "⬆️",
+              "Up",
+              "Move higher."
+            ],
+            [
+              "⬇️",
+              "Down",
+              "Move lower."
+            ],
+            [
+              "⬅️",
+              "Left",
+              "Move left."
+            ],
+            [
+              "➡️",
+              "Right",
+              "Move right."
+            ]
+          ],
+          "activity_text": "Create a simple grid path and ask students to guide a character using up, down, left, and right commands.",
+          "source_pages": []
+        }
+      ]
+    },
+    {
+      "chapter_number": 9,
+      "title": "AI and Robotics",
+      "description": "Explore ai and robotics through the Foundation 2 textbook lesson and practice activities.",
+      "estimated_minutes": 20,
+      "source_pages": [],
+      "learning_objectives": [
+        "Understand the main ideas in ai and robotics.",
+        "Practise the skills described in the textbook."
+      ],
+      "topics": [
+        {
+          "id": "f2-c9-t1",
+          "title": "Introduction to AI",
+          "content": "Artificial Intelligence (AI) is a way of making machines perform tasks that usually need human intelligence, such as recognising patterns, understanding commands, and making decisions.",
+          "learning_points": [
+            "Voice assistants such as Google Assistant, Siri, and Alexa respond to voice commands.",
+            "Face recognition uses a person’s facial features to identify or verify them.",
+            "AI is used in everyday devices and services.",
+            "The chapter contrasts natural or human intelligence with artificial intelligence."
+          ],
+          "examples": [
+            [
+              "🗣️",
+              "Voice assistant",
+              "Responds to spoken commands."
+            ],
+            [
+              "🙂",
+              "Face recognition",
+              "Uses facial features."
+            ],
+            [
+              "📱",
+              "Smart device",
+              "Uses AI-enabled features."
+            ]
+          ],
+          "activity_text": "Ask students to name a voice assistant or smart feature they have seen and explain what it does.",
+          "source_pages": []
+        },
+        {
+          "id": "f2-c9-t2",
+          "title": "What are robots?",
+          "content": "A robot is a machine created by people to perform tasks. Robots can be designed for different jobs and may use sensors and instructions to act.",
+          "learning_points": [
+            "Industrial robots help make cars and assemble products.",
+            "Medical robots assist in medical work.",
+            "Entertainment robots can interact or perform activities.",
+            "Military and other specialised robots are designed for particular tasks.",
+            "Robots are machines; humans are living beings with feelings and independent human experiences."
+          ],
+          "examples": [
+            [
+              "🏭",
+              "Industrial robot",
+              "Helps in factories."
+            ],
+            [
+              "🏥",
+              "Medical robot",
+              "Supports medical work."
+            ],
+            [
+              "🎭",
+              "Entertainment robot",
+              "Interacts or performs."
+            ],
+            [
+              "🛰️",
+              "Specialised robot",
+              "Designed for a specific task."
+            ]
+          ],
+          "activity_text": "Match examples of robots with their tasks: assembling, helping in medicine, entertaining, or exploring.",
+          "source_pages": []
+        }
+      ]
+    }
+  ],
+  "content_status": "teacher_content_adapted_lesson_summaries",
+  "content_note": "Lesson summaries, key points, examples and activities are adapted from the Foundation 2 teaching content supplied with this project. Consult the Foundation 2 PDF for exact textbook wording and illustrations.",
+  "content_source_type": "teacher_content_adapted"
+}

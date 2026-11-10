@@ -1,0 +1,18 @@
+import React,{useMemo,useState} from 'react';
+import {FolderOpen,Plus,BookOpen,FileText,Search,Video,FileImage,ArrowRight,ExternalLink,UsersRound,Download,Eye} from 'lucide-react';
+import {PageShell,Metric,Section} from './PageUI.jsx';
+const defaults=[
+ {title:'The Super Machine: Computer',type:'Official textbook PDF',meta:'Foundation 1 · Class 1 · 9 chapters',kind:'book',tone:'purple',tag:'Official textbook'},
+ {title:'Mastering Coding: AI and Robotics',type:'Official textbook PDF',meta:'Foundation 2 · Class 2 · 9 chapters',kind:'book',tone:'blue',tag:'Official textbook'},
+ {title:'Parts of a Computer',type:'Chapter worksheet',meta:'Foundation 1 · Chapter 2',kind:'file',tone:'green',tag:'Worksheet'},
+ {title:'Computer Etiquettes Presentation',type:'Teaching slides',meta:'Foundation 1 · Chapter 4',kind:'image',tone:'blue',tag:'Presentation'},
+ {title:'Introduction to Robotics',type:'Video resource',meta:'Foundation 2 · Chapter 9',kind:'video',tone:'orange',tag:'Video'}
+];
+const icons={book:BookOpen,file:FileText,image:FileImage,video:Video};
+export default function StudyMaterial({foundation,classroom,resources=[],onAddResource,embedded=false}){
+ const [query,setQuery]=useState(''); const [type,setType]=useState('All');
+ const items=[...resources,...defaults];
+ const filtered=useMemo(()=>items.filter(r=>(`${r.title} ${r.type} ${r.meta||''}`).toLowerCase().includes(query.toLowerCase())&&(type==='All'||r.type===type)),[items,query,type]);
+ const content=<><div className="stats-grid"><Metric icon={BookOpen} label="Textbooks" value="2"/><Metric icon={FileText} label="PDF resources" value={18+resources.length} tone="sky"/><Metric icon={Video} label="Video resources" value="6" tone="mint"/><Metric icon={UsersRound} label="Shared with classes" value="12" tone="peach"/></div><Section icon={Search} title="Resource Library"><div className="card-toolbar"><label className="search-box"><Search size={17}/><input value={query} onChange={e=>setQuery(e.target.value)} placeholder="Search by title, chapter, or resource type..."/></label><select className="filter-select" value={type} onChange={e=>setType(e.target.value)}><option>All</option>{[...new Set(items.map(x=>x.type))].map(x=><option key={x}>{x}</option>)}</select></div><div className="vico-resource-grid">{filtered.map((r,i)=>{const Icon=icons[r.kind]||FileText;return <article className="vico-resource-card" key={`${r.title}-${i}`}><div className={`vico-resource-art ${r.tone||'purple'}`}><Icon size={31}/><span>{r.tag||r.type}</span></div><div className="vico-resource-body"><div className="vico-card-kicker">{r.meta||`${r.foundation||foundation} · ${r.classroom||classroom}`}</div><h3>{r.title}</h3><p>{r.type}</p><div className="vico-resource-footer"><button className="secondary-button small" onClick={()=>r.url?window.open(r.url,'_blank','noopener,noreferrer'):alert('This sample resource has no attached file yet.')}><Eye size={14}/> Preview</button>{r.url&&<button className="secondary-button small" onClick={()=>window.open(r.url,'_blank','noopener,noreferrer')}><ExternalLink size={14}/> Open</button>}</div></div></article>})}</div>{filtered.length===0&&<div className="resource-empty">No resources match this search. Try another keyword or filter.</div>}</Section></>;
+ return embedded?content:<PageShell icon={FolderOpen} title="Resource Library" subtitle="Find, upload, organize, and share textbooks, PDFs, worksheets, presentations, and supporting resources." foundation={foundation} classroom={classroom} action={{label:'Upload Material',icon:<Plus size={17}/>,onClick:onAddResource||(()=>alert('Use the global Add New button to add material.'))}}>{content}</PageShell>;
+}

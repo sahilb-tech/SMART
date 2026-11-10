@@ -1,0 +1,16 @@
+SMART Student Panel — Sidebar Width & Cartoon Buddy Patch
+
+Changes:
+- Desktop student sidebar width: 240 CSS px (about 6.35 cm at 96 CSS px/in).
+- Main content left offset updated to 240 px to align with the wider sidebar.
+- Mobile sidebar remains an overlay and main content uses full width.
+- Added a custom SMART cartoon learning buddy illustration to the sidebar.
+- Added a student character illustration to the dashboard hero panel.
+
+To apply:
+1. Extract this patch ZIP.
+2. Copy its folders into your existing SMART Student Panel project, preserving folder paths.
+3. Allow the files to replace existing files.
+4. Run `npm run dev`.
+
+No backend, authentication, curriculum JSON, textbook PDF, or student progress data is changed.
