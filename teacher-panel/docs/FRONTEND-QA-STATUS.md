@@ -1,4 +1,4 @@
-# VICO Teacher Panel — Frontend QA and Refinement Status
+# SMART Teacher Panel — Frontend QA and Refinement Status
 
 ## Static verification
 - PASS — Seven sidebar destinations
@@ -6,7 +6,7 @@
 - PASS — Four Teaching & Learning tabs
 - PASS — Foundation 1 textbook mapping
 - PASS — Foundation 2 textbook mapping
-- PASS — Foundation 3 and 4 empty state
+- PASS — Foundation 3 chapter/topic mapping and supplied textbook PDF added\n- PASS — Foundation 4 eight-chapter curriculum, topic lessons, and supplied textbook PDF added
 - PASS — PPT topic previews
 - PASS — Teacher session start/end controls
 - PASS — Teaching history saved locally
@@ -14,13 +14,13 @@
 ## Browser/build verification
 - Browser-based QA was not completed in this environment.
 - `npm install --ignore-scripts --no-audit --no-fund` timed out while attempting dependency installation.
-- `npm run build` could not run because Vite was not installed (`vite: not found`).
+- `npm run build` could not be verified because the uploaded archive contains platform-specific native Vite/Rolldown dependencies that are incompatible with this build environment. Reinstall dependencies with `npm install` on the target machine, then rerun the build.
 - No claim is made that the production build or interactive browser flows have passed.
 
 ## Scope reviewed
 - Seven primary navigation destinations and their route mappings.
 - Four Teaching & Learning tabs.
-- Foundation 1 and Foundation 2 textbook mapping; Foundation 3 and 4 empty-state behavior.
+- Foundation 1 and Foundation 2 textbook mapping; Foundation 3 curriculum and PDF mapping; Foundation 4 curriculum and PDF mapping.
 - PPT topic preview/navigation and teacher session start/end controls.
 - Teaching-history local persistence.
 

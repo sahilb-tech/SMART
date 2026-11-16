@@ -1,6 +1,6 @@
-# VICO Teacher Panel — Frontend Milestone 1
+# SMART Teacher Panel — Frontend Milestone 1
 
-This is the updated frontend based on the supplied `VICO-Teacher-Dashboard-Separate-Pages.zip`.
+This is the updated frontend based on the supplied `SMART-Teacher-Dashboard-Separate-Pages.zip`.
 
 ## Run locally
 
@@ -31,7 +31,7 @@ This is the updated frontend based on the supplied `VICO-Teacher-Dashboard-Separ
 - Global Add New modal supports Study Material, Lesson Note, Exercise, Periodic Test, and Question Bank Item records.
 - Study Material records created in the modal appear in Resource Library and are persisted in browser localStorage.
 - Search and resource-type filtering are available in Resource Library.
-- Responsive styling retains the existing purple VICO design language.
+- Responsive styling retains the existing purple SMART design language.
 
 ## Important limitations
 
@@ -41,7 +41,9 @@ This is a frontend prototype. It does not include a backend, database, authentic
 
 - Foundation 1 now uses the textbook shown in the user's reference: **The Super Machine: Computer**, with its nine chapters beginning with Chapter 1 — The Super Machine: Computer.
 - Foundation 2 retains the separate nine-chapter structure beginning with **More About a Computer**.
-- Foundations 3 and above display a not-configured message rather than borrowing another Foundation's textbook.
+- Foundation 3 uses the supplied **Mastering Coding: AI and Robotics — Level 3** textbook, with its eight chapters, topic-wise lesson notes, activities, and source PDF.
+- Foundation 4 uses the supplied **Mastering Coding: AI and Robotics — Level 4** textbook, with its eight chapters, topic-wise lesson notes, activities, and source PDF.
+- Each foundation opens its own textbook PDF from the topic viewer; curriculum and lesson progress remain foundation-specific.
 - Completion figures are explicitly marked as not recorded; the earlier misleading 50% sample progress was removed from the curriculum view.
 - Topic names are transcribed from the supplied screenshot where legible; confirm exact punctuation/wording against the official Foundation 1 PDF before publishing.
 
@@ -70,7 +72,7 @@ The supplied `Foundation 2.pdf` has been assigned to **Foundation 2 → Class 2*
 Foundation 2 lesson content is adapted from the uploaded 49-page scanned textbook. Some fine-print details in the scan are low-resolution; where exact wording was unclear, lesson cards use concise paraphrases of clearly legible concepts rather than claiming verbatim transcription. The current illustration cards are individual concept visuals, not full-page PDF screenshots. Bespoke textbook-style cartoon artwork can be added in a separate art pass.
 
 
-## VICO Teacher Panel — unified UI standard
+## SMART Teacher Panel — unified UI standard
 All seven teacher destinations follow a shared purple-and-white, child-friendly card system: Dashboard, Teaching & Learning, Exercises, Periodic Tests, Results & Progress, My Classes, and Resource Library. Shared patterns include consistent page headers and context strips, pastel icon tiles, rounded cards, soft borders/shadows, status pills, progress bars, compact metadata, responsive grids, and consistent primary/secondary actions. Teaching & Learning remains chapter/topic oriented; Exercises remains assignment/question oriented; Periodic Tests remains a separate formal assessment destination.
 
 
@@ -88,5 +90,62 @@ Teaching Mode now includes a teacher-led classroom session flow: start/end sessi
 ## Live classroom status
 The teacher-side session controls remain a local frontend prototype. Permanent student accounts, student panel attendance, shared live lesson state, real-time slide synchronization, and student responses require backend authentication, database persistence, and a real-time service. They are not implemented by this frontend-only milestone.
 
-## Full VICO Teacher Panel scope
-See [`docs/VICO-TEACHER-PANEL-IMPLEMENTATION-SPEC.md`](docs/VICO-TEACHER-PANEL-IMPLEMENTATION-SPEC.md) for the complete seven-page product scope, confirmed permanent student account and side-by-side live teaching workflow, curriculum mappings, PPT requirements, system-wide requirements, phased delivery plan, and unresolved decisions. The current app remains a frontend prototype; production authentication, live multi-device sync, file storage, and authoritative assessment/progress data require backend services.
+## Full SMART Teacher Panel scope
+See [`docs/SMART-TEACHER-PANEL-IMPLEMENTATION-SPEC.md`](docs/SMART-TEACHER-PANEL-IMPLEMENTATION-SPEC.md) for the complete seven-page product scope, confirmed permanent student account and side-by-side live teaching workflow, curriculum mappings, PPT requirements, system-wide requirements, phased delivery plan, and unresolved decisions. The current app remains a frontend prototype; production authentication, live multi-device sync, file storage, and authoritative assessment/progress data require backend services.
+
+
+## Foundation 3 curriculum update
+
+Foundation 3 / Class 3 is now included in Teaching & Learning and My Learning.
+
+- Textbook: *Mastering Coding: AI and Robotics — Level 3*.
+- Eight chapters are mapped from the supplied textbook contents page.
+- Topic-level lesson notes, key points, classroom activities and visual teaching prompts are included.
+- The complete 46-page textbook PDF is stored at `public/textbook/foundation3/class3/foundation-3-class-3-textbook.pdf`.
+- Foundation 3 progress and teacher notes remain separated using the existing foundation-specific browser keys.
+
+The lesson text is adapted from the uploaded textbook. It is a teaching guide, not a verbatim transcription of the entire book.
+
+Foundation 4 is still awaiting its own textbook PDF and curriculum source.
+
+
+## Foundation 4 update
+
+- Added Foundation 4 / Class 4 curriculum from the supplied 53-page Level 4 textbook.
+- Added eight chapters: History of Computers; GUI Operating System: Windows 10; Advanced Features of Word 2016; PowerPoint 2016; More on PowerPoint; Internet; Learning Scratch; Artificially Intelligent Gadgets.
+- Added topic-wise lesson explanations, key points, classroom activities, and textbook page references.
+- Added the original Level 4 textbook PDF under `public/textbook/foundation4/class4/`.
+
+
+## Foundation 3 and Foundation 4 lesson workspace
+
+The curriculum is available through **Teaching & Learning → Curriculum** and
+**Teaching & Learning → Teaching Mode**. Both views use the same foundation
+curriculum and topic lesson viewer.
+
+- Foundation 3 (Class 3): 8 chapters and 42 mapped topic lesson entries.
+- Foundation 4 (Class 4): 8 chapters and 48 mapped topic lesson entries.
+- Topic lesson views include a student-friendly explanation, learning points,
+  learning objectives, a visual concept guide, classroom activity, class
+  discussion prompt, private teacher notes, textbook PDF access, and a
+  four-slide presentation preview.
+- The supplied Foundation 3 and Foundation 4 textbook PDFs are retained in
+  `public/textbook/foundation3/class3/` and
+  `public/textbook/foundation4/class4/`.
+
+The visual concept guide is a classroom aid assembled from the lesson's
+concept labels and captions. It is not a scan or reproduction of every
+textbook illustration. Use the original textbook PDF link in each lesson
+viewer for the exact printed diagrams and page artwork.
+
+## Local run
+
+```bash
+npm install
+npm run dev
+```
+
+A production build should be run locally with `npm run build` after dependency
+installation. Dependency installation could not be completed in the build
+environment used to prepare this archive, so this archive is not represented
+as production-build verified.

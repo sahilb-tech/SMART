@@ -79,7 +79,7 @@
 @media(max-width:850px){.teacher-learning-layout{grid-template-columns:1fr}.teacher-learning-layout .chapter-list{max-height:320px}.teacher-book-banner{flex-wrap:wrap}.teacher-book-banner .learning-overview-progress{margin-left:auto}}
 @media(max-width:560px){.teacher-book-banner .learning-overview-progress{width:100%;align-items:flex-start;margin-left:53px}.learning-progress-track{width:100%}.teacher-learning-layout .lesson-panel{padding:15px}.teacher-learning-layout .topic-content{padding:13px}.teacher-learning-ui .topic-actions{flex-direction:column}.topic-navigation{flex-direction:row}.learning-footnote{text-align:left}}
 
-/* VICO student workspace — visual language aligned with the Teacher Panel */
+/* SMART student workspace — visual language aligned with the Teacher Panel */
 .student-teacher-shell{--purple:#6d2bd1;--purple-dark:#4e1c91;--ink:#171044;--muted:#77709b;--line:#e9e2fb;background:#f8f7ff;color:var(--ink)}
 .student-teacher-shell .sidebar{background:linear-gradient(180deg,#4d1c91 0%,#4b168e 58%,#7428bd 100%);border:0;color:#fff;padding:22px 13px 14px;width:234px}
 .student-teacher-shell .brand{padding:2px 9px 34px;gap:10px;color:#fff}
@@ -221,15 +221,15 @@
 @media(max-width:600px){.student-cartoon-card{padding:13px}.student-cartoon-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.student-cartoon-object{min-height:104px}}
 
 /* Gentle motion and mini-game feedback */
-@keyframes vicoFloat{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-6px) rotate(2deg)}}
-@keyframes vicoPop{0%{transform:scale(.94)}65%{transform:scale(1.05)}100%{transform:scale(1)}}
-@keyframes vicoSparkle{0%,100%{opacity:.65;transform:scale(.9) rotate(0)}50%{opacity:1;transform:scale(1.12) rotate(12deg)}}
-.student-cartoon-emoji{animation:vicoFloat 3.2s ease-in-out infinite}
+@keyframes smartFloat{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-6px) rotate(2deg)}}
+@keyframes smartPop{0%{transform:scale(.94)}65%{transform:scale(1.05)}100%{transform:scale(1)}}
+@keyframes smartSparkle{0%,100%{opacity:.65;transform:scale(.9) rotate(0)}50%{opacity:1;transform:scale(1.12) rotate(12deg)}}
+.student-cartoon-emoji{animation:smartFloat 3.2s ease-in-out infinite}
 .student-cartoon-object:nth-child(2n) .student-cartoon-emoji{animation-delay:.45s}
 .student-cartoon-object:nth-child(3n) .student-cartoon-emoji{animation-delay:.9s}
-.student-cartoon-object.active .student-cartoon-emoji{animation:vicoPop .35s ease-out}
-.student-cartoon-sparkle,.student-game-trophy{animation:vicoSparkle 2.4s ease-in-out infinite;display:inline-block}
-.student-cartoon-explanation{animation:vicoPop .28s ease-out}
+.student-cartoon-object.active .student-cartoon-emoji{animation:smartPop .35s ease-out}
+.student-cartoon-sparkle,.student-game-trophy{animation:smartSparkle 2.4s ease-in-out infinite;display:inline-block}
+.student-cartoon-explanation{animation:smartPop .28s ease-out}
 .student-mini-game-card{margin:14px 0;padding:17px;border:1px solid #eadffb;border-radius:16px;background:linear-gradient(135deg,#fffaf0,#fff 55%,#f7f2ff);box-shadow:0 4px 16px #5932a509}
 .student-game-header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:13px}
 .student-game-header .eyebrow{font-size:9px;letter-spacing:1px;color:#8756d9;font-weight:850}
@@ -241,7 +241,7 @@
 .student-game-option:hover:not(:disabled){transform:translateY(-2px);border-color:#b995ef}
 .student-game-option span{font-size:27px}
 .student-game-option b{font-size:10px;text-align:center}
-.student-game-option.correct{border:2px solid #1eb77b;background:#eafbf3;color:#08794d;animation:vicoPop .3s ease-out}
+.student-game-option.correct{border:2px solid #1eb77b;background:#eafbf3;color:#08794d;animation:smartPop .3s ease-out}
 .student-game-option.wrong{border:2px solid #ef9a9a;background:#fff1f1;color:#b53d3d}
 .student-game-feedback{font-size:11px;font-weight:750;margin-top:11px;padding:9px 11px;border-radius:9px}
 .student-game-feedback.success{color:#08794d;background:#eafbf3}
@@ -259,9 +259,9 @@
 .student-content-origin-note span{color:#806d50}
 
 
-/* VICO Student Dashboard — visual language aligned with the Teacher Workspace */
-:root{--vico-sidebar:#4b168f;--vico-sidebar-deep:#3e117d;--vico-purple:#702bd5;--vico-lavender:#9a4ce9;--vico-ink:#17133f;--vico-bg:#f7f5ff}
-body{background:var(--vico-bg);color:var(--vico-ink)}
+/* SMART Student Dashboard — visual language aligned with the Teacher Workspace */
+:root{--smart-sidebar:#4b168f;--smart-sidebar-deep:#3e117d;--smart-purple:#702bd5;--smart-lavender:#9a4ce9;--smart-ink:#17133f;--smart-bg:#f7f5ff}
+body{background:var(--smart-bg);color:var(--smart-ink)}
 .student-teacher-shell .sidebar.student-purple-sidebar{width:230px;background:linear-gradient(180deg,#4e1b91 0%,#4b168f 54%,#6e22b3 100%);border:0;padding:23px 12px 12px;color:#fff}
 .student-purple-sidebar .brand{padding:0 10px 38px;gap:10px}
 .student-purple-sidebar .brand-mark{width:43px;height:43px;border:1px solid #ffffffaa;border-radius:11px;background:#ffffff12;box-shadow:none}

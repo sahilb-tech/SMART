@@ -14,7 +14,7 @@ const textbookMap = {
 }
 
 function getSelectedFoundation() {
-  const saved = localStorage.getItem('vico:selected-foundation') || 'Foundation 1'
+  const saved = localStorage.getItem('smart:selected-foundation') || 'Foundation 1'
   return textbookMap[saved] ? saved : 'Foundation 1'
 }
 
@@ -27,10 +27,10 @@ export default function StudyMaterials() {
       const next = typeof event?.detail === 'string' ? event.detail : getSelectedFoundation()
       if (textbookMap[next]) setFoundation(next)
     }
-    window.addEventListener('vico-foundation-change', syncFoundation)
+    window.addEventListener('smart-foundation-change', syncFoundation)
     window.addEventListener('storage', syncFoundation)
     return () => {
-      window.removeEventListener('vico-foundation-change', syncFoundation)
+      window.removeEventListener('smart-foundation-change', syncFoundation)
       window.removeEventListener('storage', syncFoundation)
     }
   }, [])

@@ -15,21 +15,21 @@ const books = { 'Foundation 1': f1, 'Foundation 2': f2, 'Foundation 3': f3, 'Fou
 const read = key => { try { return JSON.parse(localStorage.getItem(key) || '{}') } catch { return {} } }
 
 export default function Dashboard() {
-  const [foundation, setFoundation] = useState(() => localStorage.getItem('vico:selected-foundation') || 'Foundation 1')
-  const [progress, setProgress] = useState(() => read(`vico:student-progress:${(localStorage.getItem('vico:selected-foundation') || 'Foundation 1').toLowerCase().replace(' ', '-')}`))
+  const [foundation, setFoundation] = useState(() => localStorage.getItem('smart:selected-foundation') || 'Foundation 1')
+  const [progress, setProgress] = useState(() => read(`smart:student-progress:${(localStorage.getItem('smart:selected-foundation') || 'Foundation 1').toLowerCase().replace(' ', '-')}`))
   useEffect(() => {
-    const sync = e => setFoundation(e.detail || localStorage.getItem('vico:selected-foundation') || 'Foundation 1')
-    const syncProgress = () => setProgress(read(`vico:student-progress:${foundation.toLowerCase().replace(' ', '-')}`))
-    window.addEventListener('vico-foundation-change', sync)
-    window.addEventListener('vico-progress-change', syncProgress)
+    const sync = e => setFoundation(e.detail || localStorage.getItem('smart:selected-foundation') || 'Foundation 1')
+    const syncProgress = () => setProgress(read(`smart:student-progress:${foundation.toLowerCase().replace(' ', '-')}`))
+    window.addEventListener('smart-foundation-change', sync)
+    window.addEventListener('smart-progress-change', syncProgress)
     window.addEventListener('storage', syncProgress)
     return () => {
-      window.removeEventListener('vico-foundation-change', sync)
-      window.removeEventListener('vico-progress-change', syncProgress)
+      window.removeEventListener('smart-foundation-change', sync)
+      window.removeEventListener('smart-progress-change', syncProgress)
       window.removeEventListener('storage', syncProgress)
     }
   }, [foundation])
-  useEffect(() => setProgress(read(`vico:student-progress:${foundation.toLowerCase().replace(' ', '-')}`)), [foundation])
+  useEffect(() => setProgress(read(`smart:student-progress:${foundation.toLowerCase().replace(' ', '-')}`)), [foundation])
 
   const book = books[foundation] || f1
   const chapters = book.chapters || []
@@ -46,7 +46,7 @@ export default function Dashboard() {
   const foundationNumber = foundation.match(/\d+/)?.[0] || '1'
 
   return <div className="student-dashboard">
-    <PageHeader title="Good morning, learner!" description={`Ready to discover something new? Continue your ${book.foundation} learning journey with VICO.`} />
+    <PageHeader title="Good morning, learner!" description={`Ready to discover something new? Continue your ${book.foundation} learning journey with SMART.`} />
 
     <section className="student-hero">
       <div className="student-hero-copy">
@@ -57,7 +57,7 @@ export default function Dashboard() {
       </div>
       <div className="student-hero-art" aria-hidden="true">
         <div className="student-hero-orbit"></div>
-        <img className="student-hero-character" src="/images/vico-student-hero-character.png" alt="" />
+        <img className="student-hero-character" src="/images/smart-student-hero-character.png" alt="" />
       </div>
     </section>
 
@@ -72,7 +72,7 @@ export default function Dashboard() {
       <section className="student-dashboard-panel today-learning-panel">
         <div className="student-panel-heading"><div><CalendarIcon/><h2>Today's Learning</h2></div><span className="student-today-pill">{book.foundation} · {book.class_name}</span></div>
         {next ? <div className="today-learning-content">
-          <div className="today-book-cover"><span>{book.foundation}</span><strong>{book.textbook_title}</strong><small>VICO LEARNING</small><div>💻</div></div>
+          <div className="today-book-cover"><span>{book.foundation}</span><strong>{book.textbook_title}</strong><small>SMART LEARNING</small><div>💻</div></div>
           <div className="today-learning-detail">
             <span className="student-eyebrow">CHAPTER {nextChapter?.chapter_number} · {book.foundation.toUpperCase()}</span>
             <h3>{nextChapter?.title}</h3>

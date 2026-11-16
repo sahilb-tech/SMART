@@ -8,10 +8,11 @@ const tabs=[['Curriculum',BookOpen],['Teaching Mode',MonitorPlay],['Resources',F
 export default function TeachingLearning({foundation,classroom,resources,onAddResource}){
  const [tab,setTab]=useState('Curriculum');
  const [history,setHistory]=useState([]);
- useEffect(()=>{try{setHistory(JSON.parse(localStorage.getItem(`vico-teaching-sessions-${foundation}`)||'[]').filter(x=>x.classroom===classroom));}catch{setHistory([])}},[foundation,classroom,tab]);
+ useEffect(()=>{try{setHistory(JSON.parse(localStorage.getItem(`smart-teaching-sessions-${foundation}`)||'[]').filter(x=>x.classroom===classroom));}catch{setHistory([])}},[foundation,classroom,tab]);
  return <div className="generic-page teaching-learning-page">
-  <div className="page-heading"><div className="page-heading-icon"><BookOpen size={27}/></div><div className="page-heading-copy"><div className="eyebrow">VICO TEACHER WORKSPACE</div><h1>Teaching &amp; Learning</h1><p>Explore your curriculum, prepare lessons, teach your class, and review teaching activity.</p></div></div>
+  <div className="page-heading"><div className="page-heading-icon"><BookOpen size={27}/></div><div className="page-heading-copy"><div className="eyebrow">SMART TEACHER WORKSPACE</div><h1>Teaching &amp; Learning</h1><p>Explore the complete foundation curriculum, open topic lessons, use visual teaching guides and activities, present topic slides, and review teaching activity.</p></div></div>
   <div className="context-strip"><span><BookOpen size={16}/>{foundation}</span><span>Class: {classroom}</span><span className="context-live"><i/> Curriculum workspace</span></div>
+  <div className="teaching-learning-content-note"><BookOpen size={17}/><span><b>Lesson workspace:</b> chapter topics, lesson explanations, learning objectives, visual concept guides, classroom activities, teacher notes and presentation previews are available from the Curriculum and Teaching Mode tabs.</span></div>
   <div className="workspace-tabs" role="tablist">{tabs.map(([name,Icon])=><button key={name} role="tab" aria-selected={tab===name} className={tab===name?'selected':''} onClick={()=>setTab(name)}><Icon size={17}/>{name}</button>)}</div>
   {tab==='Curriculum'&&<MyLearning foundation={foundation} classroom={classroom}/>}
   {tab==='Teaching Mode'&&<MyLearning foundation={foundation} classroom={classroom} mode="teaching"/>}

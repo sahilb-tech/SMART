@@ -1,7 +1,7 @@
 # PPT Presentation Enhancements — Milestone 2
 
 ## Included
-- Added full-window presentation mode within the VICO presentation viewer.
+- Added full-window presentation mode within the SMART presentation viewer.
 - Added keyboard navigation: Left Arrow / Right Arrow changes slides; Escape closes the viewer.
 - Added a slide progress indicator and classroom keyboard hints.
 - Added a topic-specific cover slide with available lesson illustration examples.

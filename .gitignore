@@ -1,0 +1,22 @@
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment and system files
+.env
+.env.*
+.DS_Store
+
+# Temporary OCR files
+foundation2_ocr.txt
+foundation3_ocr.txt
+foundation4_ocr.txt
+
+# Temporary patch notes
+DASHBOARD-SIDEBAR-MASCOT-PATCH.txt
+
+# Generated ZIP archives
+*.zip

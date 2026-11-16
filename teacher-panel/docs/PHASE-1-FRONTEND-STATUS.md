@@ -1,4 +1,4 @@
-# VICO Teacher Panel — Phase 1 Frontend Status
+# SMART Teacher Panel — Phase 1 Frontend Status
 
 ## Scope
 Phase 1 is the frontend foundation for the seven-page teacher workspace. This is a client-side prototype and must not be represented as a production-connected classroom system.
@@ -15,7 +15,7 @@ Phase 1 is the frontend foundation for the seven-page teacher workspace. This is
 ## Curriculum requirements represented in the frontend
 - Foundation 1 · Class 1: The Super Machine: Computer; nine chapters ending with Introduction to AI and Robotics.
 - Foundation 2 · Class 2: Mastering Coding: AI and Robotics; nine chapters beginning with More About a Computer and ending with AI and Robotics.
-- Foundation 3 · Class 3 and Foundation 4 · Class 4: placeholders for future curriculum content.
+- Foundation 3 · Class 3 and Foundation 4 · Class 4: eight-chapter curriculum mappings with separate textbook PDFs and topic-wise lesson notes.
 - Foundation-specific progress is stored separately in browser local storage.
 - Topic-linked PPT preview is available for topics with lesson content in the current source data.
 

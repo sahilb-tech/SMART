@@ -112,10 +112,10 @@ const getCartoonObjects = (topic, chapter) => {
 }
 
 export default function MyLearning() {
-  const [foundationName, setFoundationName] = useState(() => localStorage.getItem('vico:selected-foundation') || 'Foundation 1')
+  const [foundationName, setFoundationName] = useState(() => localStorage.getItem('smart:selected-foundation') || 'Foundation 1')
   const curriculum = curriculumMap[foundationName] || foundation1Class1
-  const progressKey = `vico:student-progress:${foundationName.toLowerCase().replace(' ','-')}`
-  const notesKey = `vico:student-notes:${foundationName.toLowerCase().replace(' ','-')}`
+  const progressKey = `smart:student-progress:${foundationName.toLowerCase().replace(' ','-')}`
+  const notesKey = `smart:student-notes:${foundationName.toLowerCase().replace(' ','-')}`
   const chapters = curriculum.chapters || []
   const allTopics = useMemo(() => chapters.flatMap((chapter, ci) => chapter.topics.map((topic, ti) => ({ chapter, topic, ci, ti }))), [chapters])
   const [chapterIndex, setChapterIndex] = useState(0)
@@ -141,16 +141,16 @@ export default function MyLearning() {
 
   useEffect(() => {
     const syncFoundation = (event) => setFoundationName(event.detail)
-    window.addEventListener('vico-foundation-change', syncFoundation)
-    return () => window.removeEventListener('vico-foundation-change', syncFoundation)
+    window.addEventListener('smart-foundation-change', syncFoundation)
+    return () => window.removeEventListener('smart-foundation-change', syncFoundation)
   }, [])
   useEffect(() => {
-    localStorage.setItem('vico:selected-foundation', foundationName)
+    localStorage.setItem('smart:selected-foundation', foundationName)
     setChapterIndex(0); setTopicIndex(0); setChapterOpen(false); setLessonOpen(false); setTab('curriculum')
-    setProgress(readStore(`vico:student-progress:${foundationName.toLowerCase().replace(' ','-')}`))
-    setNotes(readStore(`vico:student-notes:${foundationName.toLowerCase().replace(' ','-')}`))
+    setProgress(readStore(`smart:student-progress:${foundationName.toLowerCase().replace(' ','-')}`))
+    setNotes(readStore(`smart:student-notes:${foundationName.toLowerCase().replace(' ','-')}`))
   }, [foundationName])
-  useEffect(() => { try { localStorage.setItem(progressKey, JSON.stringify(progress)); window.dispatchEvent(new CustomEvent('vico-progress-change',{detail:progress})) } catch {} }, [progress, progressKey])
+  useEffect(() => { try { localStorage.setItem(progressKey, JSON.stringify(progress)); window.dispatchEvent(new CustomEvent('smart-progress-change',{detail:progress})) } catch {} }, [progress, progressKey])
   useEffect(() => { try { localStorage.setItem(notesKey, JSON.stringify(notes)) } catch {} }, [notes, notesKey])
 
   const selectChapter = (ci) => { setChapterIndex(ci); setTopicIndex(0); setChapterOpen(true); setLessonOpen(false); setTab('curriculum'); }
@@ -170,7 +170,7 @@ export default function MyLearning() {
   const gamePrompt = ({mouse:'Which object helps you point and click on the screen?',keyboard:'Which device is used to type letters and numbers?',brush:'Which tool helps you paint freehand strokes?',robot:'Which machine can be programmed to perform tasks?',browser:'Which application helps you open websites?',washing:'Which machine helps wash clothes?',keyboardInput:'Which device sends typed information into a computer?',monitor:'Which device displays information on a screen?'})[gameCorrectId] || 'Which object matches the lesson?'
 
   return <div className="learning-page teacher-learning-ui student-learning-ui">
-    <div className="page-header"><div><span className="eyebrow">VICO STUDENT WORKSPACE</span><h1>My Learning</h1><p>Explore your textbook, understand each topic, and track your learning journey.</p></div><label className="class-chip curriculum-switcher"><BookOpen size={14}/><select value={foundationName} onChange={e=>{setFoundationName(e.target.value);localStorage.setItem('vico:selected-foundation',e.target.value);window.dispatchEvent(new CustomEvent('vico-foundation-change',{detail:e.target.value}))}}>{Object.keys(curriculumMap).map(name=><option key={name}>{name}</option>)}</select></label></div>
+    <div className="page-header"><div><span className="eyebrow">SMART STUDENT WORKSPACE</span><h1>My Learning</h1><p>Explore your textbook, understand each topic, and track your learning journey.</p></div><label className="class-chip curriculum-switcher"><BookOpen size={14}/><select value={foundationName} onChange={e=>{setFoundationName(e.target.value);localStorage.setItem('smart:selected-foundation',e.target.value);window.dispatchEvent(new CustomEvent('smart-foundation-change',{detail:e.target.value}))}}>{Object.keys(curriculumMap).map(name=><option key={name}>{name}</option>)}</select></label></div>
     <div className="student-curriculum-strip"><span className="curriculum-pill"><BookOpen size={14}/> {curriculum.foundation}</span><span className="curriculum-pill">Class: {curriculum.class_name}</span><span className="curriculum-progress-label"><Trophy size={15}/> {completed} of {allTopics.length} topics completed</span></div>
     <div className="student-learning-tabs"><button className={tab==='curriculum'?'active':''} onClick={()=>setTab('curriculum')}><BookOpen size={15}/> Curriculum</button><button className={tab==='progress'?'active':''} onClick={()=>setTab('progress')}><Target size={15}/> My Progress</button><button className={tab==='notes'?'active':''} onClick={()=>setTab('notes')}><StickyNote size={15}/> My Notes</button></div>
     <section className="student-book-card"><div className="student-book-icon"><BookOpen size={27}/></div><div><span className="eyebrow">YOUR SELECTED TEXTBOOK · {curriculum.foundation.toUpperCase()}</span><h2>{curriculum.textbook_title}</h2><p>{curriculum.foundation} · {curriculum.class_name} · {chapters.length} chapters · {allTopics.length} topics</p></div><div className="student-book-progress"><strong>{percent}%</strong><span>Overall completion</span><div className="learning-progress-track"><span style={{width:`${percent}%`}}/></div></div></section>
