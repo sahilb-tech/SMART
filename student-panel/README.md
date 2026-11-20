@@ -17,11 +17,12 @@ Each Foundation has its own curriculum JSON and its own textbook PDF:
 
 ## Content provenance and status
 - Foundation 1: lesson summaries, key learning points, examples and activities adapted from the supplied scanned textbook. This is adapted lesson content, not a verbatim transcription of every textbook page.
-- Foundation 2: lesson summaries, key learning points, examples and activities adapted from the supplied Foundation 2 teacher-panel content. Consult its PDF for exact wording and illustrations.
-- Foundation 3: topic-specific supplementary explanations, learning points, examples and practice activities have been added for the listed chapters/topics. The scanned PDF did not yield reliable text extraction in this pass, so these explanations are clearly labelled supplementary and must be checked against the textbook before being treated as textbook-derived content.
-- Foundation 4: topic-specific supplementary explanations, learning points, examples and practice activities have been added for the listed chapters/topics. The scanned PDF did not yield reliable text extraction in this pass, so these explanations are clearly labelled supplementary and must be checked against the textbook before being treated as textbook-derived content.
+- Foundation 2: lesson summaries, key learning points, examples and activities adapted from the supplied Foundation 2 teacher-panel lesson content. Consult its PDF for exact wording and illustrations.
+- Foundation 3: 8 chapters and 42 topics. Topic-specific explanations, key learning points, illustrated examples and activities are adapted from the updated Teacher Panel lesson content and supplied textbook. They are not verbatim textbook transcription.
+- Foundation 4: 8 chapters and 48 topics. Topic-specific explanations, key learning points and activities are adapted from the updated Teacher Panel lesson content and supplied textbook. They are not verbatim textbook transcription.
+- Foundation 3 and Foundation 4 retain separate textbook PDFs under `public/textbooks/`. The Study Materials page opens the PDF for the selected Foundation.
 
-The Student Panel displays the content provenance in the lesson view. It does not describe supplementary explanations as extracted textbook text.
+The lesson view identifies adapted Foundation 3 and Foundation 4 content and displays chapter/page references where provided. Use the textbook PDF for original diagrams, exact wording and complete textbook exercises.
 
 ## Other features retained
 - Teacher Panel-inspired purple/lavender UI
