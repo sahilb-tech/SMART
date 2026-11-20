@@ -112,7 +112,7 @@ const getCartoonObjects = (topic, chapter) => {
 }
 
 export default function MyLearning() {
-  const [foundationName, setFoundationName] = useState(() => localStorage.getItem('smart:selected-foundation') || 'Foundation 1')
+  const [foundationName, setFoundationName] = useState(() => (localStorage.getItem('smart:selected-foundation') || localStorage.getItem('SMART:selected-foundation') || 'Foundation 1'))
   const curriculum = curriculumMap[foundationName] || foundation1Class1
   const progressKey = `smart:student-progress:${foundationName.toLowerCase().replace(' ','-')}`
   const notesKey = `smart:student-notes:${foundationName.toLowerCase().replace(' ','-')}`
@@ -140,9 +140,10 @@ export default function MyLearning() {
   const status = topic ? progress[topic.id] || 'not_started' : 'not_started'
 
   useEffect(() => {
-    const syncFoundation = (event) => setFoundationName(event.detail)
+    const syncFoundation = (event) => { const next = event.detail || localStorage.getItem('smart:selected-foundation') || localStorage.getItem('SMART:selected-foundation'); if (curriculumMap[next]) setFoundationName(next) }
     window.addEventListener('smart-foundation-change', syncFoundation)
-    return () => window.removeEventListener('smart-foundation-change', syncFoundation)
+    window.addEventListener('storage', syncFoundation)
+    return () => { window.removeEventListener('smart-foundation-change', syncFoundation); window.removeEventListener('storage', syncFoundation) }
   }, [])
   useEffect(() => {
     localStorage.setItem('smart:selected-foundation', foundationName)
