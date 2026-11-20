@@ -1,646 +1,1669 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "foundation": "Foundation 3",
   "class_name": "Class 3",
-  "textbook_title": "A Textbook of Computer Science with Lab Activities — Class 3",
+  "textbook_title": "Mastering Coding: AI and Robotics — Level 3",
   "source": {
     "file": "Foundation 3.pdf",
-    "note": "Chapter structure follows the supplied textbook contents. Topic revision prompts are study guides; consult the linked textbook PDF for the full lesson wording, diagrams and exercises."
+    "title": "Mastering Coding: AI and Robotics — Level 3",
+    "note": "Chapter and topic structure follows the updated Teacher Panel curriculum. Topic explanations, learning points and activities are adapted lesson notes, not verbatim textbook transcription. Consult the linked textbook PDF for complete original text, diagrams and exercises."
   },
   "chapters": [
     {
       "chapter_number": 1,
       "title": "The Computer System",
-      "description": "Study the computer system using the textbook and lesson topics.",
-      "estimated_minutes": 20,
-      "source_pages": [],
+      "description": "Explore the computer system through clear explanations, examples and guided activities.",
+      "estimated_minutes": 25,
+      "source_pages": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
       "learning_objectives": [
-        "Understand the key ideas in the computer system.",
-        "Practise the skills and activities introduced in this chapter."
+        "A computer system accepts data and instructions as input.",
+        "The processing unit works on the input.",
+        "Desktop computers are commonly used at a fixed workstation.",
+        "Laptops are portable computers."
       ],
       "topics": [
         {
           "id": "f3-c1-t1",
-          "title": "The Computer System",
-          "content": "A computer system is a group of hardware and software components that work together. The physical devices let us enter data, process it, display results and store information.",
+          "title": "What is a Computer System?",
+          "content": "A computer system is an electronic system that accepts input, processes data, stores information and produces output. The chapter introduces the main parts that work together to perform these tasks.",
           "learning_points": [
-            "Understand the main idea of the computer system.",
-            "Identify the important terms and tools connected with this topic.",
-            "Explain the concept using an example from everyday computer use."
+            "A computer system accepts data and instructions as input.",
+            "The processing unit works on the input.",
+            "The system produces useful information as output.",
+            "Different computer devices use the same basic input, process and output idea."
           ],
           "examples": [
-            "Think of a real-life situation where the computer system is used."
+            "Input: Enter data and instructions.",
+            "Processing: Work on the supplied data.",
+            "Output: Show the result."
           ],
-          "activity_text": "Practice: explain the computer system in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
-          "source_pages": [],
-          "content_source": "supplementary_explanation",
-          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
-        },
-        {
-          "id": "f3-c1-t2",
-          "title": "How Does a Computer Work?",
-          "content": "A computer follows a working cycle: it receives data as input, processes the data according to instructions, and provides information as output. It can also store data for later use.",
-          "learning_points": [
-            "Understand the main idea of how does a computer work?.",
-            "Identify the important terms and tools connected with this topic.",
-            "Explain the concept using an example from everyday computer use."
+          "activity_text": "Ask students to identify the input, processing and output parts in a desktop computer.",
+          "source_pages": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
           ],
-          "examples": [
-            "Think of a real-life situation where how does a computer work? is used."
-          ],
-          "activity_text": "Practice: explain how does a computer work? in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
-          "source_pages": [],
-          "content_source": "supplementary_explanation",
-          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 1, printed pages 5–10.",
+          "visual_guide": [
+            [
+              "⌨️",
+              "Input",
+              "Enter data and instructions."
+            ],
+            [
+              "🧠",
+              "Processing",
+              "Work on the supplied data."
+            ],
+            [
+              "🖥️",
+              "Output",
+              "Show the result."
+            ]
+          ]
         },
         {
           "id": "f3-c1-t3",
           "title": "Types of Computers",
-          "content": "Computers are available in different forms for different needs. Desktop computers are commonly used at desks, laptops are portable, and smaller devices are designed for mobile use or specialised tasks.",
+          "content": "The textbook introduces different computer types, including desktops, laptops, tablets and other compact or specialised computers. Their form and size vary according to how and where they are used.",
           "learning_points": [
-            "Understand the main idea of types of computers.",
-            "Identify the important terms and tools connected with this topic.",
-            "Explain the concept using an example from everyday computer use."
+            "Desktop computers are commonly used at a fixed workstation.",
+            "Laptops are portable computers.",
+            "Tablets and smartphones are compact computing devices.",
+            "Special-purpose computers are built into many everyday systems."
           ],
           "examples": [
-            "Think of a real-life situation where types of computers is used."
+            "Desktop: Usually stays at a workstation.",
+            "Laptop: Portable computer.",
+            "Tablet / phone: Compact computing devices."
           ],
-          "activity_text": "Practice: explain types of computers in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "activity_text": "Show pictures of a desktop, laptop, tablet and smartphone. Ask students to compare portability and use.",
           "source_pages": [],
-          "content_source": "supplementary_explanation",
-          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 1.",
+          "visual_guide": [
+            [
+              "🖥️",
+              "Desktop",
+              "Usually stays at a workstation."
+            ],
+            [
+              "💻",
+              "Laptop",
+              "Portable computer."
+            ],
+            [
+              "📱",
+              "Tablet / phone",
+              "Compact computing devices."
+            ]
+          ]
+        },
+        {
+          "id": "f3-c1-t3",
+          "title": "Input Devices",
+          "content": "Input devices help users enter data and instructions into a computer. The chapter shows common input devices and explains how they help people communicate with a computer.",
+          "learning_points": [
+            "A keyboard enters letters, numbers and commands.",
+            "A mouse or touchpad controls the pointer.",
+            "A microphone captures sound.",
+            "A scanner and camera can send images into a computer."
+          ],
+          "examples": [
+            "Keyboard: Types text and numbers.",
+            "Mouse: Controls the pointer.",
+            "Microphone: Captures sound.",
+            "Camera: Captures images."
+          ],
+          "activity_text": "Ask students to sort the pictured devices into keyboard, pointing, sound and image input.",
+          "source_pages": [],
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 1.",
+          "visual_guide": [
+            [
+              "⌨️",
+              "Keyboard",
+              "Types text and numbers."
+            ],
+            [
+              "🖱️",
+              "Mouse",
+              "Controls the pointer."
+            ],
+            [
+              "🎙️",
+              "Microphone",
+              "Captures sound."
+            ],
+            [
+              "📷",
+              "Camera",
+              "Captures images."
+            ]
+          ]
+        },
+        {
+          "id": "f3-c1-t4",
+          "title": "Output Devices",
+          "content": "Output devices present the results of computer processing. They communicate information through visual, printed or audio output.",
+          "learning_points": [
+            "A monitor displays text, pictures and video.",
+            "A printer produces a paper copy.",
+            "Speakers and headphones provide sound output.",
+            "A projector displays computer output on a large screen."
+          ],
+          "examples": [
+            "Monitor: Displays information.",
+            "Printer: Produces a printout.",
+            "Speakers: Play sound.",
+            "Projector: Displays a large image."
+          ],
+          "activity_text": "Ask students to name whether a monitor, printer, speaker or projector produces visual, printed or audio output.",
+          "source_pages": [],
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 1.",
+          "visual_guide": [
+            [
+              "🖥️",
+              "Monitor",
+              "Displays information."
+            ],
+            [
+              "🖨️",
+              "Printer",
+              "Produces a printout."
+            ],
+            [
+              "🔊",
+              "Speakers",
+              "Play sound."
+            ],
+            [
+              "📽️",
+              "Projector",
+              "Displays a large image."
+            ]
+          ]
+        },
+        {
+          "id": "f3-c1-t5",
+          "title": "Processing Devices",
+          "content": "Processing devices work on the data and instructions entered into a computer. The CPU is the main processing component described in the chapter.",
+          "learning_points": [
+            "The CPU stands for Central Processing Unit.",
+            "It processes data and follows instructions.",
+            "Processing turns input data into useful information."
+          ],
+          "examples": [
+            "CPU: Processes data and instructions.",
+            "Processing: Transforms input into results."
+          ],
+          "activity_text": "Use the input–process–output sequence to explain what happens when a student types a word and sees it on screen.",
+          "source_pages": [],
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 1.",
+          "visual_guide": [
+            [
+              "🧠",
+              "CPU",
+              "Processes data and instructions."
+            ],
+            [
+              "⚙️",
+              "Processing",
+              "Transforms input into results."
+            ]
+          ]
+        },
+        {
+          "id": "f3-c1-t6",
+          "title": "Storage Devices",
+          "content": "Storage devices keep data, programs and information so they can be used later. The chapter introduces examples of storage hardware.",
+          "learning_points": [
+            "A hard disk or solid-state drive stores files in a computer.",
+            "A pen drive is portable storage.",
+            "Memory cards store files in compact devices.",
+            "Optical discs are another storage medium."
+          ],
+          "examples": [
+            "Hard disk: Stores files inside a computer.",
+            "Pen drive: Portable storage.",
+            "Memory card: Compact storage.",
+            "Optical disc: Stores data on a disc."
+          ],
+          "activity_text": "Ask students which storage device they would use to carry a school presentation to another computer.",
+          "source_pages": [],
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 1.",
+          "visual_guide": [
+            [
+              "💽",
+              "Hard disk",
+              "Stores files inside a computer."
+            ],
+            [
+              "🔑",
+              "Pen drive",
+              "Portable storage."
+            ],
+            [
+              "💳",
+              "Memory card",
+              "Compact storage."
+            ],
+            [
+              "💿",
+              "Optical disc",
+              "Stores data on a disc."
+            ]
+          ]
         }
       ]
     },
     {
       "chapter_number": 2,
       "title": "Hardware and Software",
-      "description": "Study hardware and software using the textbook and lesson topics.",
-      "estimated_minutes": 20,
+      "description": "Explore hardware and software through clear explanations, examples and guided activities.",
+      "estimated_minutes": 25,
       "source_pages": [],
       "learning_objectives": [
-        "Understand the key ideas in hardware and software.",
-        "Practise the skills and activities introduced in this chapter."
+        "The monitor, keyboard, mouse and CPU cabinet are hardware.",
+        "Hardware components work together as a computer system.",
+        "Keyboard, mouse and scanner are examples of input hardware.",
+        "Monitor, printer and speakers are examples of output hardware."
       ],
       "topics": [
         {
           "id": "f3-c2-t1",
-          "title": "Hardware",
-          "content": "Hardware means the physical parts of a computer that we can see and touch. Examples include the monitor, keyboard, mouse, CPU cabinet, printer and storage devices.",
+          "title": "Computer Hardware",
+          "content": "Hardware means the physical parts of a computer that can be seen and touched. The chapter groups hardware according to the work each part performs.",
           "learning_points": [
-            "Understand the main idea of hardware.",
-            "Identify the important terms and tools connected with this topic.",
-            "Explain the concept using an example from everyday computer use."
+            "The monitor, keyboard, mouse and CPU cabinet are hardware.",
+            "Hardware components work together as a computer system.",
+            "Different hardware components perform input, processing, output or storage tasks."
           ],
           "examples": [
-            "A keyboard, monitor and printer are physical hardware devices."
+            "Monitor: Displays output.",
+            "Keyboard: Enters information.",
+            "Mouse: Points and selects.",
+            "CPU: Processes information."
           ],
-          "activity_text": "Practice: explain hardware in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "activity_text": "Ask students to point to five hardware parts in the computer lab and describe their purpose.",
           "source_pages": [],
-          "content_source": "supplementary_explanation",
-          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 2.",
+          "visual_guide": [
+            [
+              "🖥️",
+              "Monitor",
+              "Displays output."
+            ],
+            [
+              "⌨️",
+              "Keyboard",
+              "Enters information."
+            ],
+            [
+              "🖱️",
+              "Mouse",
+              "Points and selects."
+            ],
+            [
+              "🧠",
+              "CPU",
+              "Processes information."
+            ]
+          ]
         },
         {
           "id": "f3-c2-t2",
-          "title": "Input Devices",
-          "content": "Input devices send data and instructions to a computer. A keyboard enters text, a mouse controls the pointer, and a microphone can capture sound.",
+          "title": "Input, Output and Storage Hardware",
+          "content": "Computer hardware can be grouped by function. Input hardware sends data into the computer, output hardware presents results, and storage hardware keeps data.",
           "learning_points": [
-            "Understand the main idea of input devices.",
-            "Identify the important terms and tools connected with this topic.",
-            "Explain the concept using an example from everyday computer use."
+            "Keyboard, mouse and scanner are examples of input hardware.",
+            "Monitor, printer and speakers are examples of output hardware.",
+            "Hard disks, pen drives and memory cards are storage hardware."
           ],
           "examples": [
-            "A keyboard enters text; a mouse helps select items."
+            "Input: Sends data to a computer.",
+            "Output: Presents computer results.",
+            "Storage: Keeps data for later."
           ],
-          "activity_text": "Practice: explain input devices in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "activity_text": "Create three labels—Input, Output and Storage—and ask students to place device names under the correct label.",
           "source_pages": [],
-          "content_source": "supplementary_explanation",
-          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 2.",
+          "visual_guide": [
+            [
+              "📥",
+              "Input",
+              "Sends data to a computer."
+            ],
+            [
+              "📤",
+              "Output",
+              "Presents computer results."
+            ],
+            [
+              "💾",
+              "Storage",
+              "Keeps data for later."
+            ]
+          ]
         },
         {
           "id": "f3-c2-t3",
-          "title": "Output Devices",
-          "content": "Output devices present the results of computer processing. A monitor displays information, speakers play sound, and a printer produces a paper copy.",
+          "title": "Computer Software",
+          "content": "Software is the set of programs and instructions that tells computer hardware what to do. Hardware and software work together to make a computer useful.",
           "learning_points": [
-            "Understand the main idea of output devices.",
-            "Identify the important terms and tools connected with this topic.",
-            "Explain the concept using an example from everyday computer use."
+            "Software consists of programs and instructions.",
+            "A computer needs software to perform tasks.",
+            "The chapter groups software into system, application and utility software."
           ],
           "examples": [
-            "A monitor displays information; a printer produces a paper copy."
+            "Software: Programs and instructions.",
+            "Hardware: Physical computer parts."
           ],
-          "activity_text": "Practice: explain output devices in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "activity_text": "Ask students to name software they use for drawing, writing or learning.",
           "source_pages": [],
-          "content_source": "supplementary_explanation",
-          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
-        },
-        {
-          "id": "f3-c2-t4",
-          "title": "Storage Devices",
-          "content": "Storage devices keep files and information so they can be used later. Examples include a hard disk, solid-state drive, USB flash drive and memory card.",
-          "learning_points": [
-            "Understand the main idea of storage devices.",
-            "Identify the important terms and tools connected with this topic.",
-            "Explain the concept using an example from everyday computer use."
-          ],
-          "examples": [
-            "A USB flash drive and a hard disk can store files."
-          ],
-          "activity_text": "Practice: explain storage devices in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
-          "source_pages": [],
-          "content_source": "supplementary_explanation",
-          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
-        },
-        {
-          "id": "f3-c2-t5",
-          "title": "Software",
-          "content": "Software is a set of programs and instructions that tells a computer what to do. Unlike hardware, software cannot be touched physically.",
-          "learning_points": [
-            "Understand the main idea of software.",
-            "Identify the important terms and tools connected with this topic.",
-            "Explain the concept using an example from everyday computer use."
-          ],
-          "examples": [
-            "A word processor and a drawing program are examples of software."
-          ],
-          "activity_text": "Practice: explain software in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
-          "source_pages": [],
-          "content_source": "supplementary_explanation",
-          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 2.",
+          "visual_guide": [
+            [
+              "💿",
+              "Software",
+              "Programs and instructions."
+            ],
+            [
+              "🖥️",
+              "Hardware",
+              "Physical computer parts."
+            ]
+          ]
         },
         {
           "id": "f3-c2-t6",
           "title": "System Software",
-          "content": "System software manages the computer and helps its hardware and applications work together. An operating system is an important example.",
+          "content": "System software helps operate and control the computer. An operating system manages the computer and provides an environment in which applications can run.",
           "learning_points": [
-            "Understand the main idea of system software.",
-            "Identify the important terms and tools connected with this topic.",
-            "Explain the concept using an example from everyday computer use."
+            "System software helps the computer work.",
+            "An operating system manages computer resources.",
+            "Windows and Linux are examples shown in the textbook."
           ],
           "examples": [
-            "An operating system manages the computer and helps applications run."
+            "Windows: An operating system.",
+            "Linux: An operating system."
           ],
-          "activity_text": "Practice: explain system software in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "activity_text": "Ask students to identify the operating system they see when the computer starts.",
           "source_pages": [],
-          "content_source": "supplementary_explanation",
-          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 2.",
+          "visual_guide": [
+            [
+              "🪟",
+              "Windows",
+              "An operating system."
+            ],
+            [
+              "🐧",
+              "Linux",
+              "An operating system."
+            ]
+          ]
         },
         {
           "id": "f3-c2-t7",
           "title": "Application Software",
-          "content": "Application software helps users complete particular tasks. Examples include word processors for documents, drawing programs for pictures and presentation software for slides.",
+          "content": "Application software helps users perform particular tasks, such as writing, drawing, learning or playing games.",
           "learning_points": [
-            "Understand the main idea of application software.",
-            "Identify the important terms and tools connected with this topic.",
-            "Explain the concept using an example from everyday computer use."
+            "Word-processing software is used to create documents.",
+            "Drawing programs help users create pictures.",
+            "Educational programs support learning.",
+            "Different applications are designed for different tasks."
           ],
           "examples": [
-            "A presentation program helps create slides."
+            "Word processing: Create documents.",
+            "Drawing app: Create pictures.",
+            "Educational app: Support learning."
           ],
-          "activity_text": "Practice: explain application software in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "activity_text": "Match Word, Paint and an educational app to the task each one helps complete.",
           "source_pages": [],
-          "content_source": "supplementary_explanation",
-          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 2.",
+          "visual_guide": [
+            [
+              "📝",
+              "Word processing",
+              "Create documents."
+            ],
+            [
+              "🎨",
+              "Drawing app",
+              "Create pictures."
+            ],
+            [
+              "📚",
+              "Educational app",
+              "Support learning."
+            ]
+          ]
+        },
+        {
+          "id": "f3-c2-t6",
+          "title": "Utility Software",
+          "content": "Utility software helps maintain, protect or manage a computer. The textbook gives antivirus software as an example of a utility program.",
+          "learning_points": [
+            "Utility software performs maintenance tasks.",
+            "Antivirus software helps protect a computer from viruses.",
+            "Utilities support the smooth operation of a computer."
+          ],
+          "examples": [
+            "Antivirus: Helps protect a computer.",
+            "Utility: Supports maintenance."
+          ],
+          "activity_text": "Discuss why keeping security software updated is a useful computer-care habit.",
+          "source_pages": [],
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 2.",
+          "visual_guide": [
+            [
+              "🛡️",
+              "Antivirus",
+              "Helps protect a computer."
+            ],
+            [
+              "🧰",
+              "Utility",
+              "Supports maintenance."
+            ]
+          ]
         }
       ]
     },
     {
       "chapter_number": 3,
       "title": "File Management",
-      "description": "Study file management using the textbook and lesson topics.",
-      "estimated_minutes": 20,
+      "description": "Explore file management through clear explanations, examples and guided activities.",
+      "estimated_minutes": 25,
       "source_pages": [],
       "learning_objectives": [
-        "Understand the key ideas in file management.",
-        "Practise the skills and activities introduced in this chapter."
+        "Documents, pictures, audio and video can be stored as files.",
+        "A folder can contain files and other folders.",
+        "A document file stores written information.",
+        "A spreadsheet stores information in rows and columns."
       ],
       "topics": [
         {
           "id": "f3-c3-t1",
           "title": "Files and Folders",
-          "content": "A file stores information, while a folder helps organise files. Giving folders and files clear names makes it easier to find schoolwork and other documents.",
+          "content": "A file stores information created or used on a computer. Folders help organise files so that related information can be found easily.",
           "learning_points": [
-            "Understand the main idea of files and folders.",
-            "Identify the important terms and tools connected with this topic.",
-            "Explain the concept using an example from everyday computer use."
+            "Documents, pictures, audio and video can be stored as files.",
+            "A folder can contain files and other folders.",
+            "Meaningful names make files easier to identify."
           ],
           "examples": [
-            "A picture can be saved as a file inside a Pictures folder."
+            "File: Stores information.",
+            "Folder: Organises files."
           ],
-          "activity_text": "Practice: explain files and folders in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "activity_text": "Ask students to suggest a folder structure for keeping school documents, pictures and projects organised.",
           "source_pages": [],
-          "content_source": "supplementary_explanation",
-          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 3.",
+          "visual_guide": [
+            [
+              "📄",
+              "File",
+              "Stores information."
+            ],
+            [
+              "📁",
+              "Folder",
+              "Organises files."
+            ]
+          ]
         },
         {
           "id": "f3-c3-t2",
-          "title": "File Management",
-          "content": "File management means creating, naming, saving, finding, organising, copying and deleting files and folders. Clear names and folders make work easier to locate.",
+          "title": "Types of Files",
+          "content": "Files may contain different kinds of information. The textbook shows examples such as documents, spreadsheets, presentations, pictures, audio and video.",
           "learning_points": [
-            "Understand the main idea of file management.",
-            "Identify the important terms and tools connected with this topic.",
-            "Explain the concept using an example from everyday computer use."
+            "A document file stores written information.",
+            "A spreadsheet stores information in rows and columns.",
+            "A presentation file contains slides.",
+            "Image, audio and video files store media."
           ],
           "examples": [
-            "Think of a real-life situation where file management is used."
+            "Document: Written information.",
+            "Spreadsheet: Rows and columns.",
+            "Presentation: Slides.",
+            "Audio: Sound."
           ],
-          "activity_text": "Practice: explain file management in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "activity_text": "Show file icons and ask students to match each one with its likely content.",
           "source_pages": [],
-          "content_source": "supplementary_explanation",
-          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 3.",
+          "visual_guide": [
+            [
+              "📝",
+              "Document",
+              "Written information."
+            ],
+            [
+              "📊",
+              "Spreadsheet",
+              "Rows and columns."
+            ],
+            [
+              "📽️",
+              "Presentation",
+              "Slides."
+            ],
+            [
+              "🎵",
+              "Audio",
+              "Sound."
+            ]
+          ]
         },
         {
           "id": "f3-c3-t3",
-          "title": "Creating and Organising Folders",
-          "content": "Create a folder by choosing a suitable location and giving it a meaningful name. Related files can be grouped together, and subfolders can be used to organise larger projects.",
+          "title": "Creating and Saving Files",
+          "content": "When students create work in an application, they should save it as a file in an appropriate folder. Saving preserves the work for later use.",
           "learning_points": [
-            "Understand the main idea of creating and organising folders.",
-            "Identify the important terms and tools connected with this topic.",
-            "Explain the concept using an example from everyday computer use."
+            "Choose Save or Save As from the application.",
+            "Select the folder where the file should be kept.",
+            "Enter a meaningful file name.",
+            "Save the file and remember where it is stored."
           ],
           "examples": [
-            "Think of a real-life situation where creating and organising folders is used."
+            "Save: Keep your work.",
+            "Choose folder: Select where to store it."
           ],
-          "activity_text": "Practice: explain creating and organising folders in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "activity_text": "Demonstrate saving a practice document in a folder named Class Work.",
           "source_pages": [],
-          "content_source": "supplementary_explanation",
-          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 3.",
+          "visual_guide": [
+            [
+              "💾",
+              "Save",
+              "Keep your work."
+            ],
+            [
+              "📂",
+              "Choose folder",
+              "Select where to store it."
+            ]
+          ]
         },
         {
           "id": "f3-c3-t4",
-          "title": "Copying and Moving Files",
-          "content": "Copying makes a second version of a file while keeping the original in its place. Moving transfers a file to another location. Check the destination before completing either action.",
+          "title": "Copying, Moving and Renaming Files",
+          "content": "File management includes organising files after they have been created. Copying makes another copy, moving changes the file location, and renaming changes its name.",
           "learning_points": [
-            "Understand the main idea of copying and moving files.",
-            "Identify the important terms and tools connected with this topic.",
-            "Explain the concept using an example from everyday computer use."
+            "Copy creates an additional copy of a file.",
+            "Move places a file in another folder.",
+            "Rename changes the file name.",
+            "Check the destination before moving or copying important work."
           ],
           "examples": [
-            "Think of a real-life situation where copying and moving files is used."
+            "Copy: Make another copy.",
+            "Move: Change the location.",
+            "Rename: Change the file name."
           ],
-          "activity_text": "Practice: explain copying and moving files in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "activity_text": "Demonstrate copying a sample file into another folder and renaming the copy.",
           "source_pages": [],
-          "content_source": "supplementary_explanation",
-          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 3.",
+          "visual_guide": [
+            [
+              "📑",
+              "Copy",
+              "Make another copy."
+            ],
+            [
+              "📦",
+              "Move",
+              "Change the location."
+            ],
+            [
+              "✏️",
+              "Rename",
+              "Change the file name."
+            ]
+          ]
+        },
+        {
+          "id": "f3-c3-t5",
+          "title": "Deleting and Restoring Files",
+          "content": "Unneeded files can be deleted. In Windows, deleted files may be placed in the Recycle Bin, where they can be restored before the bin is emptied.",
+          "learning_points": [
+            "Select the file or folder you want to delete.",
+            "Use the Delete command.",
+            "Check the Recycle Bin if a deleted file is needed again.",
+            "Restore a file from the Recycle Bin when available."
+          ],
+          "examples": [
+            "Delete: Remove an item.",
+            "Recycle Bin: Restore deleted items."
+          ],
+          "activity_text": "Explain the difference between deleting a file and restoring it from the Recycle Bin.",
+          "source_pages": [],
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 3.",
+          "visual_guide": [
+            [
+              "🗑️",
+              "Delete",
+              "Remove an item."
+            ],
+            [
+              "♻️",
+              "Recycle Bin",
+              "Restore deleted items."
+            ]
+          ]
         }
       ]
     },
     {
       "chapter_number": 4,
       "title": "Fun with Paint",
-      "description": "Study fun with paint using the textbook and lesson topics.",
-      "estimated_minutes": 20,
+      "description": "Explore fun with paint through clear explanations, examples and guided activities.",
+      "estimated_minutes": 25,
       "source_pages": [],
       "learning_objectives": [
-        "Understand the key ideas in fun with paint.",
-        "Practise the skills and activities introduced in this chapter."
+        "Paint provides a drawing area or canvas.",
+        "The tools help draw, colour and edit pictures.",
+        "Pencil and brushes create freehand marks.",
+        "The eraser removes parts of a drawing."
       ],
       "topics": [
         {
           "id": "f3-c4-t1",
           "title": "Introduction to MS Paint",
-          "content": "MS Paint is a graphics program used to create and edit simple digital pictures. It provides a drawing area and tools for lines, shapes, colours and erasing.",
+          "content": "MS Paint is a drawing program used to create and edit pictures. The chapter introduces the Paint window and the tools used to make drawings.",
           "learning_points": [
-            "Understand the main idea of introduction to ms paint.",
-            "Identify the important terms and tools connected with this topic.",
-            "Explain the concept using an example from everyday computer use."
+            "Paint provides a drawing area or canvas.",
+            "The tools help draw, colour and edit pictures.",
+            "The colour palette is used to choose colours."
           ],
           "examples": [
-            "Think of a real-life situation where introduction to ms paint is used."
+            "MS Paint: A drawing program.",
+            "Canvas: The drawing area."
           ],
-          "activity_text": "Practice: explain introduction to ms paint in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "activity_text": "Open Paint and ask students to identify the drawing area, tools and colour palette.",
           "source_pages": [],
-          "content_source": "supplementary_explanation",
-          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 4.",
+          "visual_guide": [
+            [
+              "🎨",
+              "MS Paint",
+              "A drawing program."
+            ],
+            [
+              "🖼️",
+              "Canvas",
+              "The drawing area."
+            ]
+          ]
         },
         {
           "id": "f3-c4-t2",
           "title": "Paint Tools",
-          "content": "Paint tools help create and change pictures. Pencil and brushes draw marks, shapes create regular forms, the fill tool adds colour to enclosed areas, and the eraser removes unwanted parts.",
+          "content": "Paint provides tools such as pencil, brushes, eraser, fill with colour, text and shape tools. Each tool is used for a different drawing task.",
           "learning_points": [
-            "Understand the main idea of paint tools.",
-            "Identify the important terms and tools connected with this topic.",
-            "Explain the concept using an example from everyday computer use."
+            "Pencil and brushes create freehand marks.",
+            "The eraser removes parts of a drawing.",
+            "Fill with Colour fills an enclosed area.",
+            "Text adds words to a picture.",
+            "Shape tools create ready-made shapes."
           ],
           "examples": [
-            "Think of a real-life situation where paint tools is used."
+            "Pencil: Draw freehand.",
+            "Brush: Paint strokes.",
+            "Eraser: Remove marks.",
+            "Fill: Fill an area with colour."
           ],
-          "activity_text": "Practice: explain paint tools in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "activity_text": "Ask students to draw a simple house using line, rectangle, ellipse, brush and fill tools.",
           "source_pages": [],
-          "content_source": "supplementary_explanation",
-          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 4.",
+          "visual_guide": [
+            [
+              "✏️",
+              "Pencil",
+              "Draw freehand."
+            ],
+            [
+              "🖌️",
+              "Brush",
+              "Paint strokes."
+            ],
+            [
+              "🧽",
+              "Eraser",
+              "Remove marks."
+            ],
+            [
+              "🪣",
+              "Fill",
+              "Fill an area with colour."
+            ]
+          ]
         },
         {
           "id": "f3-c4-t3",
-          "title": "Drawing and Editing Pictures",
-          "content": "To make a picture, choose a tool, select a colour and draw on the canvas. Editing may include adding shapes, changing colours, erasing mistakes or adjusting parts of the drawing.",
+          "title": "Drawing and Filling Shapes",
+          "content": "Shape tools help create neat geometric shapes. Students can choose a shape, draw it on the canvas and apply outline or fill options.",
           "learning_points": [
-            "Understand the main idea of drawing and editing pictures.",
-            "Identify the important terms and tools connected with this topic.",
-            "Explain the concept using an example from everyday computer use."
+            "Choose a shape from the Shapes group.",
+            "Drag on the canvas to draw the shape.",
+            "Use outline and fill choices to change its appearance.",
+            "Use colours to make the drawing clear."
           ],
           "examples": [
-            "Think of a real-life situation where drawing and editing pictures is used."
+            "Rectangle: Draw a rectangular shape.",
+            "Ellipse: Draw a round shape.",
+            "Fill colour: Colour the shape."
           ],
-          "activity_text": "Practice: explain drawing and editing pictures in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "activity_text": "Create a scene using rectangles, circles, lines and filled shapes.",
           "source_pages": [],
-          "content_source": "supplementary_explanation",
-          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 4.",
+          "visual_guide": [
+            [
+              "⬜",
+              "Rectangle",
+              "Draw a rectangular shape."
+            ],
+            [
+              "⚪",
+              "Ellipse",
+              "Draw a round shape."
+            ],
+            [
+              "🎨",
+              "Fill colour",
+              "Colour the shape."
+            ]
+          ]
         },
         {
           "id": "f3-c4-t4",
-          "title": "Saving a Drawing",
-          "content": "Save a drawing so it can be opened again. Choose Save or Save As, select a folder, enter a clear file name and confirm the save. Choose a suitable file type when the program asks.",
+          "title": "Selecting, Cropping and Resizing Pictures",
+          "content": "Selection tools let users choose part of a picture. Cropping keeps the selected area, while resizing changes the picture dimensions.",
           "learning_points": [
-            "Understand the main idea of saving a drawing.",
-            "Identify the important terms and tools connected with this topic.",
-            "Explain the concept using an example from everyday computer use."
+            "Use a selection tool to select an area.",
+            "Crop removes the parts outside the selected area.",
+            "Resize changes the picture size.",
+            "Review the picture after editing."
           ],
           "examples": [
-            "Think of a real-life situation where saving a drawing is used."
+            "Select: Choose part of a picture.",
+            "Crop: Keep the selected area.",
+            "Resize: Change picture dimensions."
           ],
-          "activity_text": "Practice: explain saving a drawing in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "activity_text": "Demonstrate selecting a picture area, cropping it and resizing the result.",
           "source_pages": [],
-          "content_source": "supplementary_explanation",
-          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 4.",
+          "visual_guide": [
+            [
+              "🔲",
+              "Select",
+              "Choose part of a picture."
+            ],
+            [
+              "✂️",
+              "Crop",
+              "Keep the selected area."
+            ],
+            [
+              "↔️",
+              "Resize",
+              "Change picture dimensions."
+            ]
+          ]
+        },
+        {
+          "id": "f3-c4-t5",
+          "title": "Saving a Picture",
+          "content": "After creating or editing a picture, save it so it can be opened later. Choose a suitable name and location for the picture file.",
+          "learning_points": [
+            "Open the File menu and choose Save or Save As.",
+            "Choose a location and enter a file name.",
+            "Select an appropriate image format when prompted.",
+            "Save changes after editing."
+          ],
+          "examples": [
+            "Save: Store the picture.",
+            "Image file: A saved picture."
+          ],
+          "activity_text": "Ask students to save their drawing in the Pictures folder with a meaningful name.",
+          "source_pages": [],
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 4.",
+          "visual_guide": [
+            [
+              "💾",
+              "Save",
+              "Store the picture."
+            ],
+            [
+              "🖼️",
+              "Image file",
+              "A saved picture."
+            ]
+          ]
         }
       ]
     },
     {
       "chapter_number": 5,
       "title": "Introduction to MS Word",
-      "description": "Study introduction to ms word using the textbook and lesson topics.",
-      "estimated_minutes": 20,
+      "description": "Explore introduction to ms word through clear explanations, examples and guided activities.",
+      "estimated_minutes": 25,
       "source_pages": [],
       "learning_objectives": [
-        "Understand the key ideas in introduction to ms word.",
-        "Practise the skills and activities introduced in this chapter."
+        "Word is used to prepare letters, reports and school assignments.",
+        "It provides tools to type and format text.",
+        "Start Word from the available program list or shortcut.",
+        "The Ribbon contains tabs and groups of commands."
       ],
       "topics": [
         {
           "id": "f3-c5-t1",
-          "title": "Introduction to MS Word",
-          "content": "MS Word is a word-processing application used to create and edit text documents. It can be used for letters, stories, reports and school assignments.",
+          "title": "Introduction to MS Word 2016",
+          "content": "Microsoft Word 2016 is a word-processing program. It is used to create, edit, format and print text documents.",
           "learning_points": [
-            "Understand the main idea of introduction to ms word.",
-            "Identify the important terms and tools connected with this topic.",
-            "Explain the concept using an example from everyday computer use."
+            "Word is used to prepare letters, reports and school assignments.",
+            "It provides tools to type and format text.",
+            "Documents can be saved and printed."
           ],
           "examples": [
-            "Think of a real-life situation where introduction to ms word is used."
+            "Word: Create text documents.",
+            "Document: A page of written work."
           ],
-          "activity_text": "Practice: explain introduction to ms word in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "activity_text": "Ask students to name documents they could create using Word.",
           "source_pages": [],
-          "content_source": "supplementary_explanation",
-          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 5.",
+          "visual_guide": [
+            [
+              "📝",
+              "Word",
+              "Create text documents."
+            ],
+            [
+              "📄",
+              "Document",
+              "A page of written work."
+            ]
+          ]
         },
         {
           "id": "f3-c5-t2",
-          "title": "Components of the Word Window",
-          "content": "The Word window contains controls for working with a document. Common parts include the title bar, ribbon, tabs, document area, insertion point, rulers and status bar.",
+          "title": "Starting Word and Its Window",
+          "content": "The chapter introduces how to start Microsoft Word and the main parts of its window, including the Ribbon, tabs, document area and status information.",
           "learning_points": [
-            "Understand the main idea of components of the word window.",
-            "Identify the important terms and tools connected with this topic.",
-            "Explain the concept using an example from everyday computer use."
+            "Start Word from the available program list or shortcut.",
+            "The Ribbon contains tabs and groups of commands.",
+            "The document area is where text is entered.",
+            "The title bar identifies the open document."
           ],
           "examples": [
-            "Think of a real-life situation where components of the word window is used."
+            "Word window: The application workspace.",
+            "Ribbon: Tabs and commands.",
+            "Document area: Type and edit text."
           ],
-          "activity_text": "Practice: explain components of the word window in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "activity_text": "Open Word and ask students to point out the title bar, Ribbon and document area.",
           "source_pages": [],
-          "content_source": "supplementary_explanation",
-          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 5.",
+          "visual_guide": [
+            [
+              "🪟",
+              "Word window",
+              "The application workspace."
+            ],
+            [
+              "🎛️",
+              "Ribbon",
+              "Tabs and commands."
+            ],
+            [
+              "📄",
+              "Document area",
+              "Type and edit text."
+            ]
+          ]
         },
         {
           "id": "f3-c5-t3",
           "title": "Creating and Saving a Document",
-          "content": "Start a new document, type the required text and save it with a meaningful file name. Save regularly so that recent changes are not lost.",
+          "content": "A new Word document provides a blank page where users can type. Saving stores the document with a name in a chosen location.",
           "learning_points": [
-            "Understand the main idea of creating and saving a document.",
-            "Identify the important terms and tools connected with this topic.",
-            "Explain the concept using an example from everyday computer use."
+            "Create a blank document.",
+            "Type text in the document area.",
+            "Use Save or Save As to store the document.",
+            "Choose a clear file name and location."
           ],
           "examples": [
-            "Think of a real-life situation where creating and saving a document is used."
+            "New document: Start a blank page.",
+            "Type: Enter text.",
+            "Save: Store the document."
           ],
-          "activity_text": "Practice: explain creating and saving a document in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "activity_text": "Guide students to create a short paragraph and save it as My First Document.",
           "source_pages": [],
-          "content_source": "supplementary_explanation",
-          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 5.",
+          "visual_guide": [
+            [
+              "➕",
+              "New document",
+              "Start a blank page."
+            ],
+            [
+              "⌨️",
+              "Type",
+              "Enter text."
+            ],
+            [
+              "💾",
+              "Save",
+              "Store the document."
+            ]
+          ]
+        },
+        {
+          "id": "f3-c5-t4",
+          "title": "Editing and Selecting Text",
+          "content": "Word allows users to select text and make changes. Editing includes inserting, removing, copying or moving text.",
+          "learning_points": [
+            "Select text before applying many editing commands.",
+            "Backspace and Delete remove selected or nearby text.",
+            "Copy and Paste can duplicate text.",
+            "Undo can reverse a recent action."
+          ],
+          "examples": [
+            "Select: Choose text.",
+            "Copy / Paste: Duplicate text.",
+            "Undo: Reverse a recent action."
+          ],
+          "activity_text": "Ask students to type a sentence, select one word, copy it and paste it elsewhere.",
+          "source_pages": [],
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 5.",
+          "visual_guide": [
+            [
+              "🖱️",
+              "Select",
+              "Choose text."
+            ],
+            [
+              "📋",
+              "Copy / Paste",
+              "Duplicate text."
+            ],
+            [
+              "↶",
+              "Undo",
+              "Reverse a recent action."
+            ]
+          ]
+        },
+        {
+          "id": "f3-c5-t5",
+          "title": "Opening and Printing a Document",
+          "content": "A saved document can be opened again for reading or editing. Word also provides print settings to produce a paper copy.",
+          "learning_points": [
+            "Use Open to find and open a saved document.",
+            "Check the document before printing.",
+            "Choose the printer and required print settings.",
+            "Use Print to produce a hard copy."
+          ],
+          "examples": [
+            "Open: Open saved work.",
+            "Print: Produce a paper copy."
+          ],
+          "activity_text": "Show students the Open and Print screens without printing unnecessary pages.",
+          "source_pages": [],
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 5.",
+          "visual_guide": [
+            [
+              "📂",
+              "Open",
+              "Open saved work."
+            ],
+            [
+              "🖨️",
+              "Print",
+              "Produce a paper copy."
+            ]
+          ]
         }
       ]
     },
     {
       "chapter_number": 6,
       "title": "Formatting in Word",
-      "description": "Study formatting in word using the textbook and lesson topics.",
-      "estimated_minutes": 20,
+      "description": "Explore formatting in word through clear explanations, examples and guided activities.",
+      "estimated_minutes": 25,
       "source_pages": [],
       "learning_objectives": [
-        "Understand the key ideas in formatting in word.",
-        "Practise the skills and activities introduced in this chapter."
+        "Select the text to be formatted.",
+        "Choose a font style.",
+        "Select the text first.",
+        "Open the Font Colour option."
       ],
       "topics": [
         {
           "id": "f3-c6-t1",
-          "title": "Formatting Text",
-          "content": "Text formatting changes the appearance of words. Common options include font type, font size, bold, italic, underline and font colour. Select the text before applying formatting.",
+          "title": "Changing Font and Font Size",
+          "content": "Font formatting changes the appearance of text. Font family and font size can be selected from the Font group on the Home tab.",
           "learning_points": [
-            "Understand the main idea of formatting text.",
-            "Identify the important terms and tools connected with this topic.",
-            "Explain the concept using an example from everyday computer use."
+            "Select the text to be formatted.",
+            "Choose a font style.",
+            "Choose a suitable font size.",
+            "Use readable fonts and sizes for school documents."
           ],
           "examples": [
-            "Think of a real-life situation where formatting text is used."
+            "Font: Change letter appearance.",
+            "Font size: Change text size."
           ],
-          "activity_text": "Practice: explain formatting text in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "activity_text": "Type a heading and change its font and size.",
           "source_pages": [],
-          "content_source": "supplementary_explanation",
-          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 6.",
+          "visual_guide": [
+            [
+              "A",
+              "Font",
+              "Change letter appearance."
+            ],
+            [
+              "🔠",
+              "Font size",
+              "Change text size."
+            ]
+          ]
         },
         {
           "id": "f3-c6-t2",
-          "title": "Paragraph Formatting",
-          "content": "Paragraph formatting changes how a paragraph is arranged. Alignment, indentation and spacing can make a document easier to read.",
+          "title": "Changing Font Colour",
+          "content": "Font Colour changes the colour of selected text. Colour can help distinguish headings or highlight important words.",
           "learning_points": [
-            "Understand the main idea of paragraph formatting.",
-            "Identify the important terms and tools connected with this topic.",
-            "Explain the concept using an example from everyday computer use."
+            "Select the text first.",
+            "Open the Font Colour option.",
+            "Choose a colour from the palette.",
+            "Use colour carefully so that text remains readable."
           ],
           "examples": [
-            "Think of a real-life situation where paragraph formatting is used."
+            "Font colour: Change text colour.",
+            "Selected text: Apply formatting to chosen words."
           ],
-          "activity_text": "Practice: explain paragraph formatting in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "activity_text": "Format a heading in a different colour while keeping body text easy to read.",
           "source_pages": [],
-          "content_source": "supplementary_explanation",
-          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 6.",
+          "visual_guide": [
+            [
+              "🎨",
+              "Font colour",
+              "Change text colour."
+            ],
+            [
+              "🅰️",
+              "Selected text",
+              "Apply formatting to chosen words."
+            ]
+          ]
         },
         {
           "id": "f3-c6-t3",
-          "title": "Bullets and Numbering",
-          "content": "Bullets are useful for lists where order is not important. Numbering is useful when items follow a sequence, such as steps in a procedure.",
+          "title": "Bold, Italic and Underline",
+          "content": "Bold, Italic and Underline are basic text effects used to emphasise selected words or headings.",
           "learning_points": [
-            "Understand the main idea of bullets and numbering.",
-            "Identify the important terms and tools connected with this topic.",
-            "Explain the concept using an example from everyday computer use."
+            "Bold makes text appear heavier.",
+            "Italic slants text.",
+            "Underline draws a line beneath text.",
+            "Select the text before applying an effect."
           ],
           "examples": [
-            "Think of a real-life situation where bullets and numbering is used."
+            "Bold: Heavier text.",
+            "Italic: Slanted text.",
+            "Underline: Line beneath text."
           ],
-          "activity_text": "Practice: explain bullets and numbering in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "activity_text": "Ask students to format one word in bold, one in italic and one underlined.",
           "source_pages": [],
-          "content_source": "supplementary_explanation",
-          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 6.",
+          "visual_guide": [
+            [
+              "B",
+              "Bold",
+              "Heavier text."
+            ],
+            [
+              "I",
+              "Italic",
+              "Slanted text."
+            ],
+            [
+              "U",
+              "Underline",
+              "Line beneath text."
+            ]
+          ]
         },
         {
           "id": "f3-c6-t4",
-          "title": "Line Spacing and Paragraph Spacing",
-          "content": "Line spacing controls the distance between lines in a paragraph. Paragraph spacing controls the space before or after paragraphs, helping separate ideas clearly.",
+          "title": "Text Alignment",
+          "content": "Alignment controls how paragraphs are positioned between the page margins. Word provides left, centre, right and justified alignment.",
           "learning_points": [
-            "Understand the main idea of line spacing and paragraph spacing.",
-            "Identify the important terms and tools connected with this topic.",
-            "Explain the concept using an example from everyday computer use."
+            "Left alignment places text along the left margin.",
+            "Centre alignment centres text.",
+            "Right alignment places text along the right margin.",
+            "Justified alignment adjusts spacing so text lines meet both margins."
           ],
           "examples": [
-            "Think of a real-life situation where line spacing and paragraph spacing is used."
+            "Left: Align to the left.",
+            "Centre: Centre the text.",
+            "Right: Align to the right."
           ],
-          "activity_text": "Practice: explain line spacing and paragraph spacing in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "activity_text": "Create a heading and paragraph, then demonstrate the different alignment options.",
           "source_pages": [],
-          "content_source": "supplementary_explanation",
-          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 6.",
+          "visual_guide": [
+            [
+              "⬅️",
+              "Left",
+              "Align to the left."
+            ],
+            [
+              "↔️",
+              "Centre",
+              "Centre the text."
+            ],
+            [
+              "➡️",
+              "Right",
+              "Align to the right."
+            ]
+          ]
+        },
+        {
+          "id": "f3-c6-t5",
+          "title": "Bullets, Numbering and Paragraph Spacing",
+          "content": "Bullets and numbering organise information into lists. Paragraph and line spacing control the space between lines and paragraphs.",
+          "learning_points": [
+            "Bullets are useful for lists without a fixed order.",
+            "Numbering is useful for steps or ordered items.",
+            "Line spacing changes the space between lines.",
+            "Paragraph spacing adds space before or after paragraphs."
+          ],
+          "examples": [
+            "Bullets: Unordered list.",
+            "Numbering: Ordered list.",
+            "Spacing: Space between lines."
+          ],
+          "activity_text": "Format a short list of classroom rules using bullets, then format steps using numbering.",
+          "source_pages": [],
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 6.",
+          "visual_guide": [
+            [
+              "•",
+              "Bullets",
+              "Unordered list."
+            ],
+            [
+              "1.",
+              "Numbering",
+              "Ordered list."
+            ],
+            [
+              "↕️",
+              "Spacing",
+              "Space between lines."
+            ]
+          ]
         }
       ]
     },
     {
       "chapter_number": 7,
       "title": "Introduction to Coding",
-      "description": "Study introduction to coding using the textbook and lesson topics.",
-      "estimated_minutes": 20,
+      "description": "Explore introduction to coding through clear explanations, examples and guided activities.",
+      "estimated_minutes": 25,
       "source_pages": [],
       "learning_objectives": [
-        "Understand the key ideas in introduction to coding.",
-        "Practise the skills and activities introduced in this chapter."
+        "A program is a set of instructions.",
+        "Instructions must be arranged in a meaningful order.",
+        "ScratchJr uses visual blocks instead of requiring typed code.",
+        "Projects can include characters and a stage."
       ],
       "topics": [
         {
           "id": "f3-c7-t1",
-          "title": "Introduction to Coding",
-          "content": "Coding means writing instructions that a computer can follow. A program is a set of instructions arranged to complete a task or solve a problem.",
+          "title": "What is Coding?",
+          "content": "Coding means writing instructions that a computer or digital device can follow. The chapter introduces programming through visual, block-based activities.",
           "learning_points": [
-            "Understand the main idea of introduction to coding.",
-            "Identify the important terms and tools connected with this topic.",
-            "Explain the concept using an example from everyday computer use."
+            "A program is a set of instructions.",
+            "Instructions must be arranged in a meaningful order.",
+            "Coding blocks help beginners create programs by joining visual commands."
           ],
           "examples": [
-            "Think of a real-life situation where introduction to coding is used."
+            "Instructions: Steps for a computer.",
+            "Coding: Create a program."
           ],
-          "activity_text": "Practice: explain introduction to coding in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "activity_text": "Ask students to give step-by-step instructions for moving from their desk to the classroom door.",
           "source_pages": [],
-          "content_source": "supplementary_explanation",
-          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 7.",
+          "visual_guide": [
+            [
+              "🧩",
+              "Instructions",
+              "Steps for a computer."
+            ],
+            [
+              "💻",
+              "Coding",
+              "Create a program."
+            ]
+          ]
         },
         {
           "id": "f3-c7-t2",
-          "title": "ScratchJr / Coding Blocks",
-          "content": "Block-based coding uses visual blocks that fit together to form instructions. Each block has a purpose, such as starting an action, moving a character or repeating steps.",
+          "title": "Introduction to ScratchJr",
+          "content": "ScratchJr is a visual programming environment for young learners. It lets children create stories and simple games by connecting coding blocks.",
           "learning_points": [
-            "Understand the main idea of scratchjr / coding blocks.",
-            "Identify the important terms and tools connected with this topic.",
-            "Explain the concept using an example from everyday computer use."
+            "ScratchJr uses visual blocks instead of requiring typed code.",
+            "Projects can include characters and a stage.",
+            "Connected blocks tell a character what actions to perform."
           ],
           "examples": [
-            "Think of a real-life situation where scratchjr / coding blocks is used."
+            "Character: The object being programmed.",
+            "Blocks: Visual instructions.",
+            "Stage: Where the project appears."
           ],
-          "activity_text": "Practice: explain scratchjr / coding blocks in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "activity_text": "Open ScratchJr and identify the stage, character and block palette.",
           "source_pages": [],
-          "content_source": "supplementary_explanation",
-          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 7.",
+          "visual_guide": [
+            [
+              "🐱",
+              "Character",
+              "The object being programmed."
+            ],
+            [
+              "🧩",
+              "Blocks",
+              "Visual instructions."
+            ],
+            [
+              "🎬",
+              "Stage",
+              "Where the project appears."
+            ]
+          ]
         },
         {
           "id": "f3-c7-t3",
-          "title": "Creating a Simple Program",
-          "content": "Plan the actions, place the instruction blocks in the correct order and run the program. Test the result, find mistakes and adjust the blocks until the program behaves as intended.",
+          "title": "ScratchJr Window and Characters",
+          "content": "A ScratchJr project uses a stage, characters and coding blocks. Characters can be selected and arranged to create a scene.",
           "learning_points": [
-            "Understand the main idea of creating a simple program.",
-            "Identify the important terms and tools connected with this topic.",
-            "Explain the concept using an example from everyday computer use."
+            "The stage displays the project.",
+            "Characters are the objects that perform actions.",
+            "A project can use more than one character.",
+            "Backgrounds help create the scene."
           ],
           "examples": [
-            "Think of a real-life situation where creating a simple program is used."
+            "Character: Appears on the stage.",
+            "Background: Sets the scene.",
+            "Stage: Displays the project."
           ],
-          "activity_text": "Practice: explain creating a simple program in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "activity_text": "Create a new project, choose a character and select a background.",
           "source_pages": [],
-          "content_source": "supplementary_explanation",
-          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 7.",
+          "visual_guide": [
+            [
+              "🎭",
+              "Character",
+              "Appears on the stage."
+            ],
+            [
+              "🌄",
+              "Background",
+              "Sets the scene."
+            ],
+            [
+              "🖥️",
+              "Stage",
+              "Displays the project."
+            ]
+          ]
+        },
+        {
+          "id": "f3-c7-t4",
+          "title": "Using Coding Blocks",
+          "content": "Coding blocks are joined to form a sequence of instructions. Different block groups control events, movement, appearance, sound and other actions.",
+          "learning_points": [
+            "Start or event blocks begin a script.",
+            "Motion blocks move a character.",
+            "Looks blocks change appearance.",
+            "Sound blocks play sounds.",
+            "Control blocks help manage the sequence of actions."
+          ],
+          "examples": [
+            "Start: Begins a script.",
+            "Motion: Moves a character.",
+            "Looks: Changes appearance.",
+            "Sound: Plays a sound."
+          ],
+          "activity_text": "Connect a start block and movement blocks, then run the script to see the character move.",
+          "source_pages": [],
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 7.",
+          "visual_guide": [
+            [
+              "🚩",
+              "Start",
+              "Begins a script."
+            ],
+            [
+              "➡️",
+              "Motion",
+              "Moves a character."
+            ],
+            [
+              "🎨",
+              "Looks",
+              "Changes appearance."
+            ],
+            [
+              "🔊",
+              "Sound",
+              "Plays a sound."
+            ]
+          ]
+        },
+        {
+          "id": "f3-c7-t5",
+          "title": "Creating and Running a Project",
+          "content": "A ScratchJr project is made by choosing a scene and characters, connecting coding blocks and running the program to observe the result.",
+          "learning_points": [
+            "Choose a background and character.",
+            "Join blocks in the required order.",
+            "Run the project and observe the character.",
+            "Change the blocks and test the project again."
+          ],
+          "examples": [
+            "Build: Connect the blocks.",
+            "Run: Test the project.",
+            "Improve: Adjust and test again."
+          ],
+          "activity_text": "Create a short animation in which a character moves across the stage.",
+          "source_pages": [],
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 7.",
+          "visual_guide": [
+            [
+              "🧩",
+              "Build",
+              "Connect the blocks."
+            ],
+            [
+              "▶️",
+              "Run",
+              "Test the project."
+            ],
+            [
+              "🔁",
+              "Improve",
+              "Adjust and test again."
+            ]
+          ]
         }
       ]
     },
     {
       "chapter_number": 8,
       "title": "Artificially Intelligent Gadgets",
-      "description": "Study artificially intelligent gadgets using the textbook and lesson topics.",
-      "estimated_minutes": 20,
+      "description": "Explore artificially intelligent gadgets through clear explanations, examples and guided activities.",
+      "estimated_minutes": 25,
       "source_pages": [],
       "learning_objectives": [
-        "Understand the key ideas in artificially intelligent gadgets.",
-        "Practise the skills and activities introduced in this chapter."
+        "AI systems can analyse information and respond to it.",
+        "Some AI devices recognise voices, images or movement.",
+        "Smart devices can respond to commands or changes in their environment.",
+        "Some devices help with home security and convenience."
       ],
       "topics": [
         {
           "id": "f3-c8-t1",
-          "title": "Artificially Intelligent Gadgets",
-          "content": "Artificially intelligent gadgets use computer systems to perform tasks that may involve recognising patterns, responding to information or making suggestions. Their abilities depend on the features built into them.",
+          "title": "What is Artificial Intelligence?",
+          "content": "Artificial Intelligence (AI) refers to computer systems and devices that perform tasks that normally require human-like abilities such as recognising patterns, understanding speech or making predictions.",
           "learning_points": [
-            "Understand the main idea of artificially intelligent gadgets.",
-            "Identify the important terms and tools connected with this topic.",
-            "Explain the concept using an example from everyday computer use."
+            "AI systems can analyse information and respond to it.",
+            "Some AI devices recognise voices, images or movement.",
+            "AI is used in smart gadgets and services described in the chapter."
           ],
           "examples": [
-            "Think of a real-life situation where artificially intelligent gadgets is used."
+            "AI: Computer systems performing intelligent tasks.",
+            "Recognition: Identify patterns or signals."
           ],
-          "activity_text": "Practice: explain artificially intelligent gadgets in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "activity_text": "Ask students to name a device that responds to voice, recognises a face or makes a recommendation.",
           "source_pages": [],
-          "content_source": "supplementary_explanation",
-          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 8.",
+          "visual_guide": [
+            [
+              "🤖",
+              "AI",
+              "Computer systems performing intelligent tasks."
+            ],
+            [
+              "🧠",
+              "Recognition",
+              "Identify patterns or signals."
+            ]
+          ]
         },
         {
           "id": "f3-c8-t2",
-          "title": "AI in Everyday Devices",
-          "content": "Some everyday devices use AI features to respond to voice commands, recommend content, recognise images or adjust how they operate. These features assist people but do not think or feel like humans.",
+          "title": "AI-Enabled Gadgets at Home",
+          "content": "The textbook describes smart home devices that use sensors, software and AI-related functions to respond to people and their surroundings.",
           "learning_points": [
-            "Understand the main idea of ai in everyday devices.",
-            "Identify the important terms and tools connected with this topic.",
-            "Explain the concept using an example from everyday computer use."
+            "Smart devices can respond to commands or changes in their environment.",
+            "Some devices help with home security and convenience.",
+            "AI-enabled functions can make everyday devices more interactive."
           ],
           "examples": [
-            "Think of a real-life situation where ai in everyday devices is used."
+            "Smart home: Connected home devices.",
+            "Sensors: Detect changes nearby."
           ],
-          "activity_text": "Practice: explain ai in everyday devices in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "activity_text": "Discuss examples of smart devices students may have seen at home.",
           "source_pages": [],
-          "content_source": "supplementary_explanation",
-          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 8.",
+          "visual_guide": [
+            [
+              "🏠",
+              "Smart home",
+              "Connected home devices."
+            ],
+            [
+              "📡",
+              "Sensors",
+              "Detect changes nearby."
+            ]
+          ]
         },
         {
           "id": "f3-c8-t3",
-          "title": "Smart Gadgets",
-          "content": "Smart gadgets are electronic devices that can collect or exchange information and may connect to other devices or the internet. Some include AI features, sensors or automatic controls.",
+          "title": "Smart Speakers and Assistants",
+          "content": "Smart speakers and voice assistants respond to spoken commands. They can answer questions, provide information and control supported functions.",
           "learning_points": [
-            "Understand the main idea of smart gadgets.",
-            "Identify the important terms and tools connected with this topic.",
-            "Explain the concept using an example from everyday computer use."
+            "A voice assistant can recognise spoken requests.",
+            "Smart speakers can respond with information or audio.",
+            "The textbook gives examples such as Alexa, Siri and Google Assistant."
           ],
           "examples": [
-            "Think of a real-life situation where smart gadgets is used."
+            "Smart speaker: Responds to voice commands.",
+            "Voice assistant: Answers spoken requests."
           ],
-          "activity_text": "Practice: explain smart gadgets in your own words. Then find the matching section and activity in your Foundation 3 textbook and compare your explanation with the book.",
+          "activity_text": "Ask students to describe a voice command they might give to a smart assistant.",
           "source_pages": [],
-          "content_source": "supplementary_explanation",
-          "study_note": "This is a supplementary explanation prepared to help you understand the topic. Check the supplied textbook for its exact examples, diagrams, terminology and activities."
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 8.",
+          "visual_guide": [
+            [
+              "🔊",
+              "Smart speaker",
+              "Responds to voice commands."
+            ],
+            [
+              "🗣️",
+              "Voice assistant",
+              "Answers spoken requests."
+            ]
+          ]
+        },
+        {
+          "id": "f3-c8-t4",
+          "title": "Smart Cameras and Other AI Devices",
+          "content": "AI-enabled cameras and other smart devices can analyse information from their sensors. The chapter introduces examples such as smart cameras, watches and other gadgets.",
+          "learning_points": [
+            "A smart camera can detect or recognise activity.",
+            "A smart watch can track information such as movement or steps.",
+            "Different AI devices are designed for different tasks."
+          ],
+          "examples": [
+            "Smart camera: Detects activity.",
+            "Smart watch: Tracks activity.",
+            "Smart device: Provides connected features."
+          ],
+          "activity_text": "Match smart cameras, watches and other devices with the information they can detect or provide.",
+          "source_pages": [],
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 8.",
+          "visual_guide": [
+            [
+              "📷",
+              "Smart camera",
+              "Detects activity."
+            ],
+            [
+              "⌚",
+              "Smart watch",
+              "Tracks activity."
+            ],
+            [
+              "📱",
+              "Smart device",
+              "Provides connected features."
+            ]
+          ]
+        },
+        {
+          "id": "f3-c8-t5",
+          "title": "Uses of AI in Everyday Life",
+          "content": "AI-enabled gadgets are used in everyday life for assistance, communication, security, entertainment and other tasks. The textbook highlights both home and personal devices.",
+          "learning_points": [
+            "AI-enabled devices can make some tasks easier.",
+            "People should use smart devices responsibly and protect personal information.",
+            "AI devices assist people but do not replace human judgement and responsibility."
+          ],
+          "examples": [
+            "Home: Smart home assistance.",
+            "Security: Help monitor surroundings.",
+            "Everyday use: Assist people with tasks."
+          ],
+          "activity_text": "Ask students to choose one AI gadget and explain how it helps people.",
+          "source_pages": [],
+          "content_source": "adapted_lesson",
+          "study_note": "This lesson explanation is adapted from the supplied Foundation 3 textbook. It is a learning aid, not a verbatim copy of the full textbook page. Use the textbook PDF for original diagrams, examples and complete activities.",
+          "source_note": "Foundation 3 textbook, Chapter 8.",
+          "visual_guide": [
+            [
+              "🏡",
+              "Home",
+              "Smart home assistance."
+            ],
+            [
+              "🛡️",
+              "Security",
+              "Help monitor surroundings."
+            ],
+            [
+              "👨‍👩‍👧",
+              "Everyday use",
+              "Assist people with tasks."
+            ]
+          ]
         }
       ]
     }
-  ],
-  "content_status": "supplementary_study_guides_textbook_verification_required",
-  "content_note": "Foundation 3 lesson explanations in this version are supplementary study guides based on the chapter/topic structure. They are not verified verbatim extracts from the scanned Foundation 3 textbook.",
-  "content_source_type": "supplementary_not_verified_against_scanned_pages"
+  ]
 }
