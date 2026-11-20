@@ -13,7 +13,7 @@ const navigation = [
 
 export default function StudentLayout() {
   const [menuOpen, setMenuOpen] = useState(false)
-  const [foundation, setFoundation] = useState(() => (localStorage.getItem('smart:selected-foundation') || localStorage.getItem('SMART:selected-foundation')) || 'Foundation 1')
+  const [foundation, setFoundation] = useState(() => { const saved = localStorage.getItem('smart:selected-foundation') || localStorage.getItem('SMART:selected-foundation') || 'Foundation 1'; const selected = /^Foundation [1-4]$/.test(saved) ? saved : 'Foundation 1'; localStorage.setItem('smart:selected-foundation', selected); return selected })
   const classNumber = foundation.match(/\d+/)?.[0] || '1'
   const chooseFoundation = value => {
     setFoundation(value)
@@ -30,7 +30,7 @@ export default function StudentLayout() {
       </div>
       <nav className="nav-list student-nav-list">{navigation.map(({to,label,icon:Icon})=><NavLink key={to} to={to} onClick={()=>setMenuOpen(false)} className={({isActive})=>`nav-link ${isActive?'active':''}`}><Icon size={20} strokeWidth={1.9}/><span>{label}</span></NavLink>)}</nav>
       <div className="sidebar-bottom student-sidebar-art">
-        <img className="student-sidebar-buddy" src="/images/SMART-learning-buddy-sidebar.png" alt="SMART cartoon learning buddy" />
+        <img className="student-sidebar-buddy" src="/images/smart-learning-buddy-sidebar.png" alt="SMART cartoon learning buddy" />
         <strong>Keep exploring!</strong>
         <p>Learn something new, one lesson at a time.</p>
         <div className="sidebar-version"><i/> Student workspace <span>v1.0</span></div>
