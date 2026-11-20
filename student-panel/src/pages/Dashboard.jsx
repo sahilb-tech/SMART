@@ -15,10 +15,10 @@ const books = { 'Foundation 1': f1, 'Foundation 2': f2, 'Foundation 3': f3, 'Fou
 const read = key => { try { return JSON.parse(localStorage.getItem(key) || '{}') } catch { return {} } }
 
 export default function Dashboard() {
-  const [foundation, setFoundation] = useState(() => localStorage.getItem('smart:selected-foundation') || 'Foundation 1')
-  const [progress, setProgress] = useState(() => read(`smart:student-progress:${(localStorage.getItem('smart:selected-foundation') || 'Foundation 1').toLowerCase().replace(' ', '-')}`))
+  const [foundation, setFoundation] = useState(() => localStorage.getItem('smart:selected-foundation') || localStorage.getItem('SMART:selected-foundation') || 'Foundation 1')
+  const [progress, setProgress] = useState(() => read(`smart:student-progress:${(localStorage.getItem('smart:selected-foundation') || localStorage.getItem('SMART:selected-foundation') || 'Foundation 1').toLowerCase().replace(' ', '-')}`))
   useEffect(() => {
-    const sync = e => setFoundation(e.detail || localStorage.getItem('smart:selected-foundation') || 'Foundation 1')
+    const sync = e => setFoundation(e.detail || localStorage.getItem('smart:selected-foundation') || localStorage.getItem('SMART:selected-foundation') || 'Foundation 1')
     const syncProgress = () => setProgress(read(`smart:student-progress:${foundation.toLowerCase().replace(' ', '-')}`))
     window.addEventListener('smart-foundation-change', sync)
     window.addEventListener('smart-progress-change', syncProgress)
