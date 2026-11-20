@@ -14,7 +14,7 @@ const textbookMap = {
 }
 
 function getSelectedFoundation() {
-  const saved = localStorage.getItem('smart:selected-foundation') || 'Foundation 1'
+  const saved = localStorage.getItem('smart:selected-foundation') || localStorage.getItem('SMART:selected-foundation') || 'Foundation 1'
   return textbookMap[saved] ? saved : 'Foundation 1'
 }
 
@@ -28,9 +28,11 @@ export default function StudyMaterials() {
       if (textbookMap[next]) setFoundation(next)
     }
     window.addEventListener('smart-foundation-change', syncFoundation)
+    window.addEventListener('SMART-foundation-change', syncFoundation)
     window.addEventListener('storage', syncFoundation)
     return () => {
       window.removeEventListener('smart-foundation-change', syncFoundation)
+      window.removeEventListener('SMART-foundation-change', syncFoundation)
       window.removeEventListener('storage', syncFoundation)
     }
   }, [])
