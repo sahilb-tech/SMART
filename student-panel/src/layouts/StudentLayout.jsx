@@ -13,12 +13,12 @@ const navigation = [
 
 export default function StudentLayout() {
   const [menuOpen, setMenuOpen] = useState(false)
-  const [foundation, setFoundation] = useState(() => localStorage.getItem('SMART:selected-foundation') || 'Foundation 1')
+  const [foundation, setFoundation] = useState(() => (localStorage.getItem('smart:selected-foundation') || localStorage.getItem('SMART:selected-foundation')) || 'Foundation 1')
   const classNumber = foundation.match(/\d+/)?.[0] || '1'
   const chooseFoundation = value => {
     setFoundation(value)
-    localStorage.setItem('SMART:selected-foundation', value)
-    window.dispatchEvent(new CustomEvent('SMART-foundation-change', { detail: value }))
+    localStorage.setItem('smart:selected-foundation', value)
+    window.dispatchEvent(new CustomEvent('smart-foundation-change', { detail: value }))
   }
   return <div className="app-shell student-teacher-shell">
     {menuOpen && <button className="scrim" aria-label="Close navigation" onClick={() => setMenuOpen(false)} />}
