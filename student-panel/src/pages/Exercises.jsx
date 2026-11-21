@@ -52,7 +52,7 @@ const getChapterVisual = (title = '') => {
     [/history|generation|abacus|pascaline/, '🕰️', 'history'],
     [/paint|drawing|art|tux/, '🎨', 'paint'],
     [/internet|web|network|browser/, '🌐', 'internet'],
-    [/robot|artificial intelligence|\\bai\\b/, '🤖', 'robot'],
+    [/robot|artificial intelligence|artificially intelligent/, '🤖', 'robot'],
     [/coding|scratch|sequence|decoding|pattern/, '🧩', 'coding'],
     [/word|document|formatting|typing/, '📝', 'document'],
     [/powerpoint|presentation|slide/, '📊', 'presentation'],
