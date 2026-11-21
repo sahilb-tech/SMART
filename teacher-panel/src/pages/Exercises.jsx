@@ -71,6 +71,9 @@ const suppliedExerciseSeeds = suppliedExerciseGroups.flatMap(group =>
   description: 'Interactive textbook practice supplied for this chapter.',
   questionCount,
   countLabel: group.countLabel,
+  activityUrl: group.foundation === 'Foundation 1'
+   ? '/exercises/foundation1/chapter' + (index + 1) + '/index.html'
+   : '/exercises/' + (group.foundation === 'Foundation 3' ? 'foundation3' : 'foundation4') + '/chapter-' + (index + 1) + '.html',
   activitySource: 'Supplied interactive exercise package',
   activityNote: 'This library entry is based on the supplied ' + group.foundation + ' exercise file for ' + chapterTitle + '. The source activity contains ' + questionCount + ' practice items. The Teacher Panel currently lists the activity and its source count; assignment tracking, grading and progress synchronisation are not connected to this activity.',
   assigned: 0,
@@ -160,11 +163,24 @@ export default function Exercises({foundation,classroom}){
    <div className="modal-actions"><button type="button" className="secondary-button" onClick={()=>setCreateOpen(false)}>Cancel</button><button type="submit" className="primary-button"><Plus size={16}/> Create draft</button></div>
   </form></div>}
   {selectedExercise&&<div className="modal-backdrop exercise-preview-backdrop" role="presentation" onMouseDown={e=>{if(e.target===e.currentTarget)closePreview();}}>
-   <section className="add-modal exercise-preview-modal" role="dialog" aria-modal="true" aria-labelledby="exercise-preview-title">
+   <section className="add-modal exercise-preview-modal" style={selectedExercise.activityUrl?{width:'min(1080px,100%)',maxWidth:'1080px'}:undefined} role="dialog" aria-modal="true" aria-labelledby="exercise-preview-title">
     <div className="modal-heading"><div><span className="eyebrow">{selectedExercise.foundation} · {selectedExercise.classroom} · {selectedExercise.status}</span><h2 id="exercise-preview-title">{selectedExercise.title}</h2><p>{selectedExercise.chapter}</p></div><button type="button" className="modal-close" onClick={closePreview}>×</button></div>
     <div className="exercise-preview-summary"><span><FileCheck2 size={15}/>{selectedExercise.questionCount??selectedExercise.questions?.length??0} {selectedExercise.countLabel||'sample questions'}</span><span><UsersRound size={15}/>{selectedExercise.assigned||0} assigned</span><span><CheckCircle2 size={15}/>{selectedExercise.submitted||0} submitted</span></div>
     {selectedExercise.description&&<p className="exercise-preview-description">{selectedExercise.description}</p>}
-    {selectedExercise.questions?.length?<div className="exercise-preview-questions">{selectedExercise.questions.map((q,index)=><article className="exercise-preview-question" key={index}>
+    {selectedExercise.activityUrl?<div className="teacher-exercise-activity">
+     <div style={{display:'flex',alignItems:'center',justifyContent:'space-between',gap:12,flexWrap:'wrap',margin:'10px 0'}}>
+      <b style={{fontSize:12,color:'#543493'}}>Interactive textbook exercise</b>
+      <a href={selectedExercise.activityUrl} target="_blank" rel="noreferrer" style={{fontSize:11,fontWeight:700,color:'#6428c9',textDecoration:'none'}}>Open in new tab ↗</a>
+     </div>
+     <iframe
+      title={selectedExercise.title + ' interactive exercise'}
+      src={selectedExercise.activityUrl}
+      sandbox="allow-scripts allow-forms allow-modals"
+      loading="lazy"
+      style={{display:'block',width:'100%',height:'min(70vh,760px)',border:'1px solid #e8e1f1',borderRadius:12,background:'#fff'}}
+     />
+     <p style={{margin:'9px 0 0',fontSize:10,lineHeight:1.5,color:'#7b718e'}}>This supplied activity runs inside the Teacher Panel. Its in-activity progress is separate from the Teacher Panel assignment and Results &amp; Progress records.</p>
+    </div>:selectedExercise.questions?.length?<div className="exercise-preview-questions">{selectedExercise.questions.map((q,index)=><article className="exercise-preview-question" key={index}>
      <div className="exercise-preview-question-top"><span>Question {index+1}</span><span>{q.type} · {q.marks} mark{q.marks===1?'':'s'}</span></div><h3>{q.prompt}</h3>
      {q.options&&<ul>{q.options.map(option=><li key={option}>{option}</li>)}</ul>}
      {q.pairs&&<div className="exercise-preview-pairs">{q.pairs.map(([left,right])=><div key={left}><b>{left}</b><span>{right}</span></div>)}</div>}
