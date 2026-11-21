@@ -4,7 +4,6 @@ import {
   BookOpen,
   CheckCircle2,
   ChevronRight,
-  ClipboardList,
   FileText,
   Layers,
   Lightbulb,
