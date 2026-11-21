@@ -48,11 +48,51 @@ const demoExercises=[
 {type:'Short answer',prompt:'Name one robot or AI-enabled device used in everyday life.',answer:'Examples: robot vacuum, voice assistant, smart camera or educational robot.',marks:2}]},
 ];
 
+
+const suppliedExerciseGroups = [
+ {foundation:'Foundation 1',classroom:'Class 1',prefix:'f1',countLabel:'practice items',chapters:[
+  ['The Super Machine: Computer',13],['Parts of a Computer',26],['Need for a Computer',21],['Computer Etiquettes',17],['Getting Familiar with Mouse',17],['Getting Familiar with Keyboard',13],['Hands on MS Paint',15],['Sequencing and Patterns',16],['Introduction to AI and Robotics',10]
+ ]},
+ {foundation:'Foundation 3',classroom:'Class 3',prefix:'f3',countLabel:'practice items',chapters:[
+  ['The Computer System',17],['Hardware and Software',21],['File Management',25],['Fun with Paint',30],['Introduction to MS Word',30],['Formatting in Word',43],['Introduction to Coding',35],['Artificially Intelligent Gadgets',36]
+ ]},
+ {foundation:'Foundation 4',classroom:'Class 4',prefix:'f4',countLabel:'practice items',chapters:[
+  ['History of Computers',12],['GUI Operating System: Windows 10',28],['Advanced Features of Word 2016',18],['PowerPoint 2016',18],['More on PowerPoint',18],['Internet',20],['Learning Scratch',21],['Artificially Intelligent Gadgets',24]
+ ]}
+];
+
+const suppliedExerciseSeeds = suppliedExerciseGroups.flatMap(group =>
+ group.chapters.map(([chapterTitle, questionCount], index) => ({
+  id: group.prefix + '-' + String(index + 1).padStart(2, '0'),
+  foundation: group.foundation,
+  classroom: group.classroom,
+  title: 'Chapter ' + (index + 1) + ' — ' + chapterTitle,
+  chapter: 'Chapter ' + (index + 1) + ' — ' + chapterTitle,
+  description: 'Interactive textbook practice supplied for this chapter.',
+  questionCount,
+  countLabel: group.countLabel,
+  activitySource: 'Supplied interactive exercise package',
+  activityNote: 'This library entry is based on the supplied ' + group.foundation + ' exercise file for ' + chapterTitle + '. The source activity contains ' + questionCount + ' practice items. The Teacher Panel currently lists the activity and its source count; assignment tracking, grading and progress synchronisation are not connected to this activity.',
+  assigned: 0,
+  submitted: 0,
+  status: 'Published',
+  due: 'Available in practice library',
+  tone: index % 3 === 0 ? 'purple' : index % 3 === 1 ? 'mint' : 'sky',
+  questions: []
+ }))
+);
+
 function readExercises(){
  try{
   const saved=JSON.parse(localStorage.getItem('smart-teacher-exercises')||'null');
-  return Array.isArray(saved)&&saved.length?saved:demoExercises;
- }catch{return demoExercises;}
+  const base=[...demoExercises,...suppliedExerciseSeeds];
+  if(!Array.isArray(saved))return base;
+  const baseIds=new Set(base.map(item=>item.id));
+  const savedById=new Map(saved.filter(item=>item&&item.id).map(item=>[item.id,item]));
+  const merged=base.map(item=>({...item,...(savedById.get(item.id)||{})}));
+  const custom=saved.filter(item=>item&&(!item.id||!baseIds.has(item.id)));
+  return [...merged,...custom];
+ }catch{return [...demoExercises,...suppliedExerciseSeeds];}
 }
 
 export default function Exercises({foundation,classroom}){
@@ -89,24 +129,25 @@ export default function Exercises({foundation,classroom}){
    <Metric icon={Clock3} label="Submission rate" value={completionRate+'%'} tone="mint"/>
   </div>
   {foundation==='Foundation 2'&&<div className="smart-inline-notice f2-demo-banner"><div className="smart-notice-icon peach"><BookOpen size={21}/></div><div><b>Foundation 2 · Class 2 demo exercises</b><p>Nine chapter-based sample exercises are loaded. These are demonstration questions and sample submission counts, not live student records.</p></div></div>}
+  {foundation!=='Foundation 2'&&classRows.some(r=>r.activitySource)&&<div className="smart-inline-notice"><div className="smart-notice-icon peach"><BookOpen size={21}/></div><div><b>{foundation} · {classroom} supplied exercise library</b><p>{classRows.filter(r=>r.activitySource).length} chapter activities have been added from the supplied exercise files. Item counts are shown on each card; these are library entries, not live assignment or submission records.</p></div></div>}
   <Section icon={BookOpen} title="Exercise Library" action={{label:'Create exercise',onClick:()=>setCreateOpen(true)}}>
    <div className="card-toolbar">
     <label className="search-box"><Search size={17}/><input value={query} onChange={e=>setQuery(e.target.value)} placeholder="Search exercises or chapters..."/></label>
     <div className="filter-chips">{['All','Published','Review','Draft'].map(x=><button key={x} className={filter===x?'active':''} onClick={()=>setFilter(x)}>{x}</button>)}</div>
    </div>
    <div className="smart-card-grid">{filtered.map(r=>{
-    const questionCount=r.questions?.length||0;
+    const questionCount=r.questionCount??r.questions?.length??0;
     const progress=r.assigned?Math.round(r.submitted/r.assigned*100):0;
     return <article className="smart-content-card" key={r.id||r.title}>
      <div className="smart-card-top"><div className={'smart-card-icon '+(r.tone||'purple')}><ClipboardList size={25}/></div><span className={'status-pill '+r.status.toLowerCase()}>{r.status}</span></div>
      <div className="smart-card-kicker">{r.foundation} · {r.classroom}</div><h3>{r.title}</h3><p className="smart-card-description">{r.chapter}</p>
-     <div className="smart-card-meta"><span><FileCheck2 size={14}/>{questionCount} questions</span><span><UsersRound size={14}/>{r.assigned||0} assigned</span></div>
+     <div className="smart-card-meta"><span><FileCheck2 size={14}/>{questionCount} {r.countLabel||'questions'}</span><span><UsersRound size={14}/>{r.assigned||0} assigned</span></div>
      <div className="smart-card-progress-label"><span>{r.submitted||0} of {r.assigned||0} submitted</span><b>{progress}%</b></div>
      <div className="progress-track"><span style={{width:progress+'%'}}/></div>
      <div className="smart-card-footer"><small>{r.due}</small><button className="primary-button small" type="button" onClick={()=>setSelectedExercise(r)}>{r.status==='Review'?'Review submissions':r.status==='Draft'?'View draft':'Open exercise'} <ArrowRight size={14}/></button></div>
     </article>;
    })}</div>
-   {filtered.length===0&&<div className="resource-empty">{classRows.length===0?'No demo exercises are loaded for this class yet. The current sample set is for Foundation 2 · Class 2.':'No exercises match your search or filter.'}</div>}
+   {filtered.length===0&&<div className="resource-empty">{classRows.length===0?'No demo exercises are loaded for this class yet.':'No exercises match your search or filter.'}</div>}
   </Section>
   <Section icon={AlertCircle} title="Evaluation Queue">
    {reviewTotal>0?<div className="smart-inline-notice"><div className="smart-notice-icon peach"><Clock3 size={21}/></div><div><b>{reviewTotal} demo submissions are marked for review</b><p>These sample counts show how the teacher review queue will look when student submissions are connected.</p></div><button className="secondary-button" onClick={()=>setFilter('Review')}>Review queue <ArrowRight size={14}/></button></div>:<div className="resource-empty">There are no submissions awaiting review for this class.</div>}
@@ -121,14 +162,14 @@ export default function Exercises({foundation,classroom}){
   {selectedExercise&&<div className="modal-backdrop exercise-preview-backdrop" role="presentation" onMouseDown={e=>{if(e.target===e.currentTarget)closePreview();}}>
    <section className="add-modal exercise-preview-modal" role="dialog" aria-modal="true" aria-labelledby="exercise-preview-title">
     <div className="modal-heading"><div><span className="eyebrow">{selectedExercise.foundation} · {selectedExercise.classroom} · {selectedExercise.status}</span><h2 id="exercise-preview-title">{selectedExercise.title}</h2><p>{selectedExercise.chapter}</p></div><button type="button" className="modal-close" onClick={closePreview}>×</button></div>
-    <div className="exercise-preview-summary"><span><FileCheck2 size={15}/>{selectedExercise.questions?.length||0} sample questions</span><span><UsersRound size={15}/>{selectedExercise.assigned||0} assigned</span><span><CheckCircle2 size={15}/>{selectedExercise.submitted||0} submitted</span></div>
+    <div className="exercise-preview-summary"><span><FileCheck2 size={15}/>{selectedExercise.questionCount??selectedExercise.questions?.length??0} {selectedExercise.countLabel||'sample questions'}</span><span><UsersRound size={15}/>{selectedExercise.assigned||0} assigned</span><span><CheckCircle2 size={15}/>{selectedExercise.submitted||0} submitted</span></div>
     {selectedExercise.description&&<p className="exercise-preview-description">{selectedExercise.description}</p>}
     {selectedExercise.questions?.length?<div className="exercise-preview-questions">{selectedExercise.questions.map((q,index)=><article className="exercise-preview-question" key={index}>
      <div className="exercise-preview-question-top"><span>Question {index+1}</span><span>{q.type} · {q.marks} mark{q.marks===1?'':'s'}</span></div><h3>{q.prompt}</h3>
      {q.options&&<ul>{q.options.map(option=><li key={option}>{option}</li>)}</ul>}
      {q.pairs&&<div className="exercise-preview-pairs">{q.pairs.map(([left,right])=><div key={left}><b>{left}</b><span>{right}</span></div>)}</div>}
      <div className="exercise-preview-answer"><b>Suggested answer:</b> {q.answer}</div>
-    </article>)}</div>:<div className="resource-empty">This draft does not contain questions yet.</div>}
+    </article>)}</div>:selectedExercise.activitySource?<div className="smart-inline-notice"><div className="smart-notice-icon peach"><BookOpen size={21}/></div><div><b>{selectedExercise.activitySource}</b><p>{selectedExercise.activityNote}</p></div></div>:<div className="resource-empty">This draft does not contain questions yet.</div>}
     <div className="exercise-demo-note"><CheckCircle2 size={16}/><span>Demo data only. Assignment and submission figures are sample values, not connected to live student records.</span></div>
     <div className="modal-actions"><button type="button" className="secondary-button" onClick={closePreview}>Close preview</button></div>
    </section>
